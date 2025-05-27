@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Labsky - Laboratory HTML Website Template</title>
+    <title>Laboratorio Bellandi & Barreras</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -99,20 +99,20 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="index.php" class="nav-item nav-link">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="service.php" class="nav-item nav-link">Services</a>
+                        <a href="index.php" class="nav-item nav-link">Inicio</a>
+                        <a href="about.php" class="nav-item nav-link">Quienes somos</a>
+                        <a href="service.php" class="nav-item nav-link">Servicios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="feature.php" class="dropdown-item">Features</a>
-                                <a href="team.php" class="dropdown-item active">Our Team</a>
-                                <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                                <a href="appoinment.php" class="dropdown-item">Appoinment</a>
+                                <a href="team.php" class="dropdown-item active">Nuestro Equipo</a>
+                                <a href="testimonial.php" class="dropdown-item">Testimonios</a>
+                                <a href="appoinment.php" class="dropdown-item">Contacto</a>
                                 <a href="404.php" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
                         <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -246,7 +246,7 @@
             <div class="row g-5 py-5">
                 <div class="col-lg-6 pe-lg-5">
                     <a href="index.php" class="navbar-brand">
-                        <h1 class="h1 text-primary mb-0">Lab<span class="text-white">sky</span></h1>
+                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
                     </a>
                     <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>

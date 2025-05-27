@@ -7,7 +7,7 @@ session_start();
 
 <head>
     <meta charset="utf-8">
-    <title> Laboratorio Bellandi & Barreras </title>
+    <title>Laboratorio Bellandi & Barreras</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -73,7 +73,7 @@ session_start();
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Llamanos</h5>
-                        <span class="text-dark">+54 261 422-2428</span>
+                        <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
                 <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 150px; object-fit: contain; margin: -20px 0;"></a>
@@ -104,7 +104,7 @@ session_start();
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link active">Inicio</a>
-                        <a href="about.php" class="nav-item nav-link">Quienes Somos</a>
+                        <a href="about.php" class="nav-item nav-link">Quienes somos</a>
                         <a href="service.php" class="nav-item nav-link">Servicios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -116,7 +116,7 @@ session_start();
                                 <a href="404.php" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
                         <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -699,7 +699,7 @@ session_start();
             <div class="row g-5 py-5">
                 <div class="col-lg-6 pe-lg-5">
                     <a href="index.php" class="navbar-brand">
-                        <h1 class="h1 text-primary mb-0">Lab<span class="text-white">sky</span></h1>
+                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
                     </a>
                     <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
