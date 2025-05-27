@@ -66,22 +66,22 @@ session_start();
 
 
     <!-- Brand Start -->
-    <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
+    <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 50%);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex">
-                    <i class="bi bi-telephone-inbound fs-2"></i>
+                    <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-white mb-0">Llamanos</h5>
-                        <span>+54 261 422-2428</span>
+                        <h5 class="text-dark mb-0">Llamanos</h5>
+                        <span class="text-dark">+54 261 422-2428</span>
                     </div>
                 </div>
-                <a href="index.php" class="h1 text-white mb-0">Laboratorio <span class="text-dark">Bellandi & Barreras</span></a>
+                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 150px; object-fit: contain; margin: -20px 0;"></a>
                 <div class="d-flex">
-                    <i class="bi bi-envelope fs-2"></i>
+                    <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-white mb-0">Mail Now</h5>
-                        <span>info@example.com</span>
+                        <h5 class="text-dark mb-0">Mail Now</h5>
+                        <span class="text-dark">info@example.com</span>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@ session_start();
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
                 <a href="index.php" class="navbar-brand d-lg-none">
-                    <h1 class="text-primary m-0">Lab<span class="text-dark">sky</span></h1>
+                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
