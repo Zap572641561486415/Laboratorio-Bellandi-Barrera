@@ -46,8 +46,8 @@
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div>
-                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
-                    <small class="me-3"><i class="fa fa-clock me-2"></i>Mon-Sat 09am-5pm, Sun Closed</small>
+                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>
+                    <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
                     <a class="breadcrumb-item small text-body" href="#">Career</a>
@@ -62,7 +62,7 @@
 
 
     <!-- Brand Start -->
-    <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 50%);">
+    <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex">
@@ -293,8 +293,8 @@
                         <h1 class="h1 text-primary mb-0">Lab<span class="text-white">sky</span></h1>
                     </a>
                     <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
-                    <p><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
+                    <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
                     <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
                     <div class="d-flex mt-4">
                         <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
