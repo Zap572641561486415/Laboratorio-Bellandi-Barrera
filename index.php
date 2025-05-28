@@ -141,9 +141,8 @@ session_start();
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-lg-7 text-start">
-                                    <h1 class="display-1 text-white animated slideInRight mb-3">Award Winning Laboratory Center</h1>
-                                    <p class="mb-5 animated slideInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus.</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <h1 class="display-1 text-white animated slideInRight mb-3">VISION: </p>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Ser la empresa líder en los servicios que ofrecemos, manteniendo un nivel de exigencia y con procesos de mejora continua, superando constantemente las expectativas de nuestros clientes. </a>
                                 </div>
                             </div>
                         </div>
@@ -155,9 +154,9 @@ session_start();
                         <div class="container">
                             <div class="row justify-content-end">
                                 <div class="col-lg-7 text-end">
-                                    <h1 class="display-1 text-white animated slideInLeft mb-3">VISION: Ser la empresa líder en los servicios que ofrecemos, manteniendo un nivel de exigencia y con procesos de mejora continua, superando constantemente las expectativas de nuestros clientes. </h1>
-                                    <p class="mb-5 animated slideInLeft">MISIION: Satisfacer las demandas del mercado local,interpretar las necesidades de los  distintos Centros Asistenciales.</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Explore More</a>
+                                    <h1 class="display-1 text-white animated slideInLeft mb-3">MISION:</h1>
+                                    <p class="mb-5 animated slideInLeft"></p>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Satisfacer las demandas del mercado local,interpretar las necesidades de los  distintos Centros Asistenciales.</a>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +197,7 @@ session_start();
                                     <i class="bi bi-award text-dark"></i>
                                 </div>
                                 <h1 class="display-1 text-white mb-0" data-toggle="counter-up">25</h1>
-                                <small class="fs-5 text-white">Years Experience</small>
+                                <small class="fs-5 text-white">Años de Experiencia</small>
                             </div>
                         </div>
                     </div>
@@ -292,7 +291,7 @@ session_start();
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-person-plus text-dark"></i>
                                 </div>
-                                <h5 class="mb-3">Experience Doctors</h5>
+                                <h5 class="mb-3">Doctores con Experiencia</h5>
                                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
