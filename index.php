@@ -203,8 +203,10 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-6 mb-4">Trusted Lab Experts and Latest Lab Technologies</h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                    <h1 class="display-6 mb-4">¿Por qué elegirnos?</h1>
+                    <p class="mb-4">Trabajamos con varias líneas de primer nivel, contando con un servicio técnico propio que resolverá cualquier imprevisto con la agilidad y precisión necesarias.
+
+                    Cubriendo un amplio rango de necesidades, ofrecemos desde el servicio de laboratorio llave en mano hasta las mejores soluciones a sus actividades de Laboratorio, tanto en las áreas de Microbiología, Control de Calidad e Instrumental, permitiendo la obtención de resultados rápidos y confiables, merced a la tecnología que proveemos en nuestros productos.</p>
                     <div class="row g-4 g-sm-5 justify-content-center">
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
@@ -750,7 +752,7 @@ session_start();
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.</p>
+                    <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras SRL</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->

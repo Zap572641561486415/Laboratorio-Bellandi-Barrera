@@ -195,8 +195,10 @@
             <div class="row g-0">
                 <div class="col-lg-6 pt-lg-5">
                     <div class="bg-white p-5 mt-lg-5">
-                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">The Best Medical Test & Laboratory Solution</h1>
-                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">¿Por qué elegirnos?</h1>
+                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Trabajamos con varias líneas de primer nivel, contando con un servicio técnico propio que resolverá cualquier imprevisto con la agilidad y precisión necesarias.
+
+                        Cubriendo un amplio rango de necesidades, ofrecemos desde el servicio de laboratorio llave en mano hasta las mejores soluciones a sus actividades de Laboratorio, tanto en las áreas de Microbiología, Control de Calidad e Instrumental, permitiendo la obtención de resultados rápidos y confiables, merced a la tecnología que proveemos en nuestros productos.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="icon-box-primary mb-4">
@@ -323,7 +325,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.</p>
+                    <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras SRL</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
