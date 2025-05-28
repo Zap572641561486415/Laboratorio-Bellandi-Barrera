@@ -50,10 +50,10 @@
                     <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Career</a>
-                    <a class="breadcrumb-item small text-body" href="#">Support</a>
-                    <a class="breadcrumb-item small text-body" href="#">Terms</a>
-                    <a class="breadcrumb-item small text-body" href="#">FAQs</a>
+                    <a class="breadcrumb-item small text-body" href="#">Carrera</a>
+                    <a class="breadcrumb-item small text-body" href="#">Soporte</a>
+                    <a class="breadcrumb-item small text-body" href="#">Términos</a>
+                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
@@ -68,16 +68,16 @@
                 <div class="d-flex">
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-dark mb-0">Llamanos</h5>
-                        <span class="text-dark">+54 261 422-2428</span>
+                        <h5 class="text-white">Llámanos</h5>
+                        <h2 class="text-white mb-0">+54 261 422-2428</h2>
                     </div>
                 </div>
                 <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 150px; object-fit: contain; margin: -20px 0;"></a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-dark mb-0">Mail Now</h5>
-                        <span class="text-dark">info@example.com</span>
+                        <h5 class="text-white">Envíanos un correo</h5>
+                        <h2 class="text-white mb-0">info@example.com</h2>
                     </div>
                 </div>
             </div>
@@ -129,12 +129,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5 mt-4">
-            <h1 class="display-2 text-white mb-3 animated slideInDown">Contact</h1>
+            <h1 class="display-2 text-white mb-3 animated slideInDown">Contacto</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="#">Páginas</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Contacto</li>
                 </ol>
             </nav>
         </div>
@@ -180,30 +180,30 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Su Nombre">
+                                    <label for="name">Su Nombre</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Su Email">
+                                    <label for="email">Su Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Asunto">
+                                    <label for="subject">Asunto</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
-                                    <label for="message">Message</label>
+                                    <textarea class="form-control" placeholder="Deje un mensaje aquí" id="message" style="height: 200px"></textarea>
+                                    <label for="message">Mensaje</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                                <button class="btn btn-primary py-3 px-5" type="submit">Enviar Mensaje</button>
                             </div>
                         </div>
                     </form>
@@ -241,26 +241,26 @@
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Quick Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Rápidos</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Popular Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Populares</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <h4 class="text-light mb-4">Boletín Informativo</h4>
                             <div class="w-100">
                                 <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
+                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Su Dirección de Email"><button class="btn btn-primary px-4">Suscribirse</button>
                                 </div>
                             </div>
                         </div>

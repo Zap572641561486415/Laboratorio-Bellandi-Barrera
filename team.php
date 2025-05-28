@@ -50,10 +50,10 @@
                     <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Career</a>
-                    <a class="breadcrumb-item small text-body" href="#">Support</a>
-                    <a class="breadcrumb-item small text-body" href="#">Terms</a>
-                    <a class="breadcrumb-item small text-body" href="#">FAQs</a>
+                    <a class="breadcrumb-item small text-body" href="#">Carrera</a>
+                    <a class="breadcrumb-item small text-body" href="#">Soporte</a>
+                    <a class="breadcrumb-item small text-body" href="#">Términos</a>
+                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
@@ -129,12 +129,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5 mt-4">
-            <h1 class="display-2 text-white mb-3 animated slideInDown">Our Team</h1>
+            <h1 class="display-2 text-white mb-3 animated slideInDown">Nuestro Equipo</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Our Team</li>
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="#">Páginas</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Equipo</li>
                 </ol>
             </nav>
         </div>
@@ -151,9 +151,9 @@
                 </div>
                 <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="display-6 mb-3">Dr. John Martin</h1>
-                    <p class="mb-1">CEO & Founder</p>
-                    <p class="mb-5">Labsky, New York, USA</p>
-                    <h3 class="mb-3">Biography</h3>
+                    <p class="mb-1">CEO & Fundador</p>
+                    <p class="mb-5">Laboratorio Bellandi & Barreras, Mendoza, Argentina</p>
+                    <h3 class="mb-3">Biografía</h3>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                     <div class="d-flex">
@@ -176,7 +176,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Alex Robin</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Andrew Bon</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Martin Tompson</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Clarabelle Samber</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -258,26 +258,26 @@
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Quick Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Rápidos</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Popular Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Populares</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <h4 class="text-light mb-4">Boletín Informativo</h4>
                             <div class="w-100">
                                 <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
+                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Su Dirección de Email"><button class="btn btn-primary px-4">Suscribirse</button>
                                 </div>
                             </div>
                         </div>

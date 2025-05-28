@@ -50,10 +50,10 @@
                     <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Career</a>
-                    <a class="breadcrumb-item small text-body" href="#">Support</a>
-                    <a class="breadcrumb-item small text-body" href="#">Terms</a>
-                    <a class="breadcrumb-item small text-body" href="#">FAQs</a>
+                    <a class="breadcrumb-item small text-body" href="#">Carrera</a>
+                    <a class="breadcrumb-item small text-body" href="#">Soporte</a>
+                    <a class="breadcrumb-item small text-body" href="#">Términos</a>
+                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
@@ -76,7 +76,7 @@
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-dark mb-0">Mail Now</h5>
+                        <h5 class="text-dark mb-0">Envíanos un correo</h5>
                         <span class="text-dark">info@example.com</span>
                     </div>
                 </div>
@@ -129,12 +129,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5 mt-4">
-            <h1 class="display-2 text-white mb-3 animated slideInDown">About</h1>
+            <h1 class="display-2 text-white mb-3 animated slideInDown">Sobre Nosotros</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item" aria-current="page">About</li>
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="#">Páginas</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Sobre Nosotros</li>
                 </ol>
             </nav>
         </div>
@@ -174,13 +174,13 @@
                     <div class="row g-4 g-sm-5 justify-content-center">
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
-                                <p class="text-white mb-0">Awards Winning</p>
+                                <p class="text-white mb-0">Premios Ganados</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
                         <div class="col-sm-6 text-start">
                             <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
-                                <p class="text-white mb-0">Complete Cases</p>
+                                <p class="text-white mb-0">Casos Completos</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
@@ -211,15 +211,15 @@
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-person-plus text-dark"></i>
                                 </div>
-                                <h5 class="mb-3">Doctores con Experiencia</h5>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                <h5 class="mb-3">Doctores Expertos</h5>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-check-all text-dark"></i>
                                 </div>
-                                <h5 class="mb-3">Advanced Microscopy</h5>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                <h5 class="mb-3">Microscopía Avanzada</h5>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
                         <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.5s" href="">Explore More</a>
@@ -239,7 +239,7 @@
                             <div class="bg-primary p-5">
                                 <div class="experience mb-4 wow fadeIn" data-wow-delay="0.3s">
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Sample Preparation</span>
+                                        <span class="text-white">Precios Justos</span>
                                         <span class="text-white">90%</span>
                                     </div>
                                     <div class="progress">
@@ -248,7 +248,7 @@
                                 </div>
                                 <div class="experience mb-4 wow fadeIn" data-wow-delay="0.4s">
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Result Accuracy</span>
+                                        <span class="text-white">Soporte 24/7</span>
                                         <span class="text-white">95%</span>
                                     </div>
                                     <div class="progress">
@@ -257,7 +257,7 @@
                                 </div>
                                 <div class="experience mb-0 wow fadeIn" data-wow-delay="0.5s">
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Lab Equipments</span>
+                                        <span class="text-white">Equipos de Laboratorio</span>
                                         <span class="text-white">90%</span>
                                     </div>
                                     <div class="progress">
@@ -404,26 +404,26 @@
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Quick Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Rápidos</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Popular Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Populares</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <h4 class="text-light mb-4">Boletín Informativo</h4>
                             <div class="w-100">
                                 <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
+                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Su Dirección de Email"><button class="btn btn-primary px-4">Suscribirse</button>
                                 </div>
                             </div>
                         </div>

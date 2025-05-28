@@ -50,10 +50,10 @@
                     <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Career</a>
-                    <a class="breadcrumb-item small text-body" href="#">Support</a>
-                    <a class="breadcrumb-item small text-body" href="#">Terms</a>
-                    <a class="breadcrumb-item small text-body" href="#">FAQs</a>
+                    <a class="breadcrumb-item small text-body" href="#">Carrera</a>
+                    <a class="breadcrumb-item small text-body" href="#">Soporte</a>
+                    <a class="breadcrumb-item small text-body" href="#">Términos</a>
+                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
@@ -129,12 +129,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5 mt-4">
-            <h1 class="display-2 text-white mb-3 animated slideInDown">Services</h1>
+            <h1 class="display-2 text-white mb-3 animated slideInDown">Servicios</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Services</li>
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="#">Páginas</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Servicios</li>
                 </ol>
             </nav>
         </div>
@@ -155,9 +155,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-heart-pulse text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Pathology Testing</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Patología</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -165,9 +165,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-lungs text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Microbiology Tests</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Microbiología</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -175,9 +175,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-virus text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Biochemistry Tests</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Bioquímica</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -185,9 +185,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-capsule-pill text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Histopatology Tests</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Histopatología</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -195,9 +195,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-capsule text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Urine Tests</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Orina</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -205,9 +205,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-prescription2 text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Blood Tests</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Sangre</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -215,9 +215,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-clipboard2-pulse text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Fever Tests</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Fiebre</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -225,9 +225,9 @@
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-file-medical text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Allergy Tests</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Pruebas de Alergias</h5>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -304,26 +304,26 @@
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Quick Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Rápidos</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Popular Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Populares</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <h4 class="text-light mb-4">Boletín Informativo</h4>
                             <div class="w-100">
                                 <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
+                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Su Dirección de Email"><button class="btn btn-primary px-4">Suscribirse</button>
                                 </div>
                             </div>
                         </div>

@@ -54,10 +54,10 @@ session_start();
                     <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Career</a>
-                    <a class="breadcrumb-item small text-body" href="#">Support</a>
-                    <a class="breadcrumb-item small text-body" href="#">Terms</a>
-                    <a class="breadcrumb-item small text-body" href="#">FAQs</a>
+                    <a class="breadcrumb-item small text-body" href="#">Carrera</a>
+                    <a class="breadcrumb-item small text-body" href="#">Soporte</a>
+                    <a class="breadcrumb-item small text-body" href="#">Términos</a>
+                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
@@ -80,7 +80,7 @@ session_start();
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-dark mb-0">Mail Now</h5>
+                        <h5 class="text-dark mb-0">Envíanos un correo</h5>
                         <span class="text-dark">info@example.com</span>
                     </div>
                 </div>
@@ -207,7 +207,7 @@ session_start();
                     <div class="row g-4 g-sm-5 justify-content-center">
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
-                                <p class="text-white mb-0">Awards Winning</p>
+                                <p class="text-white mb-0">Premios Ganados</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
@@ -240,7 +240,7 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-award text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Award Winning</h5>
+                        <h5 class="mb-3">Premios Ganados</h5>
                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-people text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Expet Doctors</h5>
+                        <h5 class="mb-3">Doctores Expertos</h5>
                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
                     </div>
                 </div>
@@ -258,7 +258,7 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-cash-coin text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Fair Prices</h5>
+                        <h5 class="mb-3">Precios Justos</h5>
                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
                     </div>
                 </div>
@@ -267,7 +267,7 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-headphones text-dark"></i>
                         </div>
-                        <h5 class="mb-3">24/7 Support</h5>
+                        <h5 class="mb-3">Soporte 24/7</h5>
                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
                     </div>
                 </div>
@@ -290,7 +290,7 @@ session_start();
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-person-plus text-dark"></i>
                                 </div>
-                                <h5 class="mb-3">Doctores con Experiencia</h5>
+                                <h5 class="mb-3">Microscopía Avanzada</h5>
                                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
@@ -318,7 +318,7 @@ session_start();
                             <div class="bg-primary p-5">
                                 <div class="experience mb-4 wow fadeIn" data-wow-delay="0.3s">
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Sample Preparation</span>
+                                        <span class="text-white">Preparación de Muestras</span>
                                         <span class="text-white">90%</span>
                                     </div>
                                     <div class="progress">
@@ -327,7 +327,7 @@ session_start();
                                 </div>
                                 <div class="experience mb-4 wow fadeIn" data-wow-delay="0.4s">
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Result Accuracy</span>
+                                        <span class="text-white">Precisión de Resultados</span>
                                         <span class="text-white">95%</span>
                                     </div>
                                     <div class="progress">
@@ -336,7 +336,7 @@ session_start();
                                 </div>
                                 <div class="experience mb-0 wow fadeIn" data-wow-delay="0.5s">
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Lab Equipments</span>
+                                        <span class="text-white">Equipamiento de Laboratorio</span>
                                         <span class="text-white">90%</span>
                                     </div>
                                     <div class="progress">
@@ -359,7 +359,7 @@ session_start();
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <h3 class="modal-title" id="exampleModalLabel">Video de Youtube</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -388,9 +388,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-heart-pulse text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Pathology Testing</h4>
+                        <h5 class="mb-3">Pruebas de Patología</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -398,9 +398,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-lungs text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Microbiology Tests</h4>
+                        <h5 class="mb-3">Pruebas de Microbiología</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -408,9 +408,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-virus text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Biochemistry Tests</h4>
+                        <h5 class="mb-3">Pruebas de Bioquímica</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -418,9 +418,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-capsule-pill text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Histopatology Tests</h4>
+                        <h5 class="mb-3">Pruebas de Histopatología</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -428,9 +428,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-capsule text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Urine Tests</h4>
+                        <h5 class="mb-3">Pruebas de Orina</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -438,9 +438,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-prescription2 text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Blood Tests</h4>
+                        <h5 class="mb-3">Pruebas de Sangre</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -448,9 +448,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-clipboard2-pulse text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Fever Tests</h4>
+                        <h5 class="mb-3">Pruebas de Fiebre</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -458,9 +458,9 @@ session_start();
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-file-medical text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Allergy Tests</h4>
+                        <h5 class="mb-3">Pruebas de Alergias</h4>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Read More<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -474,7 +474,7 @@ session_start();
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-4">We Ensure You Will Always Get The Best Result</h1>
+                    <h1 class="display-6 mb-4">Le Aseguramos que Siempre Obtendrá los Mejores Resultados</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
                     <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
@@ -498,46 +498,46 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="mb-4">Online Appoinment</h2>
+                    <h2 class="mb-4">Solicitar Cita Online</h2>
                     <div class="row g-3">
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Su Nombre">
+                                <label for="name">Su Nombre</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
-                                <label for="mail">Your Email</label>
+                                <input type="email" class="form-control" id="mail" placeholder="Su Email">
+                                <label for="mail">Su Email</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
-                                <label for="mobile">Your Mobile</label>
+                                <input type="text" class="form-control" id="mobile" placeholder="Su Teléfono">
+                                <label for="mobile">Su Teléfono</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
                                 <select class="form-select" id="service">
-                                    <option selected>Pathology Testing</option>
-                                    <option value="">Microbiology Tests</option>
-                                    <option value="">Biochemistry Tests</option>
-                                    <option value="">Histopatology Tests</option>
+                                    <option selected>Pruebas de Patología</option>
+                                    <option value="">Pruebas de Microbiología</option>
+                                    <option value="">Pruebas de Bioquímica</option>
+                                    <option value="">Pruebas de Histopatología</option>
                                 </select>
-                                <label for="service">Choose A Service</label>
+                                <label for="service">Elija un Servicio</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                <textarea class="form-control" placeholder="Deje un mensaje aquí" id="message"
                                     style="height: 130px"></textarea>
-                                <label for="message">Message</label>
+                                <label for="message">Mensaje</label>
                             </div>
                         </div>
                         <div class="col-12 text-center">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                            <button class="btn btn-primary w-100 py-3" type="submit">Enviar Ahora</button>
                         </div>
                     </div>
                 </div>
@@ -556,9 +556,9 @@ session_start();
                 </div>
                 <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="display-6 mb-3">Dr. John Martin</h1>
-                    <p class="mb-1">CEO & Founder</p>
+                    <p class="mb-1">CEO & Fundador</p>
                     <p class="mb-5">Laboratorio Bellandi & Barreras, Mendoza, Argentina</p>
-                    <h3 class="mb-3">Biography</h3>
+                    <h3 class="mb-3">Biografía</h3>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                     <div class="d-flex">
@@ -579,7 +579,7 @@ session_start();
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Alex Robin</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -594,7 +594,7 @@ session_start();
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Andrew Bon</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -609,7 +609,7 @@ session_start();
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Martin Tompson</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -624,7 +624,7 @@ session_start();
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-1">Clarabelle Samber</h5>
-                            <span>Lab Assistant</span>
+                            <span>Asistente de Laboratorio</span>
                         </div>
                     </div>
                 </div>
@@ -639,7 +639,7 @@ session_start();
         <div class="container pt-5">
             <div class="row gy-5 gx-0">
                 <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-4">What Clients Say About Our Lab Services!</h1>
+                    <h1 class="display-6 text-white mb-4">¡Lo que dicen nuestros clientes sobre nuestros servicios de laboratorio!</h1>
                     <p class="text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
                     <a href="" class="btn btn-primary py-3 px-5">More Testimonials</a>
                 </div>
@@ -654,8 +654,8 @@ session_start();
                                 <div class="d-flex align-items-center">
                                     <img class="flex-shrink-0" src="img/testimonial-1.jpg" alt="">
                                     <div class="ps-3">
-                                        <h5 class="mb-1">Client Name</h5>
-                                        <span class="text-primary">Profession</span>
+                                        <h5 class="mb-1">Nombre del Cliente</h5>
+                                        <span class="text-primary">Profesión</span>
                                     </div>
                                 </div>
                             </div>
@@ -667,8 +667,8 @@ session_start();
                                 <div class="d-flex align-items-center">
                                     <img class="flex-shrink-0" src="img/testimonial-2.jpg" alt="">
                                     <div class="ps-3">
-                                        <h5 class="mb-1">Client Name</h5>
-                                        <span class="text-primary">Profession</span>
+                                        <h5 class="mb-1">Nombre del Cliente</h5>
+                                        <span class="text-primary">Profesión</span>
                                     </div>
                                 </div>
                             </div>
@@ -702,26 +702,26 @@ session_start();
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Quick Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Rápidos</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Popular Links</h4>
-                            <a class="btn btn-link" href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
-                            <a class="btn btn-link" href="">Support</a>
+                            <h4 class="text-light mb-4">Enlaces Populares</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Soporte</a>
                         </div>
                         <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <h4 class="text-light mb-4">Boletín Informativo</h4>
                             <div class="w-100">
                                 <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
+                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Su Dirección de Email"><button class="btn btn-primary px-4">Suscribirse</button>
                                 </div>
                             </div>
                         </div>
