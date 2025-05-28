@@ -115,10 +115,9 @@
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </nav>
@@ -315,9 +314,7 @@
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                     <div class="d-flex">
                         <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -328,9 +325,7 @@
                             <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -345,9 +340,7 @@
                             <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -362,9 +355,7 @@
                             <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -379,9 +370,7 @@
                             <img class="img-fluid w-100" src="img/team-5.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
@@ -409,10 +398,9 @@
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
                     <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
                     <div class="d-flex mt-4">
-                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 ps-lg-5">
