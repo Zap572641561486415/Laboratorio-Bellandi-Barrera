@@ -156,8 +156,8 @@
                             <i class="bi bi-geo-alt text-dark fs-1"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Office Address</h5>
-                            <span>123 Street, New York, USA</span>
+                            <h5>Dirección</h5>
+                            <span>Carola Lorenzini 48, Mendoza, Argentina</span>
                         </div>
                     </div>
                     <hr>
@@ -166,8 +166,8 @@
                             <i class="bi bi-clock text-dark fs-1"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Office Time</h5>
-                            <span>Mon-Sat 09am-5pm, Sun Closed</span>
+                            <h5>Horario de Atención</h5>
+                            <span>Lun-Viernes 09am-5pm</span>
                         </div>
                     </div>
                 </div>

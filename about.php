@@ -178,19 +178,19 @@
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
                                 <p class="text-white mb-0">Awards Winning</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
                         <div class="col-sm-6 text-start">
                             <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
                                 <p class="text-white mb-0">Complete Cases</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
-                                <p class="text-white mb-0">Happy Clients</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
+                                <p class="text-white mb-0">Clientes Felices</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
             <div class="row g-0">
                 <div class="col-lg-6 pt-lg-5">
                     <div class="bg-white p-5 mt-lg-5">
-                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">The Best Medical Test & Laboratory Solution</h1>
+                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">La Mejor Solución en Pruebas Médicas y Laboratorio</h1>
                         <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">

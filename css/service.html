@@ -147,7 +147,7 @@
     <div class="container-fluid container-service py-5">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-6 mb-3">Reliable & High-Quality Laboratory Service</h1>
+                <h1 class="display-6 mb-3">Servicio de Laboratorio Confiable y de Alta Calidad</h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
             </div>
             <div class="row g-4">

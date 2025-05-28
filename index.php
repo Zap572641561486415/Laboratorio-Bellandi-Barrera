@@ -211,19 +211,19 @@ session_start();
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
                                 <p class="text-white mb-0">Awards Winning</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
                         <div class="col-sm-6 text-start">
                             <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
                                 <p class="text-white mb-0">Complete Cases</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
-                                <p class="text-white mb-0">Happy Clients</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
+                                <p class="text-white mb-0">Clientes Felices</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
                     </div>
@@ -286,7 +286,7 @@ session_start();
             <div class="row g-0">
                 <div class="col-lg-6 pt-lg-5">
                     <div class="bg-white p-5 mt-lg-5">
-                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">The Best Medical Test & Laboratory Solution</h1>
+                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">La Mejor Solución en Pruebas Médicas y Laboratorio</h1>
                         <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
@@ -382,7 +382,7 @@ session_start();
     <div class="container-fluid container-service py-5">
         <div class="container pt-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-6 mb-3">Reliable & High-Quality Laboratory Service</h1>
+                <h1 class="display-6 mb-3">Servicio de Laboratorio Confiable y de Alta Calidad</h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
             </div>
             <div class="row g-4">
@@ -485,8 +485,8 @@ session_start();
                             <i class="bi bi-geo-alt text-dark fs-1"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Office Address</h5>
-                            <span>123 Street, New York, USA</span>
+                            <h5>Dirección</h5>
+                            <span>Carola Lorenzini 48, Mendoza, Argentina</span>
                         </div>
                     </div>
                     <hr>
@@ -495,8 +495,8 @@ session_start();
                             <i class="bi bi-clock text-dark fs-1"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Office Time</h5>
-                            <span>Mon-Sat 09am-5pm, Sun Closed</span>
+                            <h5>Horario de Atención</h5>
+                            <span>Lun-Viernes 09am-5pm</span>
                         </div>
                     </div>
                 </div>
