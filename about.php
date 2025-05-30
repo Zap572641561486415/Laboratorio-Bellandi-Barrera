@@ -419,14 +419,6 @@
                             <a class="btn btn-link" href="">Términos y Condiciones</a>
                             <a class="btn btn-link" href="">Soporte</a>
                         </div>
-                        <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Boletín Informativo</h4>
-                            <div class="w-100">
-                                <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Su Dirección de Email"><button class="btn btn-primary px-4">Suscribirse</button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
