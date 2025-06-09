@@ -76,8 +76,8 @@
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-dark mb-0">Mail Now</h5>
-                        <span class="text-dark">info@example.com</span>
+                        <h5 class="text-dark mb-0">Envíanos un correo</h5>
+                        <span class="text-dark">contacto@lbybsrl.com</span>
                     </div>
                 </div>
             </div>
@@ -103,12 +103,12 @@
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
                         <a href="service.php" class="nav-item nav-link">Servicios</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="feature.php" class="dropdown-item">Features</a>
                                 <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
-                                <a href="testimonial.php" class="dropdown-item active">Testimonios</a>
-                                <a href="appoinment.php" class="dropdown-item">Contacto</a>
+                                <a href="testimonial.php" class="dropdown-item">Testimonios</a>
+                                <a href="contact.php" class="dropdown-item">Contacto</a>
                                 <a href="404.php" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
@@ -245,7 +245,7 @@
                     <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
-                    <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
+                    <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
                     <div class="d-flex mt-4">
                         <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>

@@ -68,16 +68,16 @@
                 <div class="d-flex">
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-white">Llámanos</h5>
-                        <h2 class="text-white mb-0">+54 261 422-2428</h2>
+                        <h5 class="text-dark mb-0">Llamanos</h5>
+                        <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
                 <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 150px; object-fit: contain; margin: -20px 0;"></a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-white">Envíanos un correo</h5>
-                        <h2 class="text-white mb-0">info@example.com</h2>
+                        <h5 class="text-dark mb-0">Envíanos un correo</h5>
+                        <span class="text-dark">contacto@lbybsrl.com</span>
                     </div>
                 </div>
             </div>
@@ -144,75 +144,80 @@
 
     <!-- Contact Start -->
     <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-6 mb-3">¿Tiene alguna consulta? No dude en contactarnos</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
-            </div>
-            <div class="row contact-info position-relative g-0 mb-5">
-                <div class="col-lg-6">
-                    <a href="tel:+542614222428" class="d-flex justify-content-lg-center bg-primary p-4">
-                        <div class="icon-box-light flex-shrink-0">
-                            <i class="bi bi-phone text-dark"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h5 class="text-white">Llamanos</h5>
-                            <h2 class="text-white mb-0">+54 261 422-2428</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6">
-                    <a href="mailto:info@example.com" class="d-flex justify-content-lg-center bg-primary p-4">
-                        <div class="icon-box-light flex-shrink-0">
-                            <i class="bi bi-envelope text-dark"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h5 class="text-white">Mail Us</h5>
-                            <h2 class="text-white mb-0">info@example.com</h2>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
+                    <h1 class="display-6 mb-4">Le Aseguramos que Siempre Obtendrá los Mejores Resultados</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
+                        <div class="icon-box-primary">
+                            <i class="bi bi-geo-alt text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Dirección</h5>
+                            <span>Carola Lorenzini 48, Mendoza, Argentina</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">
+                        <div class="icon-box-primary">
+                            <i class="bi bi-clock text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Horario de Atención</h5>
+                            <span>Lun-Viernes 09am-5pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="mb-4">Solicitar Cita Online</h2>
+                    <form action="send_email.php" method="POST">
                         <div class="row g-3">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Su Nombre">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Su Nombre" 
+                                        pattern="[A-Za-zÀ-ÿ\u00f1\u00d1\s]+" 
+                                        title="Por favor ingrese solo letras, espacios y acentos"
+                                        oninput="this.value = this.value.replace(/[^A-Za-zÀ-ÿ\u00f1\u00d1\s]/g, '')"
+                                        required>
                                     <label for="name">Su Nombre</label>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Su Email">
-                                    <label for="email">Su Email</label>
+                                    <input type="email" class="form-control" id="mail" name="email" placeholder="Su Email" required>
+                                    <label for="mail">Su Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" name="phone" placeholder="Su Teléfono" required>
+                                    <label for="mobile">Su Teléfono</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="service" name="service" required>
+                                        <option selected>Pruebas de Patología</option>
+                                        <option value="Pruebas de Microbiología">Pruebas de Microbiología</option>
+                                        <option value="Pruebas de Bioquímica">Pruebas de Bioquímica</option>
+                                        <option value="Pruebas de Histopatología">Pruebas de Histopatología</option>
+                                    </select>
+                                    <label for="service">Elija un Servicio</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Asunto">
-                                    <label for="subject">Asunto</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Deje un mensaje aquí" id="message" style="height: 200px"></textarea>
+                                    <textarea class="form-control" placeholder="Deje un mensaje aquí" id="message" name="message" style="height: 130px" required></textarea>
                                     <label for="message">Mensaje</label>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Enviar Mensaje</button>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar Ahora</button>
                             </div>
                         </div>
                     </form>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <iframe class="w-100 h-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.9507446366706!2d-68.85823792347941!3d-32.899355471504286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0907e6a4ca31%3A0x7c3b03e88eea0c4e!2sCarola%20Lorenzini%2048%2C%20M5504%20Godoy%20Cruz%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1710272561943!5m2!1ses!2sar"
-                    frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
                 </div>
             </div>
         </div>
@@ -231,7 +236,7 @@
                     <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
-                    <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
+                    <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
                     <div class="d-flex mt-4">
                         <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
@@ -296,6 +301,32 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+    <!-- reCAPTCHA v3 Script -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld-lForAAAAALF5nLwvd752nKkuqUAT6I1faDju"></script>
+    <script>
+        grecaptcha.ready(function() {
+            // Get all forms on the page
+            const forms = document.querySelectorAll('form');
+            
+            // Add submit event listener to each form
+            forms.forEach(form => {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    grecaptcha.execute('6Ld-lForAAAAALF5nLwvd752nKkuqUAT6I1faDju', {action: 'submit'}).then(function(token) {
+                        // Add token to form
+                        var input = document.createElement('input');
+                        input.type = 'hidden';
+                        input.name = 'g-recaptcha-response';
+                        input.value = token;
+                        form.appendChild(input);
+                        // Submit form
+                        form.submit();
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

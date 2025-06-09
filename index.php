@@ -81,7 +81,7 @@ session_start();
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Envíanos un correo</h5>
-                        <span class="text-dark">info@example.com</span>
+                        <span class="text-dark">contacto@lbybsrl.com</span>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@ session_start();
                                 <a href="feature.php" class="dropdown-item">Features</a>
                                 <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
                                 <a href="testimonial.php" class="dropdown-item">Testimonios</a>
-                                <a href="appoinment.php" class="dropdown-item">Contacto</a>
+                                <a href="contact.php" class="dropdown-item">Contacto</a>
                                 <a href="404.php" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
@@ -499,47 +499,52 @@ session_start();
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <h2 class="mb-4">Solicitar Cita Online</h2>
-                    <div class="row g-3">
-                        <div class="col-sm-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="Su Nombre">
-                                <label for="name">Su Nombre</label>
+                    <form action="send_email.php" method="POST">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Su Nombre" 
+                                        pattern="[A-Za-zÀ-ÿ\u00f1\u00d1\s]+" 
+                                        title="Por favor ingrese solo letras, espacios y acentos"
+                                        oninput="this.value = this.value.replace(/[^A-Za-zÀ-ÿ\u00f1\u00d1\s]/g, '')"
+                                        required>
+                                    <label for="name">Su Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" name="email" placeholder="Su Email" required>
+                                    <label for="mail">Su Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" name="phone" placeholder="Su Teléfono" required>
+                                    <label for="mobile">Su Teléfono</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="service" name="service" required>
+                                        <option selected>Pruebas de Patología</option>
+                                        <option value="Pruebas de Microbiología">Pruebas de Microbiología</option>
+                                        <option value="Pruebas de Bioquímica">Pruebas de Bioquímica</option>
+                                        <option value="Pruebas de Histopatología">Pruebas de Histopatología</option>
+                                    </select>
+                                    <label for="service">Elija un Servicio</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Deje un mensaje aquí" id="message" name="message" style="height: 130px" required></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar Ahora</button>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="form-floating">
-                                <input type="email" class="form-control" id="mail" placeholder="Su Email">
-                                <label for="mail">Su Email</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="mobile" placeholder="Su Teléfono">
-                                <label for="mobile">Su Teléfono</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-floating">
-                                <select class="form-select" id="service">
-                                    <option selected>Pruebas de Patología</option>
-                                    <option value="">Pruebas de Microbiología</option>
-                                    <option value="">Pruebas de Bioquímica</option>
-                                    <option value="">Pruebas de Histopatología</option>
-                                </select>
-                                <label for="service">Elija un Servicio</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Deje un mensaje aquí" id="message"
-                                    style="height: 130px"></textarea>
-                                <label for="message">Mensaje</label>
-                            </div>
-                        </div>
-                        <div class="col-12 text-center">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Enviar Ahora</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -692,7 +697,7 @@ session_start();
                     <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
-                    <p><i class="fa fa-envelope me-2"></i>info@example.com</p>
+                    <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
                     <div class="d-flex mt-4">
                         <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
@@ -757,6 +762,26 @@ session_start();
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+    <!-- reCAPTCHA v3 Script -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld-lForAAAAALF5nLwvd752nKkuqUAT6I1faDju"></script>
+    <script>
+        grecaptcha.ready(function() {
+            document.querySelector('form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                grecaptcha.execute('6Ld-lForAAAAALF5nLwvd752nKkuqUAT6I1faDju', {action: 'submit'}).then(function(token) {
+                    // Add token to form
+                    var input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = 'g-recaptcha-response';
+                    input.value = token;
+                    document.querySelector('form').appendChild(input);
+                    // Submit form
+                    document.querySelector('form').submit();
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
