@@ -405,19 +405,19 @@
                     <div class="row g-5">
                         <div class="col-sm-6">
                             <h4 class="text-light mb-4">Enlaces Rápidos</h4>
-                            <a class="btn btn-link" href="">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="">Contáctenos</a>
-                            <a class="btn btn-link" href="">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="">Soporte</a>
+                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
+                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="#">Soporte</a>
                         </div>
                         <div class="col-sm-6">
                             <h4 class="text-light mb-4">Enlaces Populares</h4>
-                            <a class="btn btn-link" href="">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="">Contáctenos</a>
-                            <a class="btn btn-link" href="">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="">Soporte</a>
+                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
+                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="#">Soporte</a>
                         </div>
                     </div>
                 </div>
