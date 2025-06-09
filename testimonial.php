@@ -192,8 +192,9 @@
         <div class="container pt-5">
             <div class="row gy-5 gx-0">
                 <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-4">What Clients Say About Our Lab Services!</h1>
-                    <p class="text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                    <h1 class="display-6 text-white mb-4">Le Aseguramos que Siempre Obtendrá los Mejores Resultados</h1>
+                    <p class="text-white mb-5">En Laboratorio Bellandi & Barreras, nos dedicamos a brindar soluciones confiables y personalizadas para laboratorios clínicos y veterinarios. Nuestra experiencia, sumada a un equipo capacitado y tecnología de vanguardia, garantiza resultados precisos y un servicio de excelencia.</p>
+                    <p class="mb-4">Si desea realizar una consulta, solicitar información o agendar una cita, complete el formulario y nos pondremos en contacto con usted a la brevedad.</p>
                     <a href="" class="btn btn-primary py-3 px-5">More Testimonials</a>
                 </div>
                 <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
@@ -242,7 +243,7 @@
                     <a href="index.php" class="navbar-brand">
                         <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
                     </a>
-                    <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                    <p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
                     <p><i class="fa fa-envelope me-2"></i><a href="mailto:contacto@lbybsrl.com" class="text-white-50">contacto@lbybsrl.com</a></p>
@@ -254,28 +255,14 @@
                 </div>
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
-                        <div class="col-sm-6">
+                        <div class="col-12 text-center mt-5">
                             <h4 class="text-light mb-4">Enlaces Rápidos</h4>
-                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="#">Soporte</a>
-                        </div>
-                        <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Enlaces Populares</h4>
-                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="#">Soporte</a>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Newsletter</h4>
-                            <div class="w-100">
-                                <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
-                                </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                                <a class="btn btn-link" href="contact.php">Contáctenos</a>
+                                <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                                <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                                <a class="btn btn-link" href="#">Soporte</a>
                             </div>
                         </div>
                     </div>

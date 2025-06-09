@@ -265,6 +265,73 @@
     <!-- Features End -->
 
 
+    <!-- Features Start -->
+    <div class="container-fluid feature mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-6 mb-4">Le Aseguramos que Siempre Obtendrá los Mejores Resultados</h1>
+                    <p>En Laboratorio Bellandi & Barreras, nos dedicamos a brindar soluciones confiables y personalizadas para laboratorios clínicos y veterinarios. Nuestra experiencia, sumada a un equipo capacitado y tecnología de vanguardia, garantiza resultados precisos y un servicio de excelencia.</p>
+                    <p class="mb-4">Si desea realizar una consulta, solicitar información o agendar una cita, complete el formulario y nos pondremos en contacto con usted a la brevedad.</p>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-person-plus text-dark"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-3">Doctores con Experiencia</h5>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center justify-content-center" style="min-height: 300px;">
+                                <button type="button" class="btn-play" data-bs-toggle="modal"
+                                    data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="bg-primary p-5">
+                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white">Sample Preparation</span>
+                                        <span class="text-white">90%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white">Result Accuracy</span>
+                                        <span class="text-white">95%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="experience mb-0 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span class="text-white">Lab Equipments</span>
+                                        <span class="text-white">90%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
@@ -273,7 +340,7 @@
                     <a href="index.php" class="navbar-brand">
                         <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
                     </a>
-                    <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                    <p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
                     <p><i class="fa fa-envelope me-2"></i><a href="mailto:contacto@lbybsrl.com" class="text-white-50">contacto@lbybsrl.com</a></p>
@@ -285,28 +352,14 @@
                 </div>
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
-                        <div class="col-sm-6">
+                        <div class="col-12 text-center mt-5">
                             <h4 class="text-light mb-4">Enlaces Rápidos</h4>
-                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="#">Soporte</a>
-                        </div>
-                        <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Enlaces Populares</h4>
-                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="#">Soporte</a>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4 class="text-light mb-4">Newsletter</h4>
-                            <div class="w-100">
-                                <div class="input-group">
-                                    <input type="text" class="form-control border-0 py-3 px-4" style="background: rgba(255, 255, 255, .1);" placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign Up</button>
-                                </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                                <a class="btn btn-link" href="contact.php">Contáctenos</a>
+                                <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                                <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                                <a class="btn btn-link" href="#">Soporte</a>
                             </div>
                         </div>
                     </div>

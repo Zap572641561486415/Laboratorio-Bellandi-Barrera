@@ -391,10 +391,10 @@
                     <a href="index.php" class="navbar-brand">
                         <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
                     </a>
-                    <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                    <p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
-                    <p><i class="fa fa-envelope me-2"></i><a href="mailto:contacto@lbybsrl.com" class="text-white-50">contacto@lbybsrl.com</a></p>
+                    <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
                     <div class="d-flex mt-4">
                         <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
@@ -403,21 +403,15 @@
                 </div>
                 <div class="col-lg-6 ps-lg-5">
                     <div class="row g-5">
-                        <div class="col-sm-6">
+                        <div class="col-12 text-center mt-5">
                             <h4 class="text-light mb-4">Enlaces Rápidos</h4>
-                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="#">Soporte</a>
-                        </div>
-                        <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Enlaces Populares</h4>
-                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                            <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                            <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
-                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                            <a class="btn btn-link" href="#">Soporte</a>
+                            <div class="d-flex flex-column align-items-center">
+                                <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                                <a class="btn btn-link" href="contact.php">Contáctenos</a>
+                                <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                                <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                                <a class="btn btn-link" href="#">Soporte</a>
+                            </div>
                         </div>
                     </div>
                 </div>
