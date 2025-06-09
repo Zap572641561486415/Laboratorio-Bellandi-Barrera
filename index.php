@@ -81,7 +81,7 @@ session_start();
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Envíanos un correo</h5>
-                        <span class="text-dark">contacto@lbybsrl.com</span>
+                        <a href="mailto:contacto@lbybsrl.com" class="text-dark">contacto@lbybsrl.com</a>
                     </div>
                 </div>
             </div>
