@@ -498,7 +498,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="mb-4">Solicitar Cita Online</h2>
+                    <h2 class="mb-4">Contactá con nosotros</h2>
                     <form action="send_email.php" method="POST">
                         <div class="row g-3">
                             <div class="col-sm-6">
