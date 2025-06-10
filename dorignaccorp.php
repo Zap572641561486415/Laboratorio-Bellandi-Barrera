@@ -121,9 +121,9 @@
     <!-- Navbar End -->
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s" style="background: url('img/work-clothing.jpg') center/cover no-repeat;">
         <div class="container text-center py-5 mt-4">
-            <h1 class="display-2 text-white mb-3 animated slideInDown">Indumentaria de Trabajo</h1>
+            <h1 class="display-2 text-white mb-3 animated slideInDown">DorignacCorp Indumentaria</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="#">Inicio</a></li>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="position-relative h-100">
-                        <img class="img-fluid w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                        <img class="img-fluid w-100 h-100" src="img/work-clothing.jpg" alt="Indumentaria de Trabajo" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -216,7 +216,7 @@
             <div class="row g-5 py-5">
                 <div class="col-lg-6 pe-lg-5">
                     <a href="index.php" class="navbar-brand">
-                        <h1 class="m-0">DorignacCorp</h1>
+                        <h1 class="m-0 text-white">DorignacCorp</h1>
                     </a>
                     <p class="fs-5 mb-4">Especialistas en indumentaria de trabajo y uniformes corporativos. Brindamos soluciones de calidad que combinan seguridad, comodidad y durabilidad.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
