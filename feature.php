@@ -106,10 +106,8 @@
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="feature.php" class="dropdown-item">Características</a>
-                                <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
-                                <a href="testimonial.php" class="dropdown-item">Testimonios</a>
                                 <a href="contact.php" class="dropdown-item">Contacto</a>
-                                <a href="404.php" class="dropdown-item">Página 404</a>
+                                <a href="dorignaccorp.php" class="dropdown-item">DorignacCorp</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
@@ -270,7 +268,7 @@
         <div class="container">
             <div class="row g-0">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-4">Le Aseguramos que Siempre Obtendrá los Mejores Resultados</h1>
+                    <h1 class="display-6 mb-4">Le Aseguramos los Mejores Resultados</h1>
                     <p>En Laboratorio Bellandi & Barreras, nos dedicamos a brindar soluciones confiables y personalizadas para laboratorios clínicos y veterinarios. Nuestra experiencia, sumada a un equipo capacitado y tecnología de vanguardia, garantiza resultados precisos y un servicio de excelencia.</p>
                     <p class="mb-4">Si desea realizar una consulta, solicitar información o agendar una cita, complete el formulario y nos pondremos en contacto con usted a la brevedad.</p>
                     <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">

@@ -107,12 +107,11 @@ session_start();
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
                         <a href="service.php" class="nav-item nav-link">Servicios</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="feature.php" class="dropdown-item">Features</a>
-                                <a href="testimonial.php" class="dropdown-item">Testimonios</a>
+                                <a href="feature.php" class="dropdown-item">Características</a>
                                 <a href="contact.php" class="dropdown-item">Contacto</a>
-                                <a href="404.php" class="dropdown-item">404 Page</a>
+                                <a href="dorignaccorp.php" class="dropdown-item">DorignacCorp</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
@@ -473,7 +472,7 @@ session_start();
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-4">Le Aseguramos que Siempre Obtendrá los Mejores Resultados</h1>
+                    <h1 class="display-6 mb-4">Le Aseguramos los Mejores Resultados</h1>
                     <p>En Laboratorio Bellandi & Barreras, nos dedicamos a brindar soluciones confiables y personalizadas para laboratorios clínicos y veterinarios. Nuestra experiencia, sumada a un equipo capacitado y tecnología de vanguardia, garantiza resultados precisos y un servicio de excelencia.</p>
                     <p class="mb-4">Si desea realizar una consulta, solicitar información o agendar una cita, complete el formulario y nos pondremos en contacto con usted a la brevedad.</p>
                     <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
@@ -549,53 +548,6 @@ session_start();
         </div>
     </div>
     <!-- Appoinment Start -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid testimonial py-5">
-        <div class="container pt-5">
-            <div class="row gy-5 gx-0">
-                <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-4">¡Lo que dicen nuestros clientes sobre nuestros servicios de laboratorio!</h1>
-                    <p class="text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
-                    <a href="" class="btn btn-primary py-3 px-5">More Testimonials</a>
-                </div>
-                <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white p-5">
-                        <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
-                            <div class="testimonial-item">
-                                <div class="icon-box-primary mb-4">
-                                    <i class="bi bi-chat-left-quote text-dark"></i>
-                                </div>
-                                <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
-                                <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0" src="img/testimonial-1.jpg" alt="">
-                                    <div class="ps-3">
-                                        <h5 class="mb-1">Nombre del Cliente</h5>
-                                        <span class="text-primary">Profesión</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="icon-box-primary mb-4">
-                                    <i class="bi bi-chat-left-quote text-dark"></i>
-                                </div>
-                                <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
-                                <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0" src="img/testimonial-2.jpg" alt="">
-                                    <div class="ps-3">
-                                        <h5 class="mb-1">Nombre del Cliente</h5>
-                                        <span class="text-primary">Profesión</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
 
     <!-- Footer Start -->

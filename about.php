@@ -103,12 +103,11 @@
                         <a href="about.php" class="nav-item nav-link active">Quienes somos</a>
                         <a href="service.php" class="nav-item nav-link">Servicios</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="feature.php" class="dropdown-item">Features</a>
-                                <a href="testimonial.php" class="dropdown-item">Testimonios</a>
+                                <a href="feature.php" class="dropdown-item">Características</a>
                                 <a href="contact.php" class="dropdown-item">Contacto</a>
-                                <a href="404.php" class="dropdown-item">404 Page</a>
+                                <a href="dorignaccorp.php" class="dropdown-item">DorignacCorp</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
@@ -168,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-6 mb-4">Le Aseguramos que Siempre Obtendrá los Mejores Resultados</h1>
+                    <h1 class="display-6 mb-4">Le Aseguramos los Mejores Resultados</h1>
                     <p>En Laboratorio Bellandi & Barreras, nos dedicamos a brindar soluciones confiables y personalizadas para laboratorios clínicos y veterinarios. Nuestra experiencia, sumada a un equipo capacitado y tecnología de vanguardia, garantiza resultados precisos y un servicio de excelencia.</p>
                     <p class="mb-4">Si desea realizar una consulta, solicitar información o agendar una cita, complete el formulario y nos pondremos en contacto con usted a la brevedad.</p>
                     <div class="row g-4 g-sm-5 justify-content-center">

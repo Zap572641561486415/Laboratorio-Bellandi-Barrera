@@ -106,10 +106,8 @@
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="feature.php" class="dropdown-item">Características</a>
-                                <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
-                                <a href="testimonial.php" class="dropdown-item">Testimonios</a>
                                 <a href="contact.php" class="dropdown-item">Contacto</a>
-                                <a href="404.php" class="dropdown-item">Página 404</a>
+                                <a href="dorignaccorp.php" class="dropdown-item">DorignacCorp</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
