@@ -217,6 +217,7 @@
                                         <option value="Presupuesto">Presupuesto</option>
                                         <option value="Servicio Técnico">Servicio Técnico</option>
                                         <option value="Otro">Otro</option>
+                                        <option value="Insumos Plásticos">Insumos Plásticos</option>
                                     </select>
                                     <label for="service">Elija un Producto</label>
                                 </div>

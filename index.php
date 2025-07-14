@@ -486,6 +486,15 @@ session_start();
                         <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-box-seam text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Insumos Plásticos</h5>
+                        <a href="productos-insumos-plasticos.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -566,6 +575,7 @@ session_start();
                                         <option value="Orinas">Orinas</option>
                                         <option value="Biología Molecular">Biología Molecular</option>
                                         <option value="Enfermedades Infecciosas">Enfermedades Infecciosas</option>
+                                        <option value="Insumos Plásticos">Insumos Plásticos</option>
                                         <option value="Presupuesto">Presupuesto</option>
                                         <option value="Servicio Técnico">Servicio Técnico</option>
                                         <option value="Otro">Otro</option>
