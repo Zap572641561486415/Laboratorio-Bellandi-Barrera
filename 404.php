@@ -101,7 +101,7 @@
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link">Inicio</a>
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
-                        <a href="service.php" class="nav-item nav-link">Servicios</a>
+                        <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">

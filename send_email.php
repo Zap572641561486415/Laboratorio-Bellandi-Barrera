@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_body .= "Nombre: " . $name . "\n";
     $email_body .= "Email: " . $email . "\n";
     $email_body .= "Teléfono: " . $phone . "\n";
-    $email_body .= "Servicio solicitado: " . $service . "\n\n";
+    $email_body .= "Producto solicitado: " . $service . "\n\n";
     $email_body .= "Mensaje:\n" . $message . "\n";
 
     // Set headers

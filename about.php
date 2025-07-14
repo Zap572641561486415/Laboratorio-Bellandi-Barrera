@@ -101,7 +101,7 @@
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link">Inicio</a>
                         <a href="about.php" class="nav-item nav-link active">Quienes somos</a>
-                        <a href="service.php" class="nav-item nav-link">Servicios</a>
+                        <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
@@ -320,7 +320,7 @@
                             <div class="d-flex flex-column align-items-center">
                                 <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
                                 <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                                <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                                <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
                                 <a class="btn btn-link" href="#">Términos y Condiciones</a>
                                 <a class="btn btn-link" href="#">Soporte</a>
                             </div>

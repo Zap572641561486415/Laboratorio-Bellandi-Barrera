@@ -105,7 +105,7 @@ session_start();
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link active">Inicio</a>
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
-                        <a href="service.php" class="nav-item nav-link">Servicios</a>
+                        <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
@@ -377,7 +377,7 @@ session_start();
     <div class="container-fluid container-service py-5">
         <div class="container pt-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-6 mb-3">Servicio de Laboratorio Confiable y de Alta Calidad</h1>
+                <h1 class="display-6 mb-3">Producto de Laboratorio Confiable y de Alta Calidad</h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
             </div>
             <div class="row g-4">
@@ -529,7 +529,7 @@ session_start();
                                         <option value="Pruebas de Bioquímica">Pruebas de Bioquímica</option>
                                         <option value="Pruebas de Histopatología">Pruebas de Histopatología</option>
                                     </select>
-                                    <label for="service">Elija un Servicio</label>
+                                    <label for="service">Elija un Producto</label>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -575,7 +575,7 @@ session_start();
                             <div class="d-flex flex-column align-items-center">
                                 <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
                                 <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                                <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                                <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
                                 <a class="btn btn-link" href="#">Términos y Condiciones</a>
                                 <a class="btn btn-link" href="#">Soporte</a>
                             </div>

@@ -101,7 +101,7 @@
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link">Inicio</a>
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
-                        <a href="service.php" class="nav-item nav-link">Servicios</a>
+                        <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
@@ -197,12 +197,25 @@
                             <div class="col-sm-6">
                                 <div class="form-floating">
                                     <select class="form-select" id="service" name="service" required>
-                                        <option selected>Pruebas de Patología</option>
-                                        <option value="Pruebas de Microbiología">Pruebas de Microbiología</option>
-                                        <option value="Pruebas de Bioquímica">Pruebas de Bioquímica</option>
-                                        <option value="Pruebas de Histopatología">Pruebas de Histopatología</option>
+                                        <optgroup label="Hemostasia">
+                                            <option value="Hemostasia - Semiautomático">Hemostasia - Semiautomático</option>
+                                            <option value="Hemostasia - Automático">Hemostasia - Automático</option>
+                                        </optgroup>
+                                        <optgroup label="Hematología">
+                                            <option value="Hematología - 3 Diferencial">Hematología - 3 Diferencial</option>
+                                            <option value="Hematología - 5 Diferencial">Hematología - 5 Diferencial</option>
+                                        </optgroup>
+                                        <option value="Química">Química</option>
+                                        <option value="Inmunoensayos">Inmunoensayos</option>
+                                        <option value="Química e Inmunoensayos">Química e Inmunoensayos</option>
+                                        <option value="Gases en Sangre">Gases en Sangre</option>
+                                        <option value="Electrolitos">Electrolitos</option>
+                                        <option value="Eritrosedimentación">Eritrosedimentación</option>
+                                        <option value="Orinas">Orinas</option>
+                                        <option value="Biología Molecular">Biología Molecular</option>
+                                        <option value="Enfermedades Infecciosas">Enfermedades Infecciosas</option>
                                     </select>
-                                    <label for="service">Elija un Servicio</label>
+                                    <label for="service">Elija un Producto</label>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -248,7 +261,7 @@
                             <div class="d-flex flex-column align-items-center">
                                 <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
                                 <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                                <a class="btn btn-link" href="service.php">Nuestros Servicios</a>
+                                <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
                                 <a class="btn btn-link" href="#">Términos y Condiciones</a>
                                 <a class="btn btn-link" href="#">Soporte</a>
                             </div>
