@@ -214,6 +214,9 @@
                                         <option value="Orinas">Orinas</option>
                                         <option value="Biología Molecular">Biología Molecular</option>
                                         <option value="Enfermedades Infecciosas">Enfermedades Infecciosas</option>
+                                        <option value="Presupuesto">Presupuesto</option>
+                                        <option value="Servicio Técnico">Servicio Técnico</option>
+                                        <option value="Otro">Otro</option>
                                     </select>
                                     <label for="service">Elija un Producto</label>
                                 </div>

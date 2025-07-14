@@ -373,9 +373,9 @@ session_start();
     <!-- Video Modal End -->
 
 
-    <!-- Service Start -->
+    <!-- Productos Destacados Start (Reemplazo de Servicios) -->
     <div class="container-fluid container-service py-5">
-        <div class="container pt-5">
+        <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Producto de Laboratorio Confiable y de Alta Calidad</h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
@@ -384,90 +384,115 @@ session_start();
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
-                            <i class="bi bi-heart-pulse text-dark"></i>
+                            <i class="bi bi-droplet-half text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Pruebas de Patología</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Hemostasia</h5>
+                        <div class="d-flex flex-column gap-2">
+                            <a href="productos-hemostasia-semiautomatico.php" class="btn btn-primary">Semiautomático</a>
+                            <a href="productos-hemostasia-automatico.php" class="btn btn-primary">Automático</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-droplet text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Hematología</h5>
+                        <div class="d-flex flex-column gap-2">
+                            <a href="productos-hematologia-3diferencial.php" class="btn btn-primary">3 Diferencial</a>
+                            <a href="productos-hematologia-5diferencial.php" class="btn btn-primary">5 Diferencial</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
-                            <i class="bi bi-lungs text-dark"></i>
+                            <i class="bi bi-beaker text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Pruebas de Microbiología</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Química</h5>
+                        <a href="productos-quimica.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-shield-check text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Inmunoensayos</h5>
+                        <a href="productos-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-beaker text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Química e Inmunoensayos</h5>
+                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-wind text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Gases en Sangre</h5>
+                        <a href="productos-gases-sangre.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-lightning-charge text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Electrolitos</h5>
+                        <a href="productos-electrolitos.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-droplet-fill text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Eritrosedimentación</h5>
+                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-cup-straw text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Orinas</h5>
+                        <a href="productos-orinas.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-bug text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Biología Molecular</h5>
+                        <a href="productos-biologia-molecular.php" class="btn btn-primary">Ver productos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-virus text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Pruebas de Bioquímica</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-capsule-pill text-dark"></i>
-                        </div>
-                        <h5 class="mb-3">Pruebas de Histopatología</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-capsule text-dark"></i>
-                        </div>
-                        <h5 class="mb-3">Pruebas de Orina</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-prescription2 text-dark"></i>
-                        </div>
-                        <h5 class="mb-3">Pruebas de Sangre</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-clipboard2-pulse text-dark"></i>
-                        </div>
-                        <h5 class="mb-3">Pruebas de Fiebre</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-file-medical text-dark"></i>
-                        </div>
-                        <h5 class="mb-3">Pruebas de Alergias</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                        <a class="btn btn-light px-3" href="">Leer Más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                        <h5 class="mb-3">Enfermedades Infecciosas</h5>
+                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Productos Destacados End -->
 
 
-    <!-- Appoinment Start -->
+    <!-- Contact Start -->
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-5">
@@ -524,10 +549,26 @@ session_start();
                             <div class="col-sm-6">
                                 <div class="form-floating">
                                     <select class="form-select" id="service" name="service" required>
-                                        <option selected>Pruebas de Patología</option>
-                                        <option value="Pruebas de Microbiología">Pruebas de Microbiología</option>
-                                        <option value="Pruebas de Bioquímica">Pruebas de Bioquímica</option>
-                                        <option value="Pruebas de Histopatología">Pruebas de Histopatología</option>
+                                        <optgroup label="Hemostasia">
+                                            <option value="Hemostasia - Semiautomático">Hemostasia - Semiautomático</option>
+                                            <option value="Hemostasia - Automático">Hemostasia - Automático</option>
+                                        </optgroup>
+                                        <optgroup label="Hematología">
+                                            <option value="Hematología - 3 Diferencial">Hematología - 3 Diferencial</option>
+                                            <option value="Hematología - 5 Diferencial">Hematología - 5 Diferencial</option>
+                                        </optgroup>
+                                        <option value="Química">Química</option>
+                                        <option value="Inmunoensayos">Inmunoensayos</option>
+                                        <option value="Química e Inmunoensayos">Química e Inmunoensayos</option>
+                                        <option value="Gases en Sangre">Gases en Sangre</option>
+                                        <option value="Electrolitos">Electrolitos</option>
+                                        <option value="Eritrosedimentación">Eritrosedimentación</option>
+                                        <option value="Orinas">Orinas</option>
+                                        <option value="Biología Molecular">Biología Molecular</option>
+                                        <option value="Enfermedades Infecciosas">Enfermedades Infecciosas</option>
+                                        <option value="Presupuesto">Presupuesto</option>
+                                        <option value="Servicio Técnico">Servicio Técnico</option>
+                                        <option value="Otro">Otro</option>
                                     </select>
                                     <label for="service">Elija un Producto</label>
                                 </div>
@@ -547,7 +588,7 @@ session_start();
             </div>
         </div>
     </div>
-    <!-- Appoinment Start -->
+    <!-- Contact End -->
 
 
     <!-- Footer Start -->
