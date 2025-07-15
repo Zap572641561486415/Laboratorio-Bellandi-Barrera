@@ -119,7 +119,67 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Hemostasia Automático.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: ECL 760 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow rounded-4 border-0">
+                    <img src="img/ecl-760.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="ECL 760 - Analizador automatizado de coagulación">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ECL 760</h5>
+                        <p class="card-text">
+                            Analizador automatizado de coagulación.
+                            <br><strong>Características principales:</strong>
+                        </p>
+                        <ul>
+                            <li>Mantenimiento diario de menos de 5 minutos</li>
+                            <li>60 test por hora</li>
+                            <li>Ensayos de coagulación, cromogénicos e inmunoquímicos en una sola plataforma</li>
+                            <li>Control automático de niveles de reactivos</li>
+                            <li>Escaneo integrado de códigos de barras para muestras</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ECL%20760" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: Sysmex CA-660 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow rounded-4 border-0">
+                    <img src="img/sysmex-ca-660.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="Sysmex CA-660 - Analizador de coagulación automático">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sysmex CA-660</h5>
+                        <p class="card-text">
+                            Analizador de coagulación compacto y totalmente automatizado, ideal para pruebas rutinarias y especializadas de hemostasia.
+                        </p>
+                        <ul>
+                            <li>Alto rendimiento: pruebas de hemostasia, dímero D y factor de von Willebrand</li>
+                            <li>Eficiencia: hasta 60 muestras por hora</li>
+                            <li>Pantalla táctil LCD en color y lector de códigos de barras integrado</li>
+                            <li>Gestión de datos: almacena hasta 600 muestras o 3000 pruebas</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Sysmex%20CA-660" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: Sysmex CS-2500 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow rounded-4 border-0">
+                    <img src="img/sysmex-cs-2500.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="Sysmex CS-2500 - Analizador de coagulación automático">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sysmex CS-2500</h5>
+                        <p class="card-text">
+                            Analizador de coagulación totalmente automatizado para laboratorios de volumen medio, con tecnología avanzada y operación continua.
+                        </p>
+                        <ul>
+                            <li>Tecnología PSI™ para controles preanalíticos y estudios de mezcla automatizados</li>
+                            <li>Agregación plaquetaria y análisis de forma de onda del coágulo</li>
+                            <li>Gestión eficiente de muestras y reducción de repeticiones</li>
+                            <li>Operación continua y mantenimiento simplificado</li>
+                            <li>Interfaz de usuario avanzada e intuitiva</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Sysmex%20CS-2500" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Hemostasia Automático -->
         </div>
     </div>
     <!-- Productos Section End -->

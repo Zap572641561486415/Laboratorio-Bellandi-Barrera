@@ -120,6 +120,49 @@ session_start();
         </div>
         <div class="row g-4" id="productos-lista">
             <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: ECL 412 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow rounded-4 border-0">
+                    <img src="img/ecl-412.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="ECL 412 - Analizador de coagulación">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ECL 412</h5>
+                        <p class="card-text">
+                            Analizador de coagulación semiautomatizado de 4 canales, ideal para laboratorios que buscan eficiencia y precisión en pruebas de hemostasia.
+                        </p>
+                        <ul>
+                            <li>4 canales de medición independientes</li>
+                            <li>12 posiciones para reactivos</li>
+                            <li>20 posiciones para incubación de cubetas</li>
+                            <li>Inicio automático con pipetas estándar</li>
+                            <li>Operación manual sencilla y confiable</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ECL%20412" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: BFT II -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow rounded-4 border-0">
+                    <img src="img/bft-ii.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="BFT II - Analizador de coagulación">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">BFT II</h5>
+                        <p class="card-text">
+                            El Analizador BFT II de Siemens es un coagulómetro semiautomatizado de dos canales, diseñado para realizar pruebas de coagulación de rutina como PT, APTT, fibrinógeno, tiempo de trombina y otros ensayos usando plasma citrado.
+                        </p>
+                        <ul>
+                            <li>Tipo de funcionamiento: Semiautomático</li>
+                            <li>Número de canales: 2</li>
+                            <li>Tecnología: Mecánica y fotoóptica</li>
+                            <li>Pruebas: PT, APTT, fibrinógeno, tiempo de trombina, tiempo de batroxobina, factores de coagulación, anticoagulante lúpico, proteína C, factor V Leiden</li>
+                            <li>Capacidad: ~60 pruebas de PT/hora, ~30 pruebas de APTT/hora</li>
+                            <li>Peso: 3,8 kg</li>
+                            <li>Dimensiones: 200 mm de ancho x 100 mm de alto</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20BFT%20II" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Hemostasia Semiautomático -->
         </div>
     </div>
     <!-- Productos Section End -->
