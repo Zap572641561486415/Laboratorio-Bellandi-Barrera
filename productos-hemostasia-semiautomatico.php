@@ -121,9 +121,9 @@ session_start();
         <div class="row g-4" id="productos-lista">
             <!-- Aquí puedes agregar tus productos en formato cards modernos -->
             <!-- Producto: ECL 412 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow rounded-4 border-0">
-                    <img src="img/ecl-412.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="ECL 412 - Analizador de coagulación">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/ecl-412.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="ECL 412 - Analizador de coagulación">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ECL 412</h5>
                         <p class="card-text">
@@ -141,9 +141,9 @@ session_start();
                 </div>
             </div>
             <!-- Producto: BFT II -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow rounded-4 border-0">
-                    <img src="img/bft-ii.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="BFT II - Analizador de coagulación">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/bft-ii.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="BFT II - Analizador de coagulación">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">BFT II</h5>
                         <p class="card-text">

@@ -119,7 +119,46 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Química e Inmunoensayos.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: Dimension EXL LM -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/dimension-exl-lm.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="Dimension EXL LM - Plataforma integrada de química e inmunoensayos">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Dimension EXL LM</h5>
+                        <p class="card-text">
+                            Plataforma integrada de química clínica e inmunoensayos, diseñada para laboratorios que buscan eficiencia y resultados precisos en una sola solución.
+                        </p>
+                        <ul>
+                            <li>Procesamiento simultáneo de química e inmunoensayos</li>
+                            <li>Alta capacidad y velocidad de análisis</li>
+                            <li>Interfaz intuitiva y fácil de usar</li>
+                            <li>Resultados confiables y reproducibles</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Dimension%20EXL%20LM" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: Atellica Solution -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/atellica.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="Atellica Solution - Plataforma de análisis clínico">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Atellica Solution</h5>
+                        <p class="card-text">
+                            Plataforma de análisis de sangre y orina de alta velocidad y precisión, con tecnología avanzada y automatización para laboratorios modernos.
+                        </p>
+                        <ul>
+                            <li>Procesa hasta 400 pruebas por hora</li>
+                            <li>Resultados precisos y exactos</li>
+                            <li>Flexibilidad para múltiples tipos de pruebas clínicas</li>
+                            <li>Automatización y conectividad con LIS/HIS</li>
+                            <li>Pruebas de sangre, orina, función renal y hepática</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Atellica%20Solution" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Química e Inmunoensayos -->
         </div>
     </div>
     <!-- Productos Section End -->

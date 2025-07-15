@@ -119,7 +119,65 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Hematología 5 diferencial.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: H560 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/h560.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="H560 - Analizador hematológico de 5 partes">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">H560</h5>
+                        <p class="card-text">
+                            Autoanalizador hematológico con diferencial de cinco partes, ideal para laboratorios que requieren precisión y eficiencia en el análisis sanguíneo.
+                        </p>
+                        <ul>
+                            <li>Diferencial de glóbulos blancos de 5 partes</li>
+                            <li>Procesamiento eficiente de muestras</li>
+                            <li>Fácil operación y mantenimiento</li>
+                            <li>Resultados confiables y rápidos</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H560" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: ADVIA 560 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/advia-560.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="ADVIA 560 - Analizador de hematología">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ADVIA 560</h5>
+                        <p class="card-text">
+                            Analizador de hematología rápido y de alta calidad, diseñado para pruebas de hemograma completo (CBC) en laboratorios modernos.
+                        </p>
+                        <ul>
+                            <li>Procesa hasta 60 muestras por hora</li>
+                            <li>Volumen de aspiración tan bajo como 110 μL</li>
+                            <li>Mide 26 parámetros, incluyendo diferencial de glóbulos blancos de 5 partes</li>
+                            <li>Almacena hasta 100,000 resultados</li>
+                            <li>Analizador independiente o de respaldo, con cargador automático opcional</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20560" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: ELITE 580 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/elite-580.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="ELITE 580 - Analizador hematológico de 5 partes">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ELITE 580</h5>
+                        <p class="card-text">
+                            Analizador automatizado de Hematología líder en tecnología y diseño, ideal para laboratorios que buscan máxima precisión y rendimiento.
+                        </p>
+                        <ul>
+                            <li>Diferencial de glóbulos blancos de 5 partes</li>
+                            <li>Tecnología avanzada para resultados precisos</li>
+                            <li>Procesamiento eficiente y rápido</li>
+                            <li>Interfaz intuitiva y fácil de usar</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ELITE%20580" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Hematología 5 diferencial -->
         </div>
     </div>
     <!-- Productos Section End -->

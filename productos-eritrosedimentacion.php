@@ -119,7 +119,26 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Eritrosedimentación.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: VISION Pro -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/vision-pro.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="VISION Pro - Analizador de ESR automático">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">VISION Pro</h5>
+                        <p class="card-text">
+                            Analizador de eritrosedimentación (ESR) automático para diagnóstico clínico, con procesamiento por lotes y STAT, y resultados rápidos y precisos.
+                        </p>
+                        <ul>
+                            <li>Uso de tubos EDTA primarios</li>
+                            <li>Modo de prueba por lotes y STAT</li>
+                            <li>Resultados en 20 minutos con excelente correlación Westergren</li>
+                            <li>Pantalla táctil LCD, lector de códigos de barras e impresora térmica</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20VISION%20Pro" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Eritrosedimentación -->
         </div>
     </div>
     <!-- Productos Section End -->

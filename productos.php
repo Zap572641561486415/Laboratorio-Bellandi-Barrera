@@ -149,19 +149,19 @@
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-droplet-half text-dark"></i>
                         </div>
                         <h5 class="mb-3">Hemostasia</h5>
-                        <div class="d-flex flex-column gap-2">
-                            <a href="productos-hemostasia-semiautomatico.php" class="btn btn-primary">Semiautomático</a>
-                            <a href="productos-hemostasia-automatico.php" class="btn btn-primary">Automático</a>
+                        <div class="d-flex flex-column gap-2 mt-auto">
+                            <a href="productos-hemostasia-semiautomatico.php" class="btn btn-primary mt-auto">Semiautomático</a>
+                            <a href="productos-hemostasia-automatico.php" class="btn btn-primary mt-auto">Automático</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-droplet text-dark"></i>
                         </div>
@@ -173,16 +173,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-beaker text-dark"></i>
                         </div>
                         <h5 class="mb-3">Química</h5>
-                        <a href="productos-quimica.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-quimica.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-shield-check text-dark"></i>
                         </div>
@@ -191,7 +191,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-beaker text-dark"></i>
                         </div>
@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-wind text-dark"></i>
                         </div>
@@ -209,16 +209,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-lightning-charge text-dark"></i>
                         </div>
                         <h5 class="mb-3">Electrolitos</h5>
-                        <a href="productos-electrolitos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-electrolitos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-droplet-fill text-dark"></i>
                         </div>
@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-cup-straw text-dark"></i>
                         </div>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-bug text-dark"></i>
                         </div>
@@ -245,7 +245,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-virus text-dark"></i>
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-box-seam text-dark"></i>
                         </div>

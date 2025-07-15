@@ -119,7 +119,46 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Hematología 3 diferencial.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: H360 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/h360.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="H360 - Analizador hematológico de 3 partes">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">H360</h5>
+                        <p class="card-text">
+                            Analizador hematológico compacto de 3 partes, ideal para laboratorios que buscan eficiencia y precisión en el recuento y diferenciación de células sanguíneas.
+                        </p>
+                        <ul>
+                            <li>Diferencial de glóbulos blancos de 3 partes</li>
+                            <li>Procesamiento eficiente de muestras</li>
+                            <li>Fácil operación y mantenimiento</li>
+                            <li>Resultados confiables y rápidos</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H360" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: ADVIA 360 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/advia-360.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="ADVIA 360 - Analizador de hematología">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ADVIA 360</h5>
+                        <p class="card-text">
+                            Analizador de hematología compacto y eficiente, diseñado para entornos de bajo volumen y resultados confiables.
+                        </p>
+                        <ul>
+                            <li>Procesa hasta 60 muestras por hora</li>
+                            <li>Volumen de aspiración tan bajo como 100 μL</li>
+                            <li>Mide 22 parámetros, incluyendo diferencial de glóbulos blancos de 3 partes</li>
+                            <li>Pantalla táctil a color y software intuitivo</li>
+                            <li>Almacena hasta 10,000 resultados y soporta comunicación bidireccional con LIS</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20360" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Hematología 3 diferencial -->
         </div>
     </div>
     <!-- Productos Section End -->

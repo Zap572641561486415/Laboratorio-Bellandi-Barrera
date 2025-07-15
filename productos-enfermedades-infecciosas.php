@@ -118,9 +118,63 @@ session_start();
             <h2 class="display-6">Productos de Enfermedades Infecciosas</h2>
             <p class="lead">Aquí podrás encontrar todos los productos de Enfermedades Infecciosas.</p>
         </div>
-        <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
-        </div>
+        <div class="row">
+
+  <!-- Card 1: Pima CD4 -->
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 shadow rounded">
+      <img src="img/pima-cd4.jpg" class="card-img-top" alt="Pima CD4" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; border-radius: .5rem .5rem 0 0;">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Pima™ CD4</h5>
+        <p class="card-text">
+          <strong>Recuento de linfocitos CD4 en 20 minutos</strong><br>
+          Rápido: Resultados en 20 minutos.<br>
+          Fácil de usar: Solo requiere una pequeña muestra de sangre.<br>
+          Conveniente: Cartuchos desechables, sin transferencias de muestra.<br>
+          Versátil: Uso en punto de atención o laboratorio.
+        </p>
+        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Pima%20CD4%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2: m-PIMA Analyser -->
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 shadow rounded">
+      <img src="img/mpima-analyser.jpg" class="card-img-top" alt="m-PIMA Analyser" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; border-radius: .5rem .5rem 0 0;">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">m-PIMA™ Analyser</h5>
+        <p class="card-text">
+          <strong>Plataforma molecular automatizada</strong><br>
+          Resultados en minutos para decisiones rápidas.<br>
+          Ideal para diagnóstico temprano y carga viral de VIH.<br>
+          Resultados de carga viral en menos de 70 minutos.<br>
+          Portátil y útil en entornos descentralizados.
+        </p>
+        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20m-PIMA%20Analyser%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3: ID NOW -->
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 shadow rounded">
+      <img src="img/id-now.jpg" class="card-img-top" alt="ID NOW" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; border-radius: .5rem .5rem 0 0;">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">ID NOW™</h5>
+        <p class="card-text">
+          <strong>Detección rápida de enfermedades infecciosas</strong><br>
+          Resultados en 2-13 minutos.<br>
+          Detecta COVID-19, gripe A/B, VSR y estreptococo A.<br>
+          Fácil de usar, pantalla táctil.<br>
+          Portátil: Uso en cualquier entorno clínico.
+        </p>
+        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ID%20NOW%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
+      </div>
+    </div>
+  </div>
+
+</div>
     </div>
     <!-- Productos Section End -->
     <!-- Footer Start -->

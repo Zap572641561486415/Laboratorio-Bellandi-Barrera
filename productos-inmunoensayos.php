@@ -119,7 +119,45 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Inmunoensayos.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: IMMULITE 2000 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/immulite-2000.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="IMMULITE 2000 - Sistema de inmunoensayo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">IMMULITE 2000</h5>
+                        <p class="card-text">
+                            Sistema de inmunoensayo automatizado, ideal para laboratorios que buscan alta capacidad y precisión en pruebas de inmunoensayo.
+                        </p>
+                        <ul>
+                            <li>Procesamiento eficiente y automatizado</li>
+                            <li>Alta capacidad de pruebas por hora</li>
+                            <li>Interfaz intuitiva y fácil de usar</li>
+                            <li>Resultados confiables y reproducibles</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20IMMULITE%202000" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: ADVIA Centaur CP -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/advia-centaur-cp.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="ADVIA Centaur CP - Sistema de inmunoensayo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ADVIA Centaur CP</h5>
+                        <p class="card-text">
+                            Sistema de inmunoensayo compacto y versátil, diseñado para laboratorios que requieren flexibilidad y alto rendimiento en pruebas de inmunoensayo.
+                        </p>
+                        <ul>
+                            <li>Procesamiento rápido y eficiente</li>
+                            <li>Amplia variedad de pruebas disponibles</li>
+                            <li>Interfaz amigable y operación sencilla</li>
+                            <li>Resultados precisos y consistentes</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20Centaur%20CP" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Inmunoensayos -->
         </div>
     </div>
     <!-- Productos Section End -->

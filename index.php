@@ -130,22 +130,22 @@ session_start();
 
     <!-- Carousel Start -->
     <div class="container-fluid header-carousel px-0 mb-5">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="5000">
                     <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-lg-7 text-start">
-                                    <h1 class="display-1 text-white animated slideInRight mb-3">VISION: </p>
+                                    <h1 class="display-1 text-white animated slideInRight mb-3">VISION: </h1>
                                     <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Ser la empresa líder en los servicios que ofrecemos, manteniendo un nivel de exigencia y con procesos de mejora continua, superando constantemente las expectativas de nuestros clientes. </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="5000">
                     <img class="w-100" src="img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
@@ -382,19 +382,19 @@ session_start();
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-droplet-half text-dark"></i>
                         </div>
                         <h5 class="mb-3">Hemostasia</h5>
-                        <div class="d-flex flex-column gap-2">
-                            <a href="productos-hemostasia-semiautomatico.php" class="btn btn-primary">Semiautomático</a>
-                            <a href="productos-hemostasia-automatico.php" class="btn btn-primary">Automático</a>
+                        <div class="d-flex flex-column gap-2 mt-auto">
+                            <a href="productos-hemostasia-semiautomatico.php" class="btn btn-primary mt-auto">Semiautomático</a>
+                            <a href="productos-hemostasia-automatico.php" class="btn btn-primary mt-auto">Automático</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-droplet text-dark"></i>
                         </div>
@@ -406,16 +406,18 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-beaker text-dark"></i>
                         </div>
                         <h5 class="mb-3">Química</h5>
-                        <a href="productos-quimica.php" class="btn btn-primary">Ver productos</a>
+                        <div class="d-flex flex-column gap-2 mt-auto">
+                            <a href="productos-quimica.php" class="btn btn-primary mt-auto">Ver productos</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-shield-check text-dark"></i>
                         </div>
@@ -424,7 +426,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-beaker text-dark"></i>
                         </div>
@@ -433,7 +435,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-wind text-dark"></i>
                         </div>
@@ -442,7 +444,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-lightning-charge text-dark"></i>
                         </div>
@@ -451,7 +453,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-droplet-fill text-dark"></i>
                         </div>
@@ -460,7 +462,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-cup-straw text-dark"></i>
                         </div>
@@ -469,7 +471,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-bug text-dark"></i>
                         </div>
@@ -478,7 +480,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-virus text-dark"></i>
                         </div>
@@ -487,7 +489,7 @@ session_start();
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
-                    <div class="service-item">
+                    <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-box-seam text-dark"></i>
                         </div>
@@ -690,6 +692,16 @@ session_start();
                 });
             });
         });
+    </script>
+    <!-- Forzar inicialización del carrusel Bootstrap -->
+    <script>
+      var myCarousel = document.querySelector('#header-carousel');
+      if (myCarousel) {
+        var carousel = new bootstrap.Carousel(myCarousel, {
+          interval: 5000,
+          ride: 'carousel'
+        });
+      }
     </script>
 </body>
 

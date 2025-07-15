@@ -120,9 +120,9 @@ session_start();
         </div>
         <div class="row g-4" id="productos-lista">
             <!-- Producto: ECL 760 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow rounded-4 border-0">
-                    <img src="img/ecl-760.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="ECL 760 - Analizador automatizado de coagulación">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/ecl-760.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="ECL 760 - Analizador automatizado de coagulación">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ECL 760</h5>
                         <p class="card-text">
@@ -141,9 +141,9 @@ session_start();
                 </div>
             </div>
             <!-- Producto: Sysmex CA-660 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow rounded-4 border-0">
-                    <img src="img/sysmex-ca-660.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="Sysmex CA-660 - Analizador de coagulación automático">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/sysmex-ca-660.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="Sysmex CA-660 - Analizador de coagulación automático">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Sysmex CA-660</h5>
                         <p class="card-text">
@@ -160,9 +160,9 @@ session_start();
                 </div>
             </div>
             <!-- Producto: Sysmex CS-2500 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow rounded-4 border-0">
-                    <img src="img/sysmex-cs-2500.jpg" class="card-img-top object-fit-cover" style="height: 220px; width: 100%; object-fit: cover;" alt="Sysmex CS-2500 - Analizador de coagulación automático">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/sysmex-cs-2500.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="Sysmex CS-2500 - Analizador de coagulación automático">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Sysmex CS-2500</h5>
                         <p class="card-text">

@@ -119,7 +119,45 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Orinas.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: LAURA -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/laura.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="LAURA - Analizador semiautomático de tiras de orina">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">LAURA</h5>
+                        <p class="card-text">
+                            Analizador semiautomático de tiras de orina, ideal para laboratorios pequeños y medianos que buscan eficiencia y precisión.
+                        </p>
+                        <ul>
+                            <li>Incluye detección de microalbuminuria</li>
+                            <li>Impresora integrada</li>
+                            <li>400 tests por hora</li>
+                            <li>Dimensiones: 300 x 287 x 148 mm, 3,2 kg</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20LAURA" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: LAURA XL -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/laura-xl.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="LAURA XL - Analizador de orina automatizado">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">LAURA XL</h5>
+                        <p class="card-text">
+                            Analizador de orina automatizado, con tecnología avanzada para resultados precisos y rápidos en laboratorios modernos.
+                        </p>
+                        <ul>
+                            <li>Utiliza menos de 1 ml de muestra</li>
+                            <li>Lector de código de barras</li>
+                            <li>Modo de análisis híbrido</li>
+                            <li>Visualización de eritrocitos dismórficos</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20LAURA%20XL" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Orinas -->
         </div>
     </div>
     <!-- Productos Section End -->

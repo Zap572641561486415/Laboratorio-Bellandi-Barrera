@@ -119,7 +119,26 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Electrolitos.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: EC 90 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/ec-90.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="EC 90 - Analizador de electrolitos de última generación">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">EC 90</h5>
+                        <p class="card-text">
+                            Analizador de electrolitos de última generación, ideal para laboratorios pequeños y medianos que buscan eficiencia y precisión.
+                        </p>
+                        <ul>
+                            <li>Procesa hasta 90 muestras por hora</li>
+                            <li>Almacena hasta 1000 muestras</li>
+                            <li>Tiempo de análisis: 35 segundos</li>
+                            <li>Calibraciones automáticas de 1 y 2 puntos</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20EC%2090" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Electrolitos -->
         </div>
     </div>
     <!-- Productos Section End -->

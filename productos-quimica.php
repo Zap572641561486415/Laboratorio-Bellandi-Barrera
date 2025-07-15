@@ -119,7 +119,64 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Química.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: XL 200 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/xl-200.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="XL 200 - Analizador de química clínica">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">XL 200</h5>
+                        <p class="card-text">
+                            Analizador de química clínica compacto y eficiente, ideal para laboratorios que buscan resultados confiables y rápidos.
+                        </p>
+                        <ul>
+                            <li>Permite realizar 200 tests fotométricos por hora</li>
+                            <li>Módulo avanzado de control de calidad</li>
+                            <li>Fácil operación y mantenimiento</li>
+                            <li>Resultados precisos y consistentes</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%20200" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: XL 640 Plus -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/xl-640.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="XL 640 Plus - Analizador de química clínica">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">XL 640 Plus</h5>
+                        <p class="card-text">
+                            Analizador de química clínica de alta productividad, diseñado para laboratorios que requieren resultados de calidad con la mayor sensibilidad y linealidad.
+                        </p>
+                        <ul>
+                            <li>Mayor productividad y tiempo de entrega</li>
+                            <li>Resultados de calidad con alta sensibilidad</li>
+                            <li>Fácil integración en el flujo de trabajo del laboratorio</li>
+                            <li>Operación intuitiva y mantenimiento sencillo</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%20640%20Plus" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: XL 1000 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/xl-1000.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="XL 1000 - Analizador de química clínica">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">XL 1000</h5>
+                        <p class="card-text">
+                            Solución fiable y eficiente para laboratorios medianos y grandes, con tecnología avanzada para resultados óptimos.
+                        </p>
+                        <ul>
+                            <li>Alta capacidad de procesamiento</li>
+                            <li>Resultados precisos y reproducibles</li>
+                            <li>Interfaz amigable y fácil de usar</li>
+                            <li>Ideal para laboratorios de alto volumen</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%201000" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Química -->
         </div>
     </div>
     <!-- Productos Section End -->

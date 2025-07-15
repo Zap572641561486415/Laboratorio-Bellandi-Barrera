@@ -119,7 +119,61 @@ session_start();
             <p class="lead">Aquí podrás encontrar todos los productos de Gases en Sangre.</p>
         </div>
         <div class="row g-4" id="productos-lista">
-            <!-- Aquí puedes agregar tus productos en formato cards modernos -->
+            <!-- Producto: RAPIDPoint 500 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/rapidpoint-500.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="RAPIDPoint 500 - Analizador de gases en sangre">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">RAPIDPoint 500</h5>
+                        <p class="card-text">
+                            Sistema de análisis de gases en sangre para entornos de atención crítica, con resultados rápidos y precisos.
+                        </p>
+                        <ul>
+                            <li>Resultados completos en aproximadamente 60 segundos</li>
+                            <li>Analiza sangre arterial, venosa, fluidos pleurales y dializados</li>
+                            <li>Sistema de cartuchos sin mantenimiento y control de calidad automático</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20RAPIDPoint%20500" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: epoc® -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/epoc.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="epoc - Analizador de sangre portátil">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">epoc®</h5>
+                        <p class="card-text">
+                            Sistema inalámbrico de mano para análisis exhaustivo de sangre al lado del paciente, con resultados en menos de un minuto.
+                        </p>
+                        <ul>
+                            <li>Tarjeta de prueba almacenada a temperatura ambiente</li>
+                            <li>Resultados rápidos y precisos</li>
+                            <li>Ideal para uso en el punto de atención</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20epoc" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: i-SmartCare 10 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/i-smartcare-10.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="i-SmartCare 10 - Analizador de gases en sangre">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">i-SmartCare 10</h5>
+                        <p class="card-text">
+                            Analizador de gases y medio interno, con lector de código de barras integrado y medición de múltiples parámetros en una sola muestra.
+                        </p>
+                        <ul>
+                            <li>Mide gases en sangre, iones, lactato, glucosa y hematocrito</li>
+                            <li>Bajo mantenimiento con sensores electroquímicos</li>
+                            <li>Cartuchos disponibles en varias presentaciones</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20i-SmartCare%2010" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin productos Gases en Sangre -->
         </div>
     </div>
     <!-- Productos Section End -->

@@ -118,6 +118,45 @@ session_start();
             <h2 class="display-6">Productos de Biología Molecular</h2>
             <p class="lead">Aquí podrás encontrar todos los productos de Biología Molecular.</p>
         </div>
+        <div class="row">
+
+  <!-- Card 1: GenePure Pro -->
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 shadow rounded">
+      <img src="img/genepure-pro.jpg" class="card-img-top" alt="GenePure Pro" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; border-radius: .5rem .5rem 0 0;">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">GenePure Pro</h5>
+        <p class="card-text">
+          <strong>Sistema de purificación de ácido nucleico</strong><br>
+          Automatización mediante tecnología de beads magnéticas.<br>
+          Procesa de 1 a 32 muestras simultáneamente.<br>
+          Configuración abierta para distintos protocolos.<br>
+          <span class="text-muted" style="font-size:0.95em;">Solución óptima para laboratorios pequeños y medianos.</span>
+        </p>
+        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20GenePure%20Pro%20-%20Biología%20Molecular" class="btn btn-primary mt-auto align-self-start">+ Información</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2: QuantGene 9600 -->
+  <div class="col-md-6 mb-4">
+    <div class="card h-100 shadow rounded">
+      <img src="img/quantgene-9600.jpg" class="card-img-top" alt="QuantGene 9600" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; border-radius: .5rem .5rem 0 0;">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">QuantGene 9600</h5>
+        <p class="card-text">
+          <strong>Termociclador Real-Time PCR</strong><br>
+          5 canales de detección (FAM, VIC, ROX, Cy5, Cy5.5).<br>
+          Bloque para 96 tubos de 0,2 ml o placas PCR.<br>
+          Pantalla táctil intuitiva.<br>
+          <span class="text-muted" style="font-size:0.95em;">Ideal para laboratorios pequeños y medianos.</span>
+        </p>
+        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20QuantGene%209600%20-%20Biología%20Molecular" class="btn btn-primary mt-auto align-self-start">+ Información</a>
+      </div>
+    </div>
+  </div>
+
+</div>
         <div class="row g-4" id="productos-lista">
             <!-- Aquí puedes agregar tus productos en formato cards modernos -->
         </div>
