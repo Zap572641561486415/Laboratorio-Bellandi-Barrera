@@ -102,7 +102,6 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="contact.php" class="dropdown-item">Contacto</a>
                                 <a href="dorignaccorp.php" class="dropdown-item">DorignacCorp</a>
                             </div>
                         </div>
@@ -208,6 +207,39 @@
         </div>
     </div>
     <!-- Features End -->
+
+    <!-- Mini Formulario de Contacto DorignacCorp Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card shadow border-0">
+                        <div class="card-body">
+                            <h4 class="mb-4 text-center">Contacto por Indumentaria DorignacCorp</h4>
+                            <form action="send_email_dorignac.php" method="POST">
+                                <div class="mb-3">
+                                    <label for="nombre-dorignac" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre-dorignac" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email-dorignac" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email-dorignac" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensaje-dorignac" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="mensaje-dorignac" name="message" rows="4" required></textarea>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mini Formulario de Contacto DorignacCorp End -->
 
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">

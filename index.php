@@ -109,7 +109,6 @@ session_start();
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="contact.php" class="dropdown-item">Contacto</a>
                                 <a href="dorignaccorp.php" class="dropdown-item">DorignacCorp</a>
                             </div>
                         </div>

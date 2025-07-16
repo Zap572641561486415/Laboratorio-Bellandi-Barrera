@@ -107,7 +107,6 @@
                             <div class="dropdown-menu bg-light m-0">
                                 <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
                                 <a href="testimonial.php" class="dropdown-item">Testimonios</a>
-                                <a href="contact.php" class="dropdown-item">Contacto</a>
                                 <a href="404.php" class="dropdown-item">Página 404</a>
                             </div>
                         </div>
