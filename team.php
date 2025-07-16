@@ -105,7 +105,6 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="feature.php" class="dropdown-item">Características</a>
                                 <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
                                 <a href="testimonial.php" class="dropdown-item">Testimonios</a>
                                 <a href="contact.php" class="dropdown-item">Contacto</a>
