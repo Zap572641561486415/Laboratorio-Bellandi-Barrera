@@ -116,7 +116,6 @@ session_start();
     <div class="container py-5">
         <div class="text-center mb-5">
             <h2 class="display-6">Productos de Hematología 3 diferencial</h2>
-            <p class="lead">Aquí podrás encontrar todos los productos de Hematología 3 diferencial.</p>
         </div>
         <div class="row g-4" id="productos-lista">
             <!-- Producto: H360 -->

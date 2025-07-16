@@ -145,7 +145,7 @@
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Producto de Laboratorio Confiable y de Alta Calidad</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                <p class="mb-5">En Laboratorio Bellandi & Barreras ofrecemos una amplia gama de productos de laboratorio clínico y veterinario, garantizando calidad, innovación y el respaldo de marcas líderes para satisfacer las necesidades de cada profesional de la salud.</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

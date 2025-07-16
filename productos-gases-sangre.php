@@ -116,7 +116,6 @@ session_start();
     <div class="container py-5">
         <div class="text-center mb-5">
             <h2 class="display-6">Productos de Gases en Sangre</h2>
-            <p class="lead">Aquí podrás encontrar todos los productos de Gases en Sangre.</p>
         </div>
         <div class="row g-4" id="productos-lista">
             <!-- Producto: RAPIDPoint 500 -->

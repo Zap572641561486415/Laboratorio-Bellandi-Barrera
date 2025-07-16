@@ -116,7 +116,6 @@ session_start();
     <div class="container py-5">
         <div class="text-center mb-5">
             <h2 class="display-6">Productos de Insumos Plásticos</h2>
-            <p class="lead">Aquí podrás encontrar todos los productos de Insumos Plásticos.</p>
         </div>
         <div class="row g-4" id="productos-lista">
             <!-- Aquí puedes agregar tus productos en formato cards modernos -->

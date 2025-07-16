@@ -116,7 +116,6 @@ session_start();
     <div class="container py-5">
         <div class="text-center mb-5">
             <h2 class="display-6">Productos de Biología Molecular</h2>
-            <p class="lead">Aquí podrás encontrar todos los productos de Biología Molecular.</p>
         </div>
         <div class="row">
 
