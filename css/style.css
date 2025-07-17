@@ -34,9 +34,28 @@
     font-weight: 500;
 }
 
-.btn-primary,
-.btn-outline-primary:hover {
-    color: var(--bs-light);
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--bs-primary-dark) !important;
+  border-color: var(--bs-primary-dark) !important;
+  color: #fff !important;
+}
+
+.btn-outline-primary {
+  color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+  background-color: var(--bs-primary-light) !important;
+  border-color: var(--bs-primary-dark) !important;
+  color: #fff !important;
 }
 
 .btn-secondary,
@@ -278,12 +297,33 @@
     width: 220px;
     height: 220px;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    color: #fff !important;
+    border: 2px solid rgba(0,0,0,0.07);
 }
 
 @media (min-width: 576px) {
     .about-fact.mt-n130 {
         margin-top: -130px;
     }
+}
+
+.about-fact.bg-secondary {
+  background: #3bb3dd !important; /* azul medio, menos chillón */
+}
+/* Para 'Años de Experiencia', forzar el color igual al de Premios Ganados */
+.about-fact .display-1.text-white.mb-0[data-toggle="counter-up"] {
+  color: #fff !important;
+}
+.about-fact.bg-primary, .about-fact .display-1.text-white.mb-0[data-toggle="counter-up"] {
+  background: var(--bs-primary) !important;
+}
+
+.about-fact.bg-dark {
+  background: #17445e !important; /* azul oscuro, pero no negro */
+}
+
+.bg-primary.w-100.h-100.mt-n5.ms-n5.d-flex.flex-column.align-items-center.justify-content-center {
+  background: var(--bs-primary) !important;
 }
 
 .btn-play {
