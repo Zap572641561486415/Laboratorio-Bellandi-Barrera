@@ -204,13 +204,13 @@ session_start();
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
                                 <p class="text-white mb-0">Premios Ganados</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">10</h1>
                             </div>
                         </div>
                         <div class="col-sm-6 text-start">
                             <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
-                                <p class="text-white mb-0">Complete Cases</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
+                                <p class="text-white mb-0">Casos Completados</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">200</h1>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -237,7 +237,7 @@ session_start();
                             <i class="bi bi-award text-dark"></i>
                         </div>
                         <h5 class="mb-3">Premios Ganados</h5>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <p class="mb-0">Reconocidos por nuestra excelencia y compromiso en el sector de la salud.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
@@ -246,7 +246,7 @@ session_start();
                             <i class="bi bi-people text-dark"></i>
                         </div>
                         <h5 class="mb-3">Doctores Expertos</h5>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <p class="mb-0">Contamos con un equipo profesional altamente capacitado y en constante formación.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
@@ -255,7 +255,7 @@ session_start();
                             <i class="bi bi-cash-coin text-dark"></i>
                         </div>
                         <h5 class="mb-3">Precios Justos</h5>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <p class="mb-0">Ofrecemos soluciones accesibles sin comprometer la calidad de nuestros productos.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
@@ -264,7 +264,7 @@ session_start();
                             <i class="bi bi-headphones text-dark"></i>
                         </div>
                         <h5 class="mb-3">Soporte 24/7</h5>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                        <p class="mb-0">Brindamos asistencia personalizada y continua para resolver todas tus consultas.</p>
                     </div>
                 </div>
             </div>
@@ -280,21 +280,21 @@ session_start();
                 <div class="col-lg-6 pt-lg-5">
                     <div class="bg-white p-5 mt-lg-5">
                         <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">La Mejor Solución en Pruebas Médicas y Laboratorio</h1>
-                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Somos líderes en ofrecer tecnología de vanguardia y servicios personalizados para garantizar resultados precisos y confiables en cada análisis.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-person-plus text-dark"></i>
                                 </div>
                                 <h5 class="mb-3">Microscopía Avanzada</h5>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                <span>Utilizamos equipos de última generación para obtener imágenes detalladas y diagnósticos precisos.</span>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-check-all text-dark"></i>
                                 </div>
                                 <h5 class="mb-3">Advanced Microscopy</h5>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                <span>We use state-of-the-art equipment to deliver detailed images and accurate diagnostics.</span>
                             </div>
                         </div>
                         <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.5s" href="">Explore More</a>
@@ -376,7 +376,7 @@ session_start();
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Producto de Laboratorio Confiable y de Alta Calidad</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                <p class="mb-5">Ofrecemos productos de laboratorio confiables y de alta calidad, pensados para cubrir todas las necesidades de nuestros clientes.</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

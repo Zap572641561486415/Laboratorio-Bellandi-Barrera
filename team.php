@@ -152,8 +152,8 @@
                     <p class="mb-1">CEO & Fundador</p>
                     <p class="mb-5">Laboratorio Bellandi & Barreras, Mendoza, Argentina</p>
                     <h3 class="mb-3">Biografía</h3>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                    <p class="mb-4">Nuestro equipo está conformado por profesionales apasionados y comprometidos con la excelencia en cada área.</p>
+                    <p class="mb-4">Trabajamos juntos para brindar soluciones innovadoras y un servicio de calidad a nuestros clientes.</p>
                     <div class="d-flex">
                         <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>

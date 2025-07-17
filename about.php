@@ -172,7 +172,7 @@
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
                                 <p class="text-white mb-0">Premios Ganados</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">10</h1>
                             </div>
                         </div>
                         <div class="col-sm-6 text-start">
@@ -202,21 +202,21 @@
                 <div class="col-lg-6 pt-lg-5">
                     <div class="bg-white p-5 mt-lg-5">
                         <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">La Mejor Solución en Pruebas Médicas y Laboratorio</h1>
-                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Nuestra empresa se destaca por su compromiso con la innovación y la excelencia en el sector de la salud, brindando soluciones integrales y personalizadas.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-person-plus text-dark"></i>
                                 </div>
                                 <h5 class="mb-3">Doctores Expertos</h5>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p class="mb-0">Nuestro equipo está conformado por profesionales con amplia experiencia y dedicación.</p>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-check-all text-dark"></i>
                                 </div>
                                 <h5 class="mb-3">Microscopía Avanzada</h5>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p class="mb-0">Trabajamos con tecnología avanzada para garantizar resultados precisos y confiables.</p>
                             </div>
                         </div>
                         <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.5s" href="">Explore More</a>
