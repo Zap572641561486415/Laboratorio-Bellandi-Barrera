@@ -663,7 +663,7 @@
 
 @media (max-width: 991.98px) {
   .logo-img {
-    height: 60px !important;
+    height: 260px;
     max-width: 100%;
     object-fit: contain;
     display: block;
