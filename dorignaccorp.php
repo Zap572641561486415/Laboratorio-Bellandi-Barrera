@@ -102,7 +102,7 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                             <div class="dropdown-menu bg-light m-0">
-                                <a href="dorignaccorp.php" class="dropdown-item">DorignacCorp</a>
+                                <a href="dorignaccorp.php" class="dropdown-item">Dorignac</a>
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
