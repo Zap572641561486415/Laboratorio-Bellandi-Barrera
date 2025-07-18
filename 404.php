@@ -62,22 +62,22 @@
 
 
     <!-- Brand Start -->
-    <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 100%);">
+    <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex">
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Llamanos</h5>
-                        <span class="text-dark">+54 261 422-2428</span>
+                        <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
                 <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -20px 0;"></a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
-                        <h5 class="text-dark mb-0">Mail Now</h5>
-                        <span class="text-dark">info@example.com</span>
+                        <h5 class="text-dark mb-0">Envíanos un correo</h5>
+                        <a href="mailto:contacto@lbybsrl.com" class="text-dark">contacto@lbybsrl.com</a>
                     </div>
                 </div>
             </div>

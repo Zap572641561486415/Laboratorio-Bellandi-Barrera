@@ -65,8 +65,8 @@ session_start();
     <!-- Brand End -->
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+            <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
                 </a>
@@ -92,8 +92,8 @@ session_start();
                         <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
     <!-- Navbar End -->
     <!-- Page Header Start -->
