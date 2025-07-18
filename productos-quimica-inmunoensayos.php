@@ -51,7 +51,7 @@ session_start();
                         <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
-                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 150px; object-fit: contain; margin: -20px 0;"></a>
+                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -20px 0;"></a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
@@ -68,7 +68,7 @@ session_start();
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
                 <a href="index.php" class="navbar-brand d-lg-none">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
+                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -115,6 +115,7 @@ session_start();
         <div class="text-center mb-5">
             <h2 class="display-6">Productos de Química e Inmunoensayos</h2>
         </div>
+        <a href="#" class="btn btn-secondary mb-3" onclick="history.back(); return false;"><i class="bi bi-arrow-left"></i> Volver</a>
         <div class="row g-4" id="productos-lista">
             <!-- Producto: Dimension EXL LM -->
             <div class="col-md-6 mb-4">
@@ -159,13 +160,14 @@ session_start();
         </div>
     </div>
     <!-- Productos Section End -->
+    <a href="#" class="btn btn-secondary mt-4" onclick="history.back(); return false;"><i class="bi bi-arrow-left"></i> Volver</a>
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
             <div class="row g-5 py-5">
                 <div class="col-lg-6 pe-lg-5">
                     <a href="index.php" class="navbar-brand">
-                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" style="height: 80px; object-fit: contain;">
+                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
                     </a>
                     <p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>

@@ -308,7 +308,7 @@
 }
 
 .about-fact.bg-secondary {
-  background: #3bb3dd !important; /* azul medio, menos chillón */
+  background: #014478 !important; /* azul corporativo */
 }
 /* Para 'Años de Experiencia', forzar el color igual al de Premios Ganados */
 .about-fact .display-1.text-white.mb-0[data-toggle="counter-up"] {
@@ -319,7 +319,7 @@
 }
 
 .about-fact.bg-dark {
-  background: #17445e !important; /* azul oscuro, pero no negro */
+  background: #014478 !important; /* azul corporativo */
 }
 
 .bg-primary.w-100.h-100.mt-n5.ms-n5.d-flex.flex-column.align-items-center.justify-content-center {
@@ -644,4 +644,20 @@
 
 .copyright a:hover {
     color: var(--bs-primary);
+}
+
+/* Logo global styles */
+.logo-img {
+  height: 300px;
+  object-fit: contain;
+}
+
+@media (max-width: 991.98px) {
+  .logo-img {
+    height: 180px;
+  }
+}
+
+.footer .logo-img {
+  height: 180px;
 }
