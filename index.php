@@ -66,7 +66,7 @@ session_start();
 
 
     <!-- Brand Start -->
-    <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
+    <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="d-flex">
@@ -92,8 +92,8 @@ session_start();
 
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+            <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
                 </a>
@@ -108,7 +108,7 @@ session_start();
                         <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
-                            <div class="dropdown-menu bg-light m-0">
+                            <div class="dropdown-menu m-0">
                                 <a href="dorignaccorp.php" class="dropdown-item">Dorignac</a>
                             </div>
                         </div>
@@ -120,8 +120,8 @@ session_start();
                         <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
     <!-- Navbar End -->
 

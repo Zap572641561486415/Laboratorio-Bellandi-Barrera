@@ -104,7 +104,7 @@
                         <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
-                            <div class="dropdown-menu bg-light m-0">
+                            <div class="dropdown-menu m-0">
                                 <a href="team.php" class="dropdown-item">Nuestro Equipo</a>
                                 <a href="testimonial.php" class="dropdown-item">Testimonios</a>
                                 <a href="404.php" class="dropdown-item">Página 404</a>

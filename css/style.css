@@ -131,12 +131,17 @@
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
-    padding: 20px 0;
+    margin-right: 18px;
+    padding: 20px 18px 20px 0;
     color: var(--bs-dark);
     font-size: 18px;
     font-weight: 500;
     outline: none;
+    border-right: 1px dotted #b0b0b0;
+    box-shadow: none;
+}
+.navbar .navbar-nav .nav-link:last-child {
+    border-right: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -660,4 +665,54 @@
 
 .footer .logo-img {
   height: 180px;
+}
+
+/* Fondo sutil y moderno para el navbar */
+.navbar.bg-white {
+  background-color: rgba(1, 68, 120, 0.8) !important;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 2px 12px 0 rgba(1, 68, 120, 0.04);
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 56px;
+}
+
+.navbar.bg-white .dropdown-menu {
+  background-color: rgba(1, 68, 120, 0.8) !important;
+  color: #fff;
+  border: none;
+  box-shadow: none !important;
+}
+
+.navbar.bg-white .dropdown-menu::before {
+  display: none !important;
+}
+
+.navbar.bg-white .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+
+.navbar.bg-white .dropdown-menu .dropdown-item:hover,
+.navbar.bg-white .dropdown-menu .dropdown-item:focus,
+.navbar.bg-white .dropdown-menu .dropdown-item.active {
+  background-color: rgba(1, 68, 120, 1) !important;
+  color: #fff !important;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 56px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid.text-white.pt-4.pb-5.d-none.d-lg-flex,
+  .container-fluid.text-white.pt-4.pb-2.d-none.d-lg-flex {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .navbar {
+    margin-top: 0 !important;
+    top: 0 !important;
+  }
 }
