@@ -72,7 +72,10 @@
                         <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
-                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -20px 0;"></a>
+                <a href="index.php" class="h1 text-white mb-0">
+                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block" style="margin: -20px 0;">
+                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none" style="margin: -20px 0;">
+                </a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
@@ -166,7 +169,8 @@
             <div class="row g-5 py-5">
                 <div class="col-lg-6 pe-lg-5">
                     <a href="index.php" class="navbar-brand">
-                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
+                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
+                        <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none">
                     </a>
                     <p class="fs-5 mb-4">La página que buscas no existe o ha sido movida. Por favor, verifica la dirección o vuelve al inicio.</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>

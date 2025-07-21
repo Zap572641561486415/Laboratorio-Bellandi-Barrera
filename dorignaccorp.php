@@ -70,7 +70,10 @@
                         <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
-                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -20px 0;"></a>
+                <a href="index.php" class="h1 text-white mb-0">
+                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block" style="margin: -20px 0;">
+                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none" style="margin: -20px 0;">
+                </a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
@@ -88,7 +91,8 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
+                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
+                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>

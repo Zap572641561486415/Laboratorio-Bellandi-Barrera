@@ -3,7 +3,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
         <div class="container">
             <a href="index.php" class="navbar-brand d-lg-none">
-                <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
+                <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
+                <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none">
             </a>
             <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
