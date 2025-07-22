@@ -13,8 +13,11 @@ session_start();
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -232,7 +235,7 @@ session_start();
 
 
     <!-- Features Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid feature mt-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row g-0 feature-row">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
@@ -278,7 +281,7 @@ session_start();
 
 
     <!-- Features Start -->
-    <div class="container-fluid feature mt-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-5">
         <div class="container">
             <div class="row g-0">
                 <div class="col-lg-6 pt-lg-5">
