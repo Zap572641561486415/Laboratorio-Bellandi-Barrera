@@ -18,6 +18,7 @@
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
@@ -153,11 +154,11 @@
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
                             <i class="bi bi-droplet-half text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Hemostasia</h5>
-                        <div class="d-flex flex-column gap-2 mt-auto">
+                        <h5 class="mb-3 text-center flex-shrink-0">Hemostasia</h5>
+                        <div class="d-flex gap-2 mt-auto justify-content-center flex-wrap">
                             <a href="productos-hemostasia-semiautomatico.php" class="btn btn-primary mt-auto">Semiautomático</a>
                             <a href="productos-hemostasia-automatico.php" class="btn btn-primary mt-auto">Automático</a>
                         </div>
@@ -165,11 +166,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-droplet text-dark"></i>
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
+                            <i class="fa-solid fa-vial text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Hematología</h5>
-                        <div class="d-flex flex-column gap-2">
+                        <h5 class="mb-3 text-center flex-shrink-0">Hematología</h5>
+                        <div class="d-flex gap-2 mt-auto justify-content-center flex-wrap">
                             <a href="productos-hematologia-3diferencial.php" class="btn btn-primary">3 Diferencial</a>
                             <a href="productos-hematologia-5diferencial.php" class="btn btn-primary">5 Diferencial</a>
                         </div>
@@ -177,91 +178,91 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-beaker text-dark"></i>
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
+                            <i class="fa-solid fa-atom text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Química</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Química</h5>
                         <a href="productos-quimica.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-shield-check text-dark"></i>
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
+                            <i class="fa-solid fa-shield-virus text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Inmunoensayos</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Inmunoensayos</h5>
                         <a href="productos-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-beaker text-dark"></i>
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
+                            <i class="bi bi-shield-check text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Química e Inmunoensayos</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Química e Inmunoensayos</h5>
                         <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
                             <i class="bi bi-wind text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Gases en Sangre</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Gases en Sangre</h5>
                         <a href="productos-gases-sangre.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
                             <i class="bi bi-lightning-charge text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Electrolitos</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Electrolitos</h5>
                         <a href="productos-electrolitos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
                             <i class="bi bi-droplet-fill text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Eritrosedimentación</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Eritrosedimentación</h5>
                         <a href="productos-eritrosedimentacion.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
                             <i class="bi bi-cup text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Orinas</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Orinas</h5>
                         <a href="productos-orinas.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
-                            <i class="bi bi-bug text-dark"></i>
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
+                            <i class="fa-solid fa-dna text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Biología Molecular</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Biología Molecular</h5>
                         <a href="productos-biologia-molecular.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
                             <i class="bi bi-virus text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Enfermedades Infecciosas</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Enfermedades Infecciosas</h5>
                         <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
                     <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4">
+                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
                             <i class="bi bi-box-seam text-dark"></i>
                         </div>
-                        <h5 class="mb-3">Insumos Plásticos</h5>
+                        <h5 class="mb-3 text-center flex-shrink-0">Insumos Plásticos</h5>
                         <a href="productos-insumos-plasticos.php" class="btn btn-primary">Ver productos</a>
                     </div>
                 </div>
