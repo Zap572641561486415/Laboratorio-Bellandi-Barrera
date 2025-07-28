@@ -185,13 +185,13 @@
                         </div>
                         <div class="col-sm-6 text-start">
                             <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
-                                <p class="text-white mb-0">Casos Completos</p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
+                                <p class="text-white mb-0">Equipos Instalados</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">200</h1>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
-                                <p class="text-white mb-0">Clientes Felices</p>
+                                <p class="text-white mb-0">Clientes Satisfechos</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
@@ -206,71 +206,25 @@
     <!-- Features Start -->
     <div class="container-fluid feature my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
-            <div class="row g-0">
+            <div class="row g-0 align-items-center">
+                <div class="col-lg-6">
+                    <img src="img/atellica-ci.jpg" alt="Atellica CI Analyzer" class="img-fluid rounded shadow wow fadeIn" data-wow-delay="0.1s">
+                </div>
                 <div class="col-lg-6 pt-lg-5">
                     <div class="bg-white p-5 mt-lg-5">
-                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">La Mejor Solución en Pruebas Médicas y Laboratorio</h1>
-                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Nuestra empresa se destaca por su compromiso con la innovación y la excelencia en el sector de la salud, brindando soluciones integrales y personalizadas.</p>
-                        <div class="row g-5 pt-2 mb-5">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="icon-box-primary mb-4">
-                                    <i class="bi bi-person-plus text-dark"></i>
-                                </div>
-                                <h5 class="mb-3">Doctores Expertos</h5>
-                                <p class="mb-0">Nuestro equipo está conformado por profesionales con amplia experiencia y dedicación.</p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                                <div class="icon-box-primary mb-4">
-                                    <i class="bi bi-check-all text-dark"></i>
-                                </div>
-                                <h5 class="mb-3">Microscopía Avanzada</h5>
-                                <p class="mb-0">Trabajamos con tecnología avanzada para garantizar resultados precisos y confiables.</p>
-                            </div>
-                        </div>
-                        <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.5s" href="">Explore More</a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center justify-content-center" style="min-height: 300px;">
-                                <button type="button" class="btn-play" data-bs-toggle="modal"
-                                    data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                                    <span></span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="bg-primary p-5">
-                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Precios Justos</span>
-                                        <span class="text-white">90%</span>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.4s">
-                                    <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Soporte 24/7</span>
-                                        <span class="text-white">95%</span>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="experience mb-0 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="d-flex justify-content-between mb-2">
-                                        <span class="text-white">Equipos de Laboratorio</span>
-                                        <span class="text-white">90%</span>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">Novedad: Atellica CI Analyzer</h1>
+                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">
+                            Presentamos el <strong>Atellica CI Analyzer</strong>, la última innovación en diagnóstico clínico de Siemens Healthineers.
+                        </p>
+                        <ul class="mb-4 wow fadeIn" data-wow-delay="0.5s">
+                            <li>Integra química clínica e inmunoensayo en un solo equipo compacto.</li>
+                            <li>Procesa hasta <strong>1,120 pruebas por hora</strong> con máxima eficiencia.</li>
+                            <li>Automatización avanzada: calibración, control de calidad, clasificación, archivado, sellado y destaponado de muestras.</li>
+                            <li>Reduce el trabajo manual y el mantenimiento diario a menos de 5 minutos.</li>
+                            <li>Consistencia y estandarización en toda la red de laboratorios.</li>
+                            <li>Más de 200 ensayos disponibles para cubrir todas las necesidades clínicas.</li>
+                            <li>Diseño galardonado: German Design Award Gold 2023.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

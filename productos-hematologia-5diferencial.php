@@ -117,25 +117,6 @@ session_start();
         </div>
         <a href="#" class="btn btn-secondary mb-3" onclick="history.back(); return false;"><i class="bi bi-arrow-left"></i> Volver</a>
         <div class="row g-4" id="productos-lista">
-            <!-- Producto: H560 -->
-            <div class="col-md-6 mb-4">
-                <div class="card h-100 shadow rounded">
-                    <img src="img/h560.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="H560 - Analizador hematológico de 5 partes">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">H560</h5>
-                        <p class="card-text">
-                            Autoanalizador hematológico con diferencial de cinco partes, ideal para laboratorios que requieren precisión y eficiencia en el análisis sanguíneo.
-                        </p>
-                        <ul>
-                            <li>Diferencial de glóbulos blancos de 5 partes</li>
-                            <li>Procesamiento eficiente de muestras</li>
-                            <li>Fácil operación y mantenimiento</li>
-                            <li>Resultados confiables y rápidos</li>
-                        </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H560" class="btn btn-primary mt-auto">+ Información</a>
-                    </div>
-                </div>
-            </div>
             <!-- Producto: ADVIA 560 -->
             <div class="col-md-6 mb-4">
                 <div class="card h-100 shadow rounded">
@@ -153,6 +134,25 @@ session_start();
                             <li>Analizador independiente o de respaldo, con cargador automático opcional</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20560" class="btn btn-primary mt-auto">+ Información</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto: H560 -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow rounded">
+                    <img src="img/h560.jpg" class="card-img-top object-fit-cover" style="object-fit: contain; height: 180px; background: #fff; padding: 10px; width: 100%; border-radius: .5rem .5rem 0 0;" alt="H560 - Analizador hematológico de 5 partes">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">H560</h5>
+                        <p class="card-text">
+                            Autoanalizador hematológico con diferencial de cinco partes, ideal para laboratorios que requieren precisión y eficiencia en el análisis sanguíneo.
+                        </p>
+                        <ul>
+                            <li>Diferencial de glóbulos blancos de 5 partes</li>
+                            <li>Procesamiento eficiente de muestras</li>
+                            <li>Fácil operación y mantenimiento</li>
+                            <li>Resultados confiables y rápidos</li>
+                        </ul>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H560" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
                 </div>
             </div>

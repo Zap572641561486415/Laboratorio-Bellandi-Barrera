@@ -232,7 +232,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
                     <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4">
-                            <i class="bi bi-cup-straw text-dark"></i>
+                            <i class="bi bi-cup text-dark"></i>
                         </div>
                         <h5 class="mb-3">Orinas</h5>
                         <a href="productos-orinas.php" class="btn btn-primary">Ver productos</a>
