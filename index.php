@@ -215,13 +215,13 @@ session_start();
                         </div>
                         <div class="col-sm-6 text-start">
                             <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
-                                <p class="text-white mb-0">Casos Completados</p>
+                                <p class="text-white mb-0">Equipos Instalados</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">200</h1>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
-                                <p class="text-white mb-0">Clientes Felices</p>
+                                <p class="text-white mb-0">Clientes Satisfechos</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
                         </div>
@@ -285,25 +285,25 @@ session_start();
             <div class="row g-0">
                 <div class="col-lg-6 pt-lg-5">
                     <div class="bg-white p-5 mt-lg-5">
-                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">La Mejor Solución en Pruebas Médicas y Laboratorio</h1>
-                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Somos líderes en ofrecer tecnología de vanguardia y servicios personalizados para garantizar resultados precisos y confiables en cada análisis.</p>
+                        <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">Analizador Atellica CI: Innovación en Diagnóstico Clínico</h1>
+                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">Combinando química clínica e inmunoensayo en un único sistema, el Atellica CI ofrece soluciones personalizadas para optimizar el flujo de trabajo de su laboratorio con automatización avanzada.</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="icon-box-primary mb-4">
-                                    <i class="bi bi-person-plus text-dark"></i>
+                                    <i class="bi bi-graph-up text-dark"></i>
                                 </div>
-                                <h5 class="mb-3">Microscopía Avanzada</h5>
-                                <span>Utilizamos equipos de última generación para obtener imágenes detalladas y diagnósticos precisos.</span>
+                                <h5 class="mb-3">Alta Eficiencia</h5>
+                                <span>Procesa hasta 1120 pruebas por hora con más de 200 ensayos disponibles para satisfacer sus necesidades clínicas.</span>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="icon-box-primary mb-4">
-                                    <i class="bi bi-check-all text-dark"></i>
+                                    <i class="bi bi-gear text-dark"></i>
                                 </div>
-                                <h5 class="mb-3">Advanced Microscopy</h5>
-                                <span>We use state-of-the-art equipment to deliver detailed images and accurate diagnostics.</span>
+                                <h5 class="mb-3">Automatización Inteligente</h5>
+                                <span>Reduce los pasos manuales en un 75%, permitiendo que su equipo se enfoque en la atención al paciente.</span>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.5s" href="">Explore More</a>
+                        <a class="btn btn-primary py-3 px-5 wow fadeIn" data-wow-delay="0.5s" href="">Descubrir Más</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
