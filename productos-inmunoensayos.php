@@ -118,13 +118,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">IMMULITE 2000</h5>
                         <p class="card-text">
-                            Sistema de inmunoensayo automatizado, ideal para laboratorios que buscan alta capacidad y precisión en pruebas de inmunoensayo.
+                        Equipos automatizados para la realización de inmuno ensayos. 
                         </p>
                         <ul>
                             <li>Procesamiento eficiente y automatizado</li>
                             <li>Alta capacidad de pruebas por hora</li>
                             <li>Interfaz intuitiva y fácil de usar</li>
                             <li>Resultados confiables y reproducibles</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20IMMULITE%202000" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -137,13 +138,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ADVIA Centaur CP</h5>
                         <p class="card-text">
-                            Sistema de inmunoensayo compacto y versátil, diseñado para laboratorios que requieren flexibilidad y alto rendimiento en pruebas de inmunoensayo.
+                        Equipos automatizados para la realización de inmuno ensayos. 
                         </p>
                         <ul>
                             <li>Procesamiento rápido y eficiente</li>
                             <li>Amplia variedad de pruebas disponibles</li>
                             <li>Interfaz amigable y operación sencilla</li>
                             <li>Resultados precisos y consistentes</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20Centaur%20CP" class="btn btn-primary mt-auto">+ Información</a>
                     </div>

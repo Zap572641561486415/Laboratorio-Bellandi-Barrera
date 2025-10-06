@@ -124,8 +124,7 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ECL 760</h5>
                         <p class="card-text">
-                            Analizador automatizado de coagulación.
-                            <br><strong>Características principales:</strong>
+                        Analizador autimatico para coagulación con capaciadad de muestreo de 60mtras/hs
                         </p>
                         <ul>
                             <li>Mantenimiento diario de menos de 5 minutos</li>
@@ -133,6 +132,7 @@ session_start();
                             <li>Ensayos de coagulación, cromogénicos e inmunoquímicos en una sola plataforma</li>
                             <li>Control automático de niveles de reactivos</li>
                             <li>Escaneo integrado de códigos de barras para muestras</li>
+                            <li>Fabricante: AP biotech
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ECL%20760" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -152,6 +152,7 @@ session_start();
                             <li>Eficiencia: hasta 60 muestras por hora</li>
                             <li>Pantalla táctil LCD en color y lector de códigos de barras integrado</li>
                             <li>Gestión de datos: almacena hasta 600 muestras o 3000 pruebas</li>
+                            <li>Fabricante: Siemens
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Sysmex%20CA-660" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -164,7 +165,7 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Sysmex CS-2500</h5>
                         <p class="card-text">
-                            Analizador de coagulación totalmente automatizado para laboratorios de volumen medio, con tecnología avanzada y operación continua.
+                        Analizador automatizado pensado para laboratorios con un volumen medio de muestra y ademas realiza factores de cuagulación. 
                         </p>
                         <ul>
                             <li>Tecnología PSI™ para controles preanalíticos y estudios de mezcla automatizados</li>
@@ -172,6 +173,7 @@ session_start();
                             <li>Gestión eficiente de muestras y reducción de repeticiones</li>
                             <li>Operación continua y mantenimiento simplificado</li>
                             <li>Interfaz de usuario avanzada e intuitiva</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Sysmex%20CS-2500" class="btn btn-primary mt-auto">+ Información</a>
                     </div>

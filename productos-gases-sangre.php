@@ -131,12 +131,13 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">RAPIDPoint 500</h5>
                         <p class="card-text">
-                            Sistema de análisis de gases en sangre para entornos de atención crítica, con resultados rápidos y precisos.
+                        Analizador automatico de gases en sangres, electrolitos y metabolitos que analizan la homeostasis
                         </p>
                         <ul>
                             <li>Resultados completos en aproximadamente 60 segundos</li>
                             <li>Analiza sangre arterial, venosa, fluidos pleurales y dializados</li>
                             <li>Sistema de cartuchos sin mantenimiento y control de calidad automático</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20RAPIDPoint%20500" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -149,12 +150,13 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">epoc®</h5>
                         <p class="card-text">
-                            Sistema inalámbrico de mano para análisis exhaustivo de sangre al lado del paciente, con resultados en menos de un minuto.
+                            Analizador manual de gases en sangres, electrolitos y metabolitos que analizan la homeostasis 
                         </p>
                         <ul>
                             <li>Tarjeta de prueba almacenada a temperatura ambiente</li>
                             <li>Resultados rápidos y precisos</li>
                             <li>Ideal para uso en el punto de atención</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20epoc" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -173,6 +175,7 @@ session_start();
                             <li>Mide gases en sangre, iones, lactato, glucosa y hematocrito</li>
                             <li>Bajo mantenimiento con sensores electroquímicos</li>
                             <li>Cartuchos disponibles en varias presentaciones</li>
+                            <li>Fabricante: AP Biotech</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20i-SmartCare%2010" class="btn btn-primary mt-auto">+ Información</a>
                     </div>

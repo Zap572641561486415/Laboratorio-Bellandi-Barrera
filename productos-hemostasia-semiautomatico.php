@@ -124,7 +124,7 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">BFT II</h5>
                         <p class="card-text">
-                            El Analizador BFT II de Siemens es un coagulómetro semiautomatizado de dos canales, diseñado para realizar pruebas de coagulación de rutina como PT, APTT, fibrinógeno, tiempo de trombina y otros ensayos usando plasma citrado.
+                        Analizador de la hemostasia de dos canales. Ademas factores de coagulación, anticoagulante lúpico, proteína C, factor V Leiden. 
                         </p>
                         <ul>
                             <li>Tipo de funcionamiento: Semiautomático</li>
@@ -146,7 +146,7 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ECL 412</h5>
                         <p class="card-text">
-                            Analizador de coagulación semiautomatizado de 4 canales, ideal para laboratorios que buscan eficiencia y precisión en pruebas de hemostasia.
+                        Analizador de la hemostasia de 4  canales,  que analiza 60mtras/hs para PT y  30mtras/hs para APTT. Ademas factores de coagulación, anticoagulante lúpico, proteína C, factor V Leiden. 
                         </p>
                         <ul>
                             <li>4 canales de medición independientes</li>

@@ -118,13 +118,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">XL 200</h5>
                         <p class="card-text">
-                            Analizador de química clínica compacto y eficiente, ideal para laboratorios que buscan resultados confiables y rápidos.
+                        Analizador que ofrece un muestreo de 200mtras/hs, ideal para laboratorios que buscan resultados confiables y rapidos.
                         </p>
                         <ul>
                             <li>Permite realizar 200 tests fotométricos por hora</li>
                             <li>Módulo avanzado de control de calidad</li>
                             <li>Fácil operación y mantenimiento</li>
                             <li>Resultados precisos y consistentes</li>
+                            <li>Fabricante: AP Biotech
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%20200" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -156,13 +157,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">XL 1000</h5>
                         <p class="card-text">
-                            Solución fiable y eficiente para laboratorios medianos y grandes, con tecnología avanzada para resultados óptimos.
+                        Analizador recomendado para laboratorios con un alto numero de muestras.
                         </p>
                         <ul>
                             <li>Alta capacidad de procesamiento</li>
                             <li>Resultados precisos y reproducibles</li>
                             <li>Interfaz amigable y fácil de usar</li>
                             <li>Ideal para laboratorios de alto volumen</li>
+                            <li>Fabricante: AP Biotech</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%201000" class="btn btn-primary mt-auto">+ Información</a>
                     </div>

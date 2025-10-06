@@ -124,7 +124,7 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ADVIA 360</h5>
                         <p class="card-text">
-                            Analizador de hematología compacto y eficiente, diseñado para entornos de bajo volumen y resultados confiables.
+                        Analizador hematológico de 60 muestra/hs, semiautomático con difenciacion de tres poblaciones WRB. Muestreo con tubo abierto o cerrado.
                         </p>
                         <ul>
                             <li>Procesa hasta 60 muestras por hora</li>
@@ -132,6 +132,7 @@ session_start();
                             <li>Mide 22 parámetros, incluyendo diferencial de glóbulos blancos de 3 partes</li>
                             <li>Pantalla táctil a color y software intuitivo</li>
                             <li>Almacena hasta 10,000 resultados y soporta comunicación bidireccional con LIS</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20360" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -144,13 +145,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">H360</h5>
                         <p class="card-text">
-                            Analizador hematológico compacto de 3 partes, ideal para laboratorios que buscan eficiencia y precisión en el recuento y diferenciación de células sanguíneas.
+                        Analizador hematológico de 60 muestra/hs, semiautomático con difenciacion de tres poblaciones WRB. Ideal para laboratorios que buscan eficiencia y precisión en el recuento y diferenciación de células sanguíneas.
                         </p>
                         <ul>
                             <li>Diferencial de glóbulos blancos de 3 partes</li>
                             <li>Procesamiento eficiente de muestras</li>
                             <li>Fácil operación y mantenimiento</li>
                             <li>Resultados confiables y rápidos</li>
+                            <li>Fabricante: AP Biotech</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H360" class="btn btn-primary mt-auto">+ Información</a>
                     </div>

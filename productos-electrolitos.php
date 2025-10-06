@@ -124,9 +124,10 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">EC 90</h5>
                         <p class="card-text">
-                            Analizador de electrolitos de última generación, ideal para laboratorios pequeños y medianos que buscan eficiencia y precisión.
+                        Anailzador de metodo automatizado para electrlitos en sangre y orina ideal para laboratorios pequeños y medianos que buscan eficiencia y precision.
                         </p>
                         <ul>
+                            <li> Fabricante: AP Biotech </li> 
                             <li>Procesa hasta 90 muestras por hora</li>
                             <li>Almacena hasta 1000 muestras</li>
                             <li>Tiempo de análisis: 35 segundos</li>

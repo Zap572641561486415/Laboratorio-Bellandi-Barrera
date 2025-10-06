@@ -124,7 +124,8 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">VISION Pro</h5>
                         <p class="card-text">
-                            Analizador de eritrosedimentación (ESR) automático para diagnóstico clínico, con procesamiento por lotes y STAT, y resultados rápidos y precisos.
+                        Analizador automático de eritrosedimentacion (ESR) que determina la velocidad de sedimentación globular directamente desde el tubo primario, 
+                        sin consumir muestra, proporcionando resultados en aproximadamente 20 minutos.
                         </p>
                         <ul>
                             <li>Uso de tubos EDTA primarios</li>

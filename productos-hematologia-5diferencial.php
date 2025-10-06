@@ -124,7 +124,7 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ADVIA 560</h5>
                         <p class="card-text">
-                            Analizador de hematología rápido y de alta calidad, diseñado para pruebas de hemograma completo (CBC) en laboratorios modernos.
+                        Analizador hematologico de 60mtras/hs automatico, con difenciacion de 5 pobalciones de RWB, Ofrece la flexibilidad de añadir el automuestreador al sistema ADVIA 560.
                         </p>
                         <ul>
                             <li>Procesa hasta 60 muestras por hora</li>
@@ -132,6 +132,7 @@ session_start();
                             <li>Mide 26 parámetros, incluyendo diferencial de glóbulos blancos de 5 partes</li>
                             <li>Almacena hasta 100,000 resultados</li>
                             <li>Analizador independiente o de respaldo, con cargador automático opcional</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20560" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -144,13 +145,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">H560</h5>
                         <p class="card-text">
-                            Autoanalizador hematológico con diferencial de cinco partes, ideal para laboratorios que requieren precisión y eficiencia en el análisis sanguíneo.
+                        Analizador hematologico de 60 muestra/hs, semiautomatico con difenciacion de 5 poblaciones WRB. 
                         </p>
                         <ul>
                             <li>Diferencial de glóbulos blancos de 5 partes</li>
                             <li>Procesamiento eficiente de muestras</li>
                             <li>Fácil operación y mantenimiento</li>
                             <li>Resultados confiables y rápidos</li>
+                            <li>Fabricante: AP Biotech</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H560" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -163,13 +165,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">ELITE 580</h5>
                         <p class="card-text">
-                            Analizador automatizado de Hematología líder en tecnología y diseño, ideal para laboratorios que buscan máxima precisión y rendimiento.
+                        Analizador hematologico de 80mtras/hs, automatico con autosample, con difeneciación de 5 pobalciones de RWB. 
                         </p>
                         <ul>
                             <li>Diferencial de glóbulos blancos de 5 partes</li>
                             <li>Tecnología avanzada para resultados precisos</li>
                             <li>Procesamiento eficiente y rápido</li>
                             <li>Interfaz intuitiva y fácil de usar</li>
+                            <li>Fabricante: AP Biotech
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ELITE%20580" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
