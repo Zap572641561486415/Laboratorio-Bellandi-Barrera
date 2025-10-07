@@ -34,7 +34,6 @@ session_start();
                     <a class="breadcrumb-item small text-body" href="#">Carrera</a>
                     <a class="breadcrumb-item small text-body" href="#">Soporte</a>
                     <a class="breadcrumb-item small text-body" href="#">Términos</a>
-                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
