@@ -126,10 +126,13 @@ session_start();
         <h5 class="card-title">GenePure Pro</h5>
         <p class="card-text">
           <strong>Sistema de purificación de ácido nucleico</strong><br>
-          Automatización mediante tecnología de beads magnéticas.<br>
-          Procesa de 1 a 32 muestras simultáneamente.<br>
-          Configuración abierta para distintos protocolos.<br>
-          <span class="text-muted" style="font-size:0.95em;">Solución óptima para laboratorios pequeños y medianos.</span>
+          Automatización mediante tecnología de beads magnéticas.
+          <ul>
+            <li>Procesa de 1 a 32 muestras simultáneamente.</li>
+            <li>Configuración abierta para distintos protocolos.</li>
+            <li>Solución óptima para laboratorios pequeños y medianos.</li>
+          </ul> 
+          
         </p>
         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20GenePure%20Pro%20-%20Biología%20Molecular" class="btn btn-primary mt-auto align-self-start">+ Información</a>
       </div>
@@ -144,10 +147,12 @@ session_start();
         <h5 class="card-title">QuantGene 9600</h5>
         <p class="card-text">
           <strong>Termociclador Real-Time PCR</strong><br>
-          5 canales de detección (FAM, VIC, ROX, Cy5, Cy5.5).<br>
-          Bloque para 96 tubos de 0,2 ml o placas PCR.<br>
-          Pantalla táctil intuitiva.<br>
-          <span class="text-muted" style="font-size:0.95em;">Ideal para laboratorios pequeños y medianos.</span>
+          <ul>
+          <li>5 canales de detección (FAM, VIC, ROX, Cy5, Cy5.5).</li>
+          <li>Bloque para 96 tubos de 0,2 ml o placas PCR.</li>
+          <li>Pantalla táctil intuitiva.</li>
+          <li>Ideal para laboratorios pequeños y medianos.</li>
+          </ul>
         </p>
         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20QuantGene%209600%20-%20Biología%20Molecular" class="btn btn-primary mt-auto align-self-start">+ Información</a>
       </div>

@@ -137,13 +137,14 @@ session_start();
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">LAURA XL</h5>
                         <p class="card-text">
-                            Analizador de orina automatizado, con tecnología avanzada para resultados precisos y rápidos en laboratorios modernos.
+                        Realiza la determiacion quimica de orina y el analisis de sedimento. 
                         </p>
                         <ul>
                             <li>Utiliza menos de 1 ml de muestra</li>
                             <li>Lector de código de barras</li>
                             <li>Modo de análisis híbrido</li>
                             <li>Visualización de eritrocitos dismórficos</li>
+                            <li>Fabricante: AP Biotech</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20LAURA%20XL" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
@@ -180,8 +181,8 @@ session_start();
                                 <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
                                 <a class="btn btn-link" href="contact.php">Contáctenos</a>
                                 <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
-                                <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                                <a class="btn btn-link" href="#">Soporte</a>
+                                <a class="btn btn-link" href="#">Términos y Condiciones</a><!--NO ENVIA A NINGUNA SECCION-->
+                                <a class="btn btn-link" href="#">Soporte</a><!--NO ENVIA A NINGUNA SECCION-->
                             </div>
                         </div>
                     </div>

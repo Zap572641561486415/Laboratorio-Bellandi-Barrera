@@ -125,11 +125,13 @@ session_start();
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">Pima™ CD4</h5>
         <p class="card-text">
-          <strong>Recuento de linfocitos CD4 en 20 minutos</strong><br>
-          Rápido: Resultados en 20 minutos.<br>
-          Fácil de usar: Solo requiere una pequeña muestra de sangre.<br>
-          Conveniente: Cartuchos desechables, sin transferencias de muestra.<br>
-          Versátil: Uso en punto de atención o laboratorio.
+          <ul>  
+          <li>Recuento de linfocitos CD4 en 20 minutos</li>
+          <li>Resultados en 20 minutos.</li>
+          <li>Fácil de usar: Solo requiere una pequeña muestra de sangre.</li>
+          <li>Conveniente: Cartuchos desechables, sin transferencias de muestra.</li>
+          <li>Versátil: Uso en punto de atención o laboratorio.</li>
+          </ul>
         </p>
         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Pima%20CD4%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
       </div>
@@ -143,11 +145,12 @@ session_start();
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">m-PIMA™ Analyser</h5>
         <p class="card-text">
-          <strong>Plataforma molecular automatizada</strong><br>
-          Resultados en minutos para decisiones rápidas.<br>
-          Ideal para diagnóstico temprano y carga viral de VIH.<br>
-          Resultados de carga viral en menos de 70 minutos.<br>
-          Portátil y útil en entornos descentralizados.
+          <ul>  
+          <li>Plataforma molecular automatizada</li>
+          <li>Resultados en minutos para decisiones rápidas.</li>
+          <li>Ideal para diagnóstico temprano y carga viral de VIH.</li>
+          <li>Resultados de carga viral en menos de 70 minutos.</li>
+          <li>Portátil y útil en entornos descentralizados.</li>
         </p>
         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20m-PIMA%20Analyser%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
       </div>
@@ -162,10 +165,12 @@ session_start();
         <h5 class="card-title">ID NOW™</h5>
         <p class="card-text">
           <strong>Detección rápida de enfermedades infecciosas</strong><br>
-          Resultados en 2-13 minutos.<br>
-          Detecta COVID-19, gripe A/B, VSR y estreptococo A.<br>
-          Fácil de usar, pantalla táctil.<br>
-          Portátil: Uso en cualquier entorno clínico.
+          <ul>
+          <li>Resultados en 2-13 minutos.</li>
+          <li>Detecta COVID-19, gripe A/B, VSR y estreptococo A.</li>
+          <li>Fácil de usar, pantalla táctil.</li>
+          <li>Portátil: Uso en cualquier entorno clínico.</li>
+          </ul>
         </p>
         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ID%20NOW%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
       </div>

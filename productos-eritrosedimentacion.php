@@ -132,6 +132,7 @@ session_start();
                             <li>Modo de prueba por lotes y STAT</li>
                             <li>Resultados en 20 minutos con excelente correlación Westergren</li>
                             <li>Pantalla táctil LCD, lector de códigos de barras e impresora térmica</li>
+                            <li>Fabricante: YHLO</li>
                         </ul>
                         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20VISION%20Pro" class="btn btn-primary mt-auto">+ Información</a>
                     </div>
