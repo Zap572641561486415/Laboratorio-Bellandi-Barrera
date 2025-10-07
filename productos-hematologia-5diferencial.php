@@ -51,7 +51,7 @@ session_start();
                         <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
-                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -20px 0;"></a>
+                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -10px 0;"></a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">

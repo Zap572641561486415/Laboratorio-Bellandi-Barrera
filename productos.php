@@ -73,7 +73,7 @@
                         <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
-                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -20px 0;"></a>
+                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -10px 0;"></a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
@@ -191,7 +191,7 @@
                             <i class="fa-solid fa-shield-virus text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Inmunoensayos</h5>
-                        <a href="productos-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -200,7 +200,7 @@
                             <i class="bi bi-shield-check text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Química e Inmunoensayos</h5>
-                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -209,7 +209,7 @@
                             <i class="bi bi-wind text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Gases en Sangre</h5>
-                        <a href="productos-gases-sangre.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-gases-sangre.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -227,7 +227,7 @@
                             <i class="bi bi-droplet-fill text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Eritrosedimentación</h5>
-                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
@@ -236,7 +236,7 @@
                             <i class="bi bi-cup text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Orinas</h5>
-                        <a href="productos-orinas.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-orinas.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
@@ -245,7 +245,7 @@
                             <i class="fa-solid fa-dna text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Biología Molecular</h5>
-                        <a href="productos-biologia-molecular.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-biologia-molecular.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
@@ -254,7 +254,7 @@
                             <i class="bi bi-virus text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Enfermedades Infecciosas</h5>
-                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
@@ -263,7 +263,7 @@
                             <i class="bi bi-box-seam text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Insumos Plásticos</h5>
-                        <a href="productos-insumos-plasticos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-insumos-plasticos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
             </div>
@@ -280,7 +280,7 @@
                     <a href="index.php" class="navbar-brand">
                         <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
                     </a>
-                    <p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>
+                    <!--<p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>-->
                     <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
                     <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
