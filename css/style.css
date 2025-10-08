@@ -490,6 +490,16 @@
 .service-item:hover .icon-box-primary i {
     color: var(--bs-white) !important;
 }
+.service-item:hover .btn-primary {
+  background-color: #fff !important;      /* fondo blanco */
+  color: var(--bs-primary) !important;    /* texto azul */
+  border-color: #fff !important;          /* borde blanco */
+}
+.service-item:hover .btn-primary:hover {
+  background-color: var(--bs-primary-dark) !important; /* vuelve a tono oscuro al pasar sobre el botón */
+  color: #fff !important;
+  border-color: var(--bs-primary-dark) !important;
+}
 
 /* Modern product card variant for product listing pages */
 .product-card {
@@ -540,6 +550,110 @@
   border-radius: 10px;
 }
 
+/***Cartas con especificaciones de productos***/
+.card {
+  position: relative;
+  background: #ffffff;
+  border: none;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  transform: translateY(0);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(1, 68, 120, 0.2);
+}
+
+/* Imagen superior */
+.card-img-top {
+  border-radius: 20px 20px 0 0;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Contenido */
+.card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Título del producto */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-primary);
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+  color: var(--bs-primary-dark);
+}
+
+/* Texto descriptivo */
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Lista de características */
+.card-body ul {
+  margin-bottom: 1.5rem;
+  padding-left: 20px;
+}
+
+.card-body li {
+  color: #333;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+/* Botón */
+.card .btn-primary {
+  align-self: flex-start;
+  background-color: var(--bs-primary);
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+}
+/*
+.card:hover .btn-primary {
+  background-color: #fff !important;
+  color: var(--bs-primary) !important;
+  border: 1px solid var(--bs-primary);
+}
+
+.card .btn-primary:hover {
+  background-color: var(--bs-primary-dark) !important;
+  color: #fff !important;
+}
+*/
+
+/* Botón dentro de la card cuando se pasa el mouse sobre la tarjeta */
+.card:hover .btn-primary {
+  background-color: #fff !important;
+  color: var(--bs-primary) !important;
+  border: 1px solid #fff !important;
+}
+
+/* Y cuando pasás el mouse sobre el botón (dentro de la card en hover) */
+.card:hover .btn-primary:hover {
+  background-color: var(--bs-primary-dark) !important;
+  color: #014478 !important;
+  border-color: var(--bs-primary-dark) !important;
+}
 
 /*** Team ***/
 .container-team {
