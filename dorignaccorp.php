@@ -111,13 +111,13 @@
                         <a href="contact.php" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/">
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/">
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw">
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>

@@ -80,9 +80,9 @@ session_start();
                         <a href="index.php#contacto" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,10 @@ session_start();
                             <li>Resultados precisos y consistentes</li>
                             <li>Fabricante: AP Biotech
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%20200" class="btn btn-primary mt-auto">+ Información</a>
+                            <div class="d-flex gap-2 mt-auto">
+                                <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%20200" class="btn btn-primary" download>+ Información</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20XL%20200&body=Hola,%20quiero%20comprar%20el%20producto%20XL%20200." class="btn btn-primary">Comprar</a>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -188,9 +191,9 @@ session_start();
                     <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
                     <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
                     <div class="d-flex mt-4">
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 ps-lg-5">

@@ -91,7 +91,12 @@
     border-radius: 50px;
     font-weight: normal;
 }
-
+/*Boton formulario al pasar el mouse*/
+form .btn-primary:hover, form .btn-primary:focus {
+  background-color: #fff !important;
+  color: #014478 !important;      /* azul corporativo */
+  border-color: #014478 !important;
+}
 .icon-box-primary,
 .icon-box-light {
     position: relative;
@@ -864,13 +869,16 @@
 }
 
 /* Fondo sutil y moderno para el navbar */
+/* Modern navbar design */
 .navbar.bg-white {
-  background-color: rgba(1, 68, 120, 0.8) !important;
-  backdrop-filter: blur(3px);
-  box-shadow: 0 2px 12px 0 rgba(1, 68, 120, 0.04);
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  min-height: 56px;
+  background: linear-gradient(90deg, #014478 0%, #2971be 100%) !important;
+  box-shadow: 0 4px 24px 0 rgba(1, 68, 120, 0.10);
+  border-radius: 16px;
+  padding: 0.5rem 2rem !important;
+  min-height: 64px;
+  backdrop-filter: blur(6px);
+  border: none;
+  margin-top: 16px !important;
 }
 
 .navbar.bg-white .dropdown-menu {
