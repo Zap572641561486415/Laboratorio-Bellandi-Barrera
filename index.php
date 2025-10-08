@@ -51,12 +51,12 @@ session_start();
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 d-none d-lg-flex">
+    <!--<div class="container-fluid py-2 d-none d-lg-flex">
         <div class="container">
             <div class="d-flex justify-content-between">
-                <div>
+                <div>-->
                     <!--<small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>-->
-                    <small class="me-3">
+                    <!--<small class="me-3">
                         <i class="fa fa-map-marker-alt me-2"></i>
                             <a href="https://www.google.com/maps/search/?api=1&query=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" style="text-decoration: none; color: inherit;">
                             Carola Lorenzini 48, Mendoza, Argentina</a></small>
@@ -69,7 +69,7 @@ session_start();
                 </nav>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Topbar End -->
 
 
@@ -124,7 +124,7 @@ session_start();
                                 <a href="dorignaccorp.php" class="dropdown-item">Dorignac</a>
                             </div>
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
+                        <a href="#contacto" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
                         <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -470,7 +470,7 @@ session_start();
 
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5">
+    <div id="contacto"class="container-fluid py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -594,36 +594,28 @@ session_start();
                             <h4 class="text-light mb-4">Enlaces Rápidos</h4>
                             <div class="d-flex flex-column align-items-center">
                                 <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                                <a class="btn btn-link" href="contact.php">Contáctenos</a>
+                                <a class="btn btn-link" href="#contacto">Contáctenos</a>
                                 <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
                                 <a class="btn btn-link" href="#">Términos y Condiciones</a>
                                 <a class="btn btn-link" href="#">Soporte</a>
+                            
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start">
+                            <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras S.R.L.</p>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
+                        </div>
+            </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark text-white-50 py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras S.R.L.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>

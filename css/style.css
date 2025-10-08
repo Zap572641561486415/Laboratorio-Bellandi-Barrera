@@ -625,16 +625,16 @@
 /* Botón */
 .card .btn-primary {
   align-self: flex-start;
-  background-color: var(--bs-primary);
-  border: none;
-  border-radius: 8px;
+  background-color: #014478!important;
+  /*border: none;*/
+  border-radius: 10px;
   font-weight: 500;
   transition: all 0.3s ease;
   padding: 10px 20px;
 }
 
 /* Botón dentro de la card cuando se pasa el mouse sobre la tarjeta */
-.card:hover .btn-primary {
+/*.card:hover .btn-primary {
   background-color: #fff !important;
   color: var(--bs-primary) !important;
   border: 1px solid #fff !important;
@@ -729,7 +729,6 @@
 .testimonial-carousel .owl-nav .owl-next:hover {
     color: var(--bs-dark);
 }
-
 
 /*** Contact ***/
 @media (min-width: 992px) {
