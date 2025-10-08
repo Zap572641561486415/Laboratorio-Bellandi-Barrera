@@ -183,7 +183,7 @@ session_start();
         </div>
     </div>
     <!-- Productos Section End -->
-    <a href="#" class="btn btn-secondary mt-4" onclick="history.back(); return false;"><i class="bi bi-arrow-left"></i> Volver</a>
+    <!--<a href="#" class="btn btn-secondary mt-4" onclick="history.back(); return false;"><i class="bi bi-arrow-left"></i> Volver</a>-->
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">

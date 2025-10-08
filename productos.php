@@ -47,7 +47,10 @@
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div>
-                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>
+                    <small class="me-3">
+                        <i class="fa fa-map-marker-alt me-2"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" style="text-decoration: none; color: inherit;">
+                            Carola Lorenzini 48, Mendoza, Argentina</a></small>
                     <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
