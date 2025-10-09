@@ -91,12 +91,14 @@
     border-radius: 50px;
     font-weight: normal;
 }
+
 /*Boton formulario al pasar el mouse*/
 form .btn-primary:hover, form .btn-primary:focus {
   background-color: #fff !important;
   color: #014478 !important;      /* azul corporativo */
   border-color: #014478 !important;
 }
+
 .icon-box-primary,
 .icon-box-light {
     position: relative;
@@ -842,7 +844,7 @@ form .btn-primary:hover, form .btn-primary:focus {
     overflow-x: hidden !important;
     background: #fff !important;
   }
-  .logo-img {
+  /*.logo-img {
     width: 100%;
     height: auto;
     max-width: 320px;
@@ -850,7 +852,7 @@ form .btn-primary:hover, form .btn-primary:focus {
     margin: 0 auto !important;
     background: transparent !important;
     box-shadow: none !important;
-  }
+  }*/
   .navbar .navbar-brand.d-lg-none {
     display: flex;
     align-items: center;
