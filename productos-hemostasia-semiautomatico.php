@@ -135,8 +135,12 @@ session_start();
                             <li>Capacidad: ~60 pruebas de PT/hora, ~30 pruebas de APTT/hora</li>
                             <li>Peso: 3,8 kg</li>
                             <li>Dimensiones: 200 mm de ancho x 100 mm de alto</li>
+                            <li>Fabricante: Siemens</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20BFT%20II" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/BFT-ll.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20BFT%20II%20-%20Hemostasia-Semiautomatico&body=Hola,%20quiero%20comprar%20el%20producto%20BFT%20II." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,8 +159,12 @@ session_start();
                             <li>20 posiciones para incubación de cubetas</li>
                             <li>Inicio automático con pipetas estándar</li>
                             <li>Operación manual sencilla y confiable</li>
+                            <li>Fabricante: AP Biotech</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ECL%20412" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/ECL412-ECL105.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ECL%20412%20-%20Hemostasia-Semiautomatico&body=Hola,%20quiero%20comprar%20el%20producto%20ECL%20412." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>

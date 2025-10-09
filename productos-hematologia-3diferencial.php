@@ -135,7 +135,10 @@ session_start();
                             <li>Almacena hasta 10,000 resultados y soporta comunicación bidireccional con LIS</li>
                             <li>Fabricante: Siemens</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20360" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/advia-360.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ADVIA%20360%20-%20Hematologia-3%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20ADVIA%360." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,7 +158,10 @@ session_start();
                             <li>Resultados confiables y rápidos</li>
                             <li>Fabricante: AP Biotech</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H360" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/H360.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20H360%20-%20Hematologia-3%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20H360." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,7 +169,6 @@ session_start();
         </div>
     </div>
     <!-- Productos Section End -->
-    <!--<a href="#" class="btn btn-secondary mt-4" onclick="history.back(); return false;"><i class="bi bi-arrow-left"></i> Volver</a>-->
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">

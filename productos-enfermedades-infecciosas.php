@@ -132,6 +132,7 @@ session_start();
           <li>Fácil de usar: Solo requiere una pequeña muestra de sangre.</li>
           <li>Conveniente: Cartuchos desechables, sin transferencias de muestra.</li>
           <li>Versátil: Uso en punto de atención o laboratorio.</li>
+          <li>Fabricado:</li>
           </ul>
         </p>
         <div class="d-flex gap-2 mt-auto">
@@ -155,6 +156,7 @@ session_start();
           <li>Ideal para diagnóstico temprano y carga viral de VIH.</li>
           <li>Resultados de carga viral en menos de 70 minutos.</li>
           <li>Portátil y útil en entornos descentralizados.</li>
+          <li>Fabricado:</li>
         </p>
         <div class="d-flex gap-2 mt-auto">
         <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20m-PIMA%20Analyser%20%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
@@ -177,6 +179,7 @@ session_start();
           <li>Detecta COVID-19, gripe A/B, VSR y estreptococo A.</li>
           <li>Fácil de usar, pantalla táctil.</li>
           <li>Portátil: Uso en cualquier entorno clínico.</li>
+          <li>Fabricado:</li>
           </ul>
         </p>
         <div class="d-flex gap-2 mt-auto">

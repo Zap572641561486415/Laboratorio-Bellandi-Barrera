@@ -11,7 +11,6 @@ session_start();
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-
     <!-- Favicon -->
     <!--<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -77,7 +76,7 @@ session_start();
     <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex">
+                <div class="d-flex brand-contact">
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Llamanos</h5>
@@ -88,7 +87,7 @@ session_start();
                     <img src="img/logoSinFondo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block" style="margin: -10px 0;">
                     <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
-                <div class="d-flex">
+                <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Envíanos un correo</h5>
@@ -481,10 +480,16 @@ session_start();
                         <div class="icon-box-primary">
                             <i class="bi bi-geo-alt text-dark fs-1"></i>
                         </div>
-                        <div class="ms-3">
+                        <!--<div class="ms-3">
                             <h5>Dirección</h5>
                             <span>Carola Lorenzini 48, Mendoza, Argentina</span>
-                        </div>
+                        </div>-->
+                      <div class="ms-3"> 
+                        <a href="https://www.google.com/maps?q=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" class="ms-3">
+                            <h5>Dirección</h5>
+                            <span>Carola Lorenzini 48, Mendoza, Argentina</span>
+                        </a>
+                      </div>         
                     </div>
                     <hr>
                     <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">

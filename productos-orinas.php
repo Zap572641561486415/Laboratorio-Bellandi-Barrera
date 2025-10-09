@@ -128,8 +128,8 @@ session_start();
                             <li>Dimensiones: 300 x 287 x 148 mm, 3,2 kg</li>
                         </ul>
                             <div class="d-flex gap-2 mt-auto">
-                                <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20LAURA" class="btn btn-primary" download>+ Información</a>
-                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20LAURA&body=Hola,%20quiero%20comprar%20el%20producto%20LAURA." class="btn btn-primary">Comprar</a>
+                                <a href="fichasTecnicas/.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20LAURA%20-%20Orinas&body=Hola,%20quiero%20comprar%20el%20producto%20LAURA." class="btn btn-primary">Comprar</a>
                             </div>
                     </div>
                 </div>
@@ -150,7 +150,10 @@ session_start();
                             <li>Visualización de eritrocitos dismórficos</li>
                             <li>Fabricante: AP Biotech</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20LAURA%20XL" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                            <a href="fichasTecnicas/lauraxl.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                            <a href="mailto:contacto@lbybsrl.com?subject=Compra%20LAURA%20XL%20-%20Orinas&body=Hola,%20quiero%20comprar%20el%20producto%20LAURA%20XL." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>

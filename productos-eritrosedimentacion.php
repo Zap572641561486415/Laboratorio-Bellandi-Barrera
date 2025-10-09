@@ -136,7 +136,7 @@ session_start();
                             <li>Fabricante: YHLO</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                            <a href="fichasTecnicas/VISIONPro.pdf" class="btn btn-primary" download>+ Información</a>
+                            <a href="fichasTecnicas/" class="btn btn-primary" download>Ficha tecnica</a>
                             <a href="mailto:contacto@lbybsrl.com?subject=Compra%20VISION%20Pro%20-%20Eritrosedimentacion&body=Hola,%20quiero%20comprar%20el%20producto%20VISION%20Pro." class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
@@ -145,7 +145,6 @@ session_start();
         </div>
     </div>
     <!-- Productos Section End -->
-   <!-- <a href="#" class="btn btn-secondary mt-4" onclick="history.back(); return false;"><i class="bi bi-arrow-left"></i> Volver</a>-->
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">

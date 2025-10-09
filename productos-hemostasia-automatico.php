@@ -135,7 +135,10 @@ session_start();
                             <li>Escaneo integrado de códigos de barras para muestras</li>
                             <li>Fabricante: AP biotech
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ECL%20760" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/ECL760.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ECL%20760%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20ECL%20760." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,7 +158,10 @@ session_start();
                             <li>Gestión de datos: almacena hasta 600 muestras o 3000 pruebas</li>
                             <li>Fabricante: Siemens
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Sysmex%20CA-660" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Sysmex%20CA-660%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20Sysmex%20CA-760." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,7 +182,10 @@ session_start();
                             <li>Interfaz de usuario avanzada e intuitiva</li>
                             <li>Fabricante: Siemens</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Sysmex%20CS-2500" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/SysmexCs-2500.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Sysmex%20CS-2500%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20Sysmex%20CS-2500." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>

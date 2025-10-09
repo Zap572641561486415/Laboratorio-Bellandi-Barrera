@@ -129,8 +129,8 @@ session_start();
                             <li>Fabricante: Siemens</li>
                         </ul>
                             <div class="d-flex gap-2 mt-auto">
-                                <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20IMMULITE%202000" class="btn btn-primary">+ Información</a>
-                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20IMMULITE%202000&body=Hola,%20quiero%20comprar%20el%20producto%20IMMULITE%202000." class="btn btn-primary">Comprar</a>
+                                <a href="fichasTecnicas/immulite2000.pdf" target="_blank"class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20IMMULITE%202000%20-%20Inmunoensayos&body=Hola,%20quiero%20comprar%20el%20producto%20IMMULITE%202000." class="btn btn-primary">Comprar</a>
                             </div>
                     </div>
                 </div>
@@ -151,7 +151,10 @@ session_start();
                             <li>Resultados precisos y consistentes</li>
                             <li>Fabricante: Siemens</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20Centaur%20CP" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                                <a href="fichasTecnicas/advia-centaur-cp.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ADVIA%20Centaur%20-%20Inmunoensayos&body=Hola,%20quiero%20comprar%20el%20producto%20ADVIA%20Centaur." class="btn btn-primary">Comprar</a>
+                            </div>
                     </div>
                 </div>
             </div>

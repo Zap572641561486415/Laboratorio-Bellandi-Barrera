@@ -21,25 +21,6 @@ session_start();
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
-    <!-- Spinner End -->
-    <!-- Topbar Start -->
-    <!--<div class="container-fluid py-2 d-none d-lg-flex">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <div>
-                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>
-                    <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
-                </div>
-                <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Carrera</a>
-                    <a class="breadcrumb-item small text-body" href="#">Soporte</a>
-                    <a class="breadcrumb-item small text-body" href="#">Términos</a>
-                </nav>
-            </div>
-        </div>
-    </div>-->
-    <!-- Topbar End -->
-    <!-- Brand Start -->
     <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
@@ -127,8 +108,8 @@ session_start();
                             <li>Fabricante: AP Biotech
                         </ul>
                             <div class="d-flex gap-2 mt-auto">
-                                <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%20200" class="btn btn-primary" download>+ Información</a>
-                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20XL%20200&body=Hola,%20quiero%20comprar%20el%20producto%20XL%20200." class="btn btn-primary">Comprar</a>
+                                <a href="fichasTecnicas/XL200.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20XL%20200%20-%20Quimica&body=Hola,%20quiero%20comprar%20el%20producto%20XL%20200." class="btn btn-primary">Comprar</a>
                             </div>
                     </div>
                 </div>
@@ -149,7 +130,10 @@ session_start();
                             <li>Operación intuitiva y mantenimiento sencillo</li>
                             <li>Fabricante: AP Biotech </li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%20640%20Plus" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                                <a href="fichasTecnicas/xl640.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20XL%20640%20Plus%20-%20Quimica&body=Hola,%20quiero%20comprar%20el%20producto%20XL%20640%20Plus." class="btn btn-primary">Comprar</a>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -169,7 +153,10 @@ session_start();
                             <li>Ideal para laboratorios de alto volumen</li>
                             <li>Fabricante: AP Biotech</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20XL%201000" class="btn btn-primary mt-auto">+ Información</a>
+                       <div class="d-flex gap-2 mt-auto">
+                                <a href="fichasTecnicas/xl1000.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20XL%201000%20-%20Quimica&body=Hola,%20quiero%20comprar%20el%20producto%20XL%201000." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>

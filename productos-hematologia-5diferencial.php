@@ -135,7 +135,10 @@ session_start();
                             <li>Analizador independiente o de respaldo, con cargador automático opcional</li>
                             <li>Fabricante: Siemens</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ADVIA%20560" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                         <a href="fichasTecnicas/advia-560.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ADVIA%20560%20-%20Hematologia-5%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20ADVIA%560." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,7 +158,10 @@ session_start();
                             <li>Resultados confiables y rápidos</li>
                             <li>Fabricante: AP Biotech</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20H560" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/H560.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20H560%20-%20Hematologia-5%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20H560." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -175,7 +181,10 @@ session_start();
                             <li>Interfaz intuitiva y fácil de usar</li>
                             <li>Fabricante: AP Biotech
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20ELITE%20580" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/ELite580.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ELITE%20580%20-%20Hematologia-5%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20ELITE%20580." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>

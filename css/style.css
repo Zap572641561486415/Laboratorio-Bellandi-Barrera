@@ -760,7 +760,6 @@ form .btn-primary:hover, form .btn-primary:focus {
     }
 }
 
-
 /*** Footer ***/
 .footer {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/footer.png) center center no-repeat;
@@ -818,6 +817,19 @@ form .btn-primary:hover, form .btn-primary:focus {
 }
 
 /* Logo global styles */
+/* Efecto hover para bloques de contacto en la brand */
+.brand-contact {
+  transition: box-shadow 0.3s, transform 0.3s;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.85);
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+}
+.brand-contact:hover {
+  box-shadow: 0 6px 24px rgba(1,68,120,0.18);
+  transform: translateY(-6px) scale(1.04);
+  background: #fff;
+}
 .logo-img {
   height: 200px; 
   object-fit: contain;
@@ -852,6 +864,7 @@ form .btn-primary:hover, form .btn-primary:focus {
     text-align: center;
     overflow: visible;
   }
+
   .container-fluid.text-white.pt-4.pb-2.d-none.d-lg-flex,
   .container-fluid.text-white.pt-4.pb-5.d-none.d-lg-flex {
     padding-top: 0 !important;

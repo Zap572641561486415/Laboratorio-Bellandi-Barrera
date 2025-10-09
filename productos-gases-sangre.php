@@ -141,8 +141,8 @@ session_start();
                             <li>Fabricante: Siemens</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20RAPIDPoint%20500" class="btn btn-primary mt-auto">+ Información</a>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20EC%2090%20-%20Gases Sangre&body=Hola,%20quiero%20comprar%20el%20producto%20EC%2090." class="btn btn-primary">Comprar</a>
+                        <a href="fichasTecnicas/" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20EC%2090%20-%20Gases Sangre&body=Hola,%20quiero%20comprar%20el%20producto%20RAIDPoint%500." class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,10 @@ session_start();
                             <li>Ideal para uso en el punto de atención</li>
                             <li>Fabricante: Siemens</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20epoc" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/epoc.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20epoc%20-%20Gases Sangre&body=Hola,%20quiero%20comprar%20el%20producto%20epoc." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,7 +184,10 @@ session_start();
                             <li>Cartuchos disponibles en varias presentaciones</li>
                             <li>Fabricante: AP Biotech</li>
                         </ul>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20i-SmartCare%2010" class="btn btn-primary mt-auto">+ Información</a>
+                        <div class="d-flex gap-2 mt-auto">
+                        <a href="fichasTecnicas/i-SmartCare10.pdf" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20i-SmartCare%2010%20-%20Gases Sangre&body=Hola,%20quiero%20comprar%20el%20producto%20i-SmartCare%10." class="btn btn-primary">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>
