@@ -764,60 +764,48 @@ form .btn-primary:hover, form .btn-primary:focus {
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/footer.png) center center no-repeat;
-    background-size: contain;
-}
-
-@media (min-width: 992px) {
-    .footer::after {
-        position: absolute;
-        content: "";
-        width: 0px;
-        height: 100%;
-        top: 0;
-        left: 50%;
-        border-left: 1px dashed rgba(255, 255, 255, .2);
-        padding-bottom: 1rem !important;
-    }
-}
-
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
-    color: rgba(255, 255, 255, .5);
-    font-weight: normal;
-    text-transform: capitalize;
-    transition: .3s;
-}
-
-.footer .btn.btn-link::before {
+    background: linear-gradient(rgba(3, 27, 78, 0.85), rgba(3, 27, 78, 0.85)), url(../img/footer.png) center center no-repeat;
+    background-size: cover;
     position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: rgba(255, 255, 255, .5);
-    margin-right: 10px;
+    font-size: 15px;
 }
 
-.footer .btn.btn-link:hover {
+.footer .btn-social {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .btn-social:hover {
+    background-color: var(--bs-primary);
+    color: #fff;
+    border-color: var(--bs-primary);
+}
+
+.footer .btn-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+    padding-left: 0;
+}
+
+.footer .btn-link:hover {
     color: var(--bs-primary);
-    letter-spacing: 1px;
-    box-shadow: none;
+    text-decoration: none;
+    transform: translateX(3px);
 }
 
-.copyright {
-    border-top: 1px dashed rgba(255, 255, 255, .2);
+.footer .copyright {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.copyright a {
-    color: var(--bs-white);
-}
-
-.copyright a:hover {
-    color: var(--bs-primary);
-}
 
 /* Logo global styles */
 /* Efecto hover para bloques de contacto en la brand */
