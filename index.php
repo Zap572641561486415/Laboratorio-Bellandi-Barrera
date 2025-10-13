@@ -310,32 +310,6 @@ session_start();
         </div>
     </div>
     <!-- Features End -->
-
-
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Video institucional</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <video id="video" width="100%" height="auto" controls>
-                            <source src="videoinstagram.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-
-
     <!-- Productos Destacados Start (Reemplazo de Servicios) -->
    <!-- <div class="container-fluid container-service py-5">
         <div class="container py-5">
