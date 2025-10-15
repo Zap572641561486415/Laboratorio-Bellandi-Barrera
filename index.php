@@ -7,16 +7,13 @@ session_start();
 
 <head>
     <meta charset="utf-8">
-    <title>Laboratorio Bellandi & Barreras</title>
+    <title>LBB Laboratorios</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link href="img/favicon.ico" rel="icon">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,30 +46,31 @@ session_start();
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 d-none d-lg-flex">
+    <!--<div class="container-fluid py-2 d-none d-lg-flex">
         <div class="container">
             <div class="d-flex justify-content-between">
-                <div>
-                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>
-                    <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
+                <div>-->
+                    <!--<small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>-->
+                    <!--<small class="me-3">
+                        <i class="fa fa-map-marker-alt me-2"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" style="text-decoration: none; color: inherit;">
+                            Carola Lorenzini 48, Mendoza, Argentina</a></small>
+                            <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
                     <a class="breadcrumb-item small text-body" href="#">Carrera</a>
                     <a class="breadcrumb-item small text-body" href="#">Soporte</a>
                     <a class="breadcrumb-item small text-body" href="#">Términos</a>
-                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Topbar End -->
-
-
     <!-- Brand Start -->
     <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex">
+                <div class="d-flex brand-contact">
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Llamanos</h5>
@@ -80,10 +78,10 @@ session_start();
                     </div>
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block" style="margin: -20px 0;">
-                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
+                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
-                <div class="d-flex">
+                <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Envíanos un correo</h5>
@@ -101,13 +99,22 @@ session_start();
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
+                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Botones de llamada y mail solo en pantallas chicas -->
+                <div class="d-lg-none d-flex align-items-center ms-2">
+                    <a href="tel:+542614222428" class="btn btn-sm-square btn-primary me-2" title="Llamar">
+                        <i class="bi bi-telephone"></i>
+                    </a>
+                    <a href="mailto:contacto@lbybsrl.com" class="btn btn-sm-square btn-primary" title="Enviar mail">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link active">Inicio</a>
@@ -119,12 +126,12 @@ session_start();
                                 <a href="dorignaccorp.php" class="dropdown-item">Dorignac</a>
                             </div>
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
+                        <a href="#contacto" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw" target="_blank>"><i class="fab fa-instagram"> </i></a>
                     </div>
                 </div>
             </div>
@@ -208,20 +215,20 @@ session_start();
                     <h1 class="display-6 mb-4">¿Quienes Somos?</h1>
                     <p class="mb-4">Fundada en el año 1994, somos una organización dedicada a la comercialización de equipamientos e insumos de la más alta calidad para laboratorios clínicos y veterinarios, además integramos todos los insumos necesarios para el área de salud.</p>
                     <div class="row g-4 g-sm-5 justify-content-center">
-                        <div class="col-sm-6">
-                            <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
+                        <div class="col-sm-6 d-flex justify-content-center mb-3 mb-sm-0">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-primary">
                                 <p class="text-white mb-0">Premios Ganados</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">10</h1>
                             </div>
                         </div>
-                        <div class="col-sm-6 text-start">
-                            <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
+                        <div class="col-sm-6 d-flex justify-content-center mb-3 mb-sm-0">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-secondary">
                                 <p class="text-white mb-0">Equipos Instalados</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">200</h1>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
+                        <div class="col-sm-6 d-flex justify-content-center">
+                            <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark">
                                 <p class="text-white mb-0">Clientes Satisfechos</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
@@ -308,34 +315,8 @@ session_start();
         </div>
     </div>
     <!-- Features End -->
-
-
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Video institucional</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <video id="video" width="100%" height="auto" controls>
-                            <source src="videoinstagram.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-
-
     <!-- Productos Destacados Start (Reemplazo de Servicios) -->
-    <div class="container-fluid container-service py-5">
+   <!-- <div class="container-fluid container-service py-5">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="display-6 mb-3">Producto de Laboratorio Confiable y de Alta Calidad</h1>
@@ -360,7 +341,7 @@ session_start();
                             <i class="fa-solid fa-vial text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Hematología</h5>
-                        <div class="d-flex flex-column gap-2">
+                        <div class="d-flex flex-column gap-2 mt-auto">
                             <a href="productos-hematologia-3diferencial.php" class="btn btn-primary">3 Diferencial</a>
                             <a href="productos-hematologia-5diferencial.php" class="btn btn-primary">5 Diferencial</a>
                         </div>
@@ -383,7 +364,7 @@ session_start();
                             <i class="fa-solid fa-shield-virus text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Inmunoensayos</h5>
-                        <a href="productos-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -392,7 +373,7 @@ session_start();
                             <i class="bi bi-shield-check text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Química e Inmunoensayos</h5>
-                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -401,7 +382,7 @@ session_start();
                             <i class="bi bi-wind text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Gases en Sangre</h5>
-                        <a href="productos-gases-sangre.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-gases-sangre.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -410,7 +391,7 @@ session_start();
                             <i class="bi bi-lightning-charge text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Electrolitos</h5>
-                        <a href="productos-electrolitos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-electrolitos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
@@ -419,7 +400,7 @@ session_start();
                             <i class="bi bi-droplet-fill text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Eritrosedimentación</h5>
-                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
@@ -428,7 +409,7 @@ session_start();
                             <i class="bi bi-cup text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Orinas</h5>
-                        <a href="productos-orinas.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-orinas.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
@@ -437,7 +418,7 @@ session_start();
                             <i class="fa-solid fa-dna text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Biología Molecular</h5>
-                        <a href="productos-biologia-molecular.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-biologia-molecular.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
@@ -446,7 +427,7 @@ session_start();
                             <i class="bi bi-virus text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Enfermedades Infecciosas</h5>
-                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
@@ -455,17 +436,17 @@ session_start();
                             <i class="bi bi-box-seam text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Insumos Plásticos</h5>
-                        <a href="productos-insumos-plasticos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-insumos-plasticos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Productos Destacados End -->
 
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5">
+    <div id="contacto"class="container-fluid py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -476,10 +457,12 @@ session_start();
                         <div class="icon-box-primary">
                             <i class="bi bi-geo-alt text-dark fs-1"></i>
                         </div>
-                        <div class="ms-3">
+                      <div class="ms-3"> 
+                        <a href="https://www.google.com/maps?q=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" class="ms-3">
                             <h5>Dirección</h5>
                             <span>Carola Lorenzini 48, Mendoza, Argentina</span>
-                        </div>
+                        </a>
+                      </div>         
                     </div>
                     <hr>
                     <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">
@@ -498,24 +481,24 @@ session_start();
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Su Nombre" 
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" 
                                         pattern="[A-Za-zÀ-ÿ\u00f1\u00d1\s]+" 
                                         title="Por favor ingrese solo letras, espacios y acentos"
                                         oninput="this.value = this.value.replace(/[^A-Za-zÀ-ÿ\u00f1\u00d1\s]/g, '')"
                                         required>
-                                    <label for="name">Su Nombre</label>
+                                    <label for="name">Nombre</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="mail" name="email" placeholder="Su Email" required>
-                                    <label for="mail">Su Email</label>
+                                    <input type="email" class="form-control" id="mail" name="email" placeholder="Email" required>
+                                    <label for="mail">Email</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="mobile" name="phone" placeholder="Su Teléfono" required>
-                                    <label for="mobile">Su Teléfono</label>
+                                    <input type="text" class="form-control" id="mobile" name="phone" placeholder="Teléfono" required>
+                                    <label for="mobile">Teléfono</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -563,66 +546,79 @@ session_start();
     </div>
     <!-- Contact End -->
 
-
+    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+    
     <!-- Footer Start -->
-    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row g-5 py-5">
-                <div class="col-lg-6 pe-lg-5">
-                    <a href="index.php" class="navbar-brand">
-                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                        <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
-                    </a>
-                    <p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>
-                    <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
-                    <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
-                    <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
-                    <div class="d-flex mt-4">
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
-                    </div>
+   <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-5 align-items-start">
+            <!-- Columna izquierda: logo + contacto -->
+            <div class="col-lg-5">
+                <a href="index.php" class="navbar-brand mb-3 d-block">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="img-fluid d-none d-md-block" style="max-width: 200px;">
+                </a>
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-2">
+                        <i class="fa fa-map-marker-alt me-2 text-white"></i>
+                        <a href="https://www.google.com/maps?q=Carola+Lorenzini+48,+Mendoza,+Argentina" style="color: inherit; text-decoration: none;">
+                            Carola Lorenzini 48, Mendoza, Argentina
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="fa fa-phone-alt me-2 text-white"></i>
+                        <a href="tel:+542614222428" style="color: inherit; text-decoration: none;">+54 261 422-2428</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope me-2 text-white"></i>
+                        <a href="mailto:contacto@lbybsrl.com" class="text-white-50">contacto@lbybsrl.com</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex mt-3">
+                    <a class="btn btn-outline-light btn-social rounded-circle me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
                 </div>
-                <div class="col-lg-6 ps-lg-5">
-                    <div class="row g-5">
-                        <div class="col-12 text-center mt-5">
-                            <h4 class="text-light mb-4">Enlaces Rápidos</h4>
-                            <div class="d-flex flex-column align-items-center">
-                                <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                                <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                                <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
-                                <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                                <a class="btn btn-link" href="#">Soporte</a>
-                            </div>
+            </div>
+
+            <!-- Columna derecha: enlaces -->
+             
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="d-flex flex-column align-items-start">
+                            <h5 class="text-light mb-3">Enlaces Rápidos</h5>
+                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="index.php#contacto">Contáctenos</a>
+                            <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
+                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="#">Soporte</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
 
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark text-white-50 py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras S.R.L.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
-                </div>
+        <!-- Créditos -->
+        <div class="row mt-4 pt-4 border-top border-secondary copyright">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras S.R.L. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <!-- Créditos obligatorios del template -->
+                <p class="mb-0">
+                    Designed by <a href="https://htmlcodex.com" class="text-white">HTML Codex</a><br>
+                    Distributed by <a href="https://themewagon.com" class="text-white">ThemeWagon</a>
+                </p>
             </div>
         </div>
     </div>
-    <!-- Copyright End -->
+</div>
 
+    <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

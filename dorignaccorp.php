@@ -41,7 +41,7 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 d-none d-lg-flex">
+    <!--<div class="container-fluid py-2 d-none d-lg-flex">
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div>
@@ -56,14 +56,14 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Topbar End -->
 
     <!-- Brand Start -->
-    <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
+   <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex">
+                <div class="d-flex brand-contact">
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Llamanos</h5>
@@ -71,10 +71,10 @@
                     </div>
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block" style="margin: -20px 0;">
-                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none" style="margin: -20px 0;">
+                    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
+                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
-                <div class="d-flex">
+                <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Envíanos un correo</h5>
@@ -86,20 +86,22 @@
     </div>
     <!-- Brand End -->
 
+
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none">
+                    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
+                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
-                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="index.php" class="nav-item nav-link">Inicio</a>
+                        <a href="index.php" class="nav-item nav-link active">Inicio</a>
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
                         <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
@@ -108,18 +110,12 @@
                                 <a href="dorignaccorp.php" class="dropdown-item">Dorignac</a>
                             </div>
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
+                        <a href="index.php#contacto" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw" target="_blank>"><i class="fab fa-instagram"> </i></a>
                     </div>
                 </div>
             </div>
@@ -274,34 +270,28 @@
                             <h4 class="text-light mb-4">Enlaces Rápidos</h4>
                             <div class="d-flex flex-column align-items-center">
                                 <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                                <a class="btn btn-link" href="contact.php">Contáctenos</a>
+                                <a class="btn btn-link" href="index.php#contacto">Contáctenos</a>
                                 <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
                                 <a class="btn btn-link" href="#">Términos y Condiciones</a>
                                 <a class="btn btn-link" href="#">Soporte</a>
                             </div>
                         </div>
+                         <!--CopyRight Start-->
+                         <div class="row">
+                            <div class="col-md-6 text-center text-md-start">
+                            <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras S.R.L.</p>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
+                        </div>
+                        <!--CopyRight End-->
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark text-white-50 py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; 2024 DorignacCorp. Todos los derechos reservados.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 

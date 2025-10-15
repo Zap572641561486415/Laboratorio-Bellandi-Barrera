@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Laboratorio Bellandi & Barreras</title>
+    <title>LBB Laboratorios</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -73,8 +73,8 @@
                     </div>
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block" style="margin: -20px 0;">
-                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none" style="margin: -20px 0;">
+                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block" style="margin: -10px 0;">
+                    <img src="img/logo-mobile.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none" style="margin: -10px 0;">
                 </a>
                 <div class="d-flex">
                     <i class="bi bi-envelope fs-2 text-dark"></i>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Laboratorio Bellandi & Barreras</title>
+    <title>LBB Laboratorios</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -43,22 +43,24 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 d-none d-lg-flex">
+    <!--<div class="container-fluid py-2 d-none d-lg-flex">
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div>
-                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>
+                    <small class="me-3">
+                        <i class="fa fa-map-marker-alt me-2"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" style="text-decoration: none; color: inherit;">
+                            Carola Lorenzini 48, Mendoza, Argentina</a></small>
                     <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
                 </div>
                 <nav class="breadcrumb mb-0">
                     <a class="breadcrumb-item small text-body" href="#">Carrera</a>
                     <a class="breadcrumb-item small text-body" href="#">Soporte</a>
                     <a class="breadcrumb-item small text-body" href="#">Términos</a>
-                    <a class="breadcrumb-item small text-body" href="#">Preguntas Frecuentes</a>
                 </nav>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Topbar End -->
 
 
@@ -66,15 +68,18 @@
     <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
             <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex">
+                <div class="d-flex brand-contact">
                     <i class="bi bi-telephone-inbound fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Llamanos</h5>
                         <a href="tel:+542614222428" class="text-dark">+54 261 422-2428</a>
                     </div>
                 </div>
-                <a href="index.php" class="h1 text-white mb-0"><img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img" style="margin: -20px 0;"></a>
-                <div class="d-flex">
+                <a href="index.php" class="h1 text-white mb-0">
+                    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
+                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                </a>
+                <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
                     <div class="ms-3">
                         <h5 class="text-dark mb-0">Envíanos un correo</h5>
@@ -92,14 +97,26 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
+                    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
+                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
-                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Botones de llamada y mail solo en pantallas chicas -->
+                <div class="d-lg-none d-flex align-items-center ms-2">
+                    <a href="tel:+542614222428" class="btn btn-sm-square btn-primary me-2" title="Llamar">
+                        <i class="bi bi-telephone"></i>
+                    </a>
+                    <a href="mailto:contacto@lbybsrl.com" class="btn btn-sm-square btn-primary" title="Enviar mail">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="index.php" class="nav-item nav-link">Inicio</a>
+                        <a href="index.php" class="nav-item nav-link active">Inicio</a>
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
                         <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
@@ -108,18 +125,12 @@
                                 <a href="dorignaccorp.php" class="dropdown-item">Dorignac</a>
                             </div>
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contacto</a>
+                        <a href="index.php#contacto" class="nav-item nav-link">Contacto</a>
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.facebook.com/share/1CAcZvQ9ky/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw" target="_blank>"><i class="fab fa-instagram"> </i></a>
                     </div>
                 </div>
             </div>
@@ -191,7 +202,7 @@
                             <i class="fa-solid fa-shield-virus text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Inmunoensayos</h5>
-                        <a href="productos-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -200,7 +211,7 @@
                             <i class="bi bi-shield-check text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Química e Inmunoensayos</h5>
-                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -209,7 +220,7 @@
                             <i class="bi bi-wind text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Gases en Sangre</h5>
-                        <a href="productos-gases-sangre.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-gases-sangre.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
@@ -227,7 +238,7 @@
                             <i class="bi bi-droplet-fill text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Eritrosedimentación</h5>
-                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
@@ -236,7 +247,7 @@
                             <i class="bi bi-cup text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Orinas</h5>
-                        <a href="productos-orinas.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-orinas.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
@@ -245,7 +256,7 @@
                             <i class="fa-solid fa-dna text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Biología Molecular</h5>
-                        <a href="productos-biologia-molecular.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-biologia-molecular.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
@@ -254,7 +265,7 @@
                             <i class="bi bi-virus text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Enfermedades Infecciosas</h5>
-                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
@@ -263,70 +274,83 @@
                             <i class="bi bi-box-seam text-dark"></i>
                         </div>
                         <h5 class="mb-3 text-center flex-shrink-0">Insumos Plásticos</h5>
-                        <a href="productos-insumos-plasticos.php" class="btn btn-primary">Ver productos</a>
+                        <a href="productos-insumos-plasticos.php" class="btn btn-primary mt-auto">Ver productos</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Service End -->
-
-
+<img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+    
     <!-- Footer Start -->
-    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row g-5 py-5">
-                <div class="col-lg-6 pe-lg-5">
-                    <a href="index.php" class="navbar-brand">
-                        <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img">
-                    </a>
-                    <p class="fs-5 mb-4">Fundada en 1994, somos una empresa dedicada a la comercialización de equipamiento e insumos de alta calidad para laboratorios clínicos y veterinarios. Brindamos soluciones integrales para el área de salud, con un compromiso constante con la innovación, la excelencia y el servicio personalizado.</p>
-                    <p><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</p>
-                    <p><i class="fa fa-phone-alt me-2"></i>+54 261 422-2428</p>
-                    <p><i class="fa fa-envelope me-2"></i>contacto@lbybsrl.com</p>
-                    <div class="d-flex mt-4">
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-lg-square btn-primary me-2" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
-                    </div>
+   <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-5 align-items-start">
+            <!-- Columna izquierda: logo + contacto -->
+            <div class="col-lg-5">
+                <a href="index.php" class="navbar-brand mb-3 d-block">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="img-fluid d-none d-md-block" style="max-width: 200px;">
+                </a>
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-2">
+                        <i class="fa fa-map-marker-alt me-2 text-white"></i>
+                        <a href="https://www.google.com/maps?q=Carola+Lorenzini+48,+Mendoza,+Argentina" style="color: inherit; text-decoration: none;">
+                            Carola Lorenzini 48, Mendoza, Argentina
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="fa fa-phone-alt me-2 text-white"></i>
+                        <a href="tel:+542614222428" style="color: inherit; text-decoration: none;">+54 261 422-2428</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope me-2 text-white"></i>
+                        <a href="mailto:contacto@lbybsrl.com" class="text-white-50">contacto@lbybsrl.com</a>
+                    </li>
+                </ul>
+                <div class="d-flex mt-3">
+                    <a class="btn btn-outline-light btn-social rounded-circle me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social rounded-circle" href="https://www.instagram.com/lbblaboratorios?igsh=dnZzdWtuODZpcDJw"><i class="fab fa-instagram"></i></a>
                 </div>
-                <div class="col-lg-6 ps-lg-5">
-                    <div class="row g-5">
-                        <div class="col-12 text-center mt-5">
-                            <h4 class="text-light mb-4">Enlaces Rápidos</h4>
-                            <div class="d-flex flex-column align-items-center">
-                                <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                                <a class="btn btn-link" href="contact.php">Contáctenos</a>
-                                <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
-                                <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                                <a class="btn btn-link" href="#">Soporte</a>
-                            </div>
+            </div>
+
+            <!-- Columna derecha: enlaces -->
+             
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="d-flex flex-column align-items-start">
+                            <h5 class="text-light mb-3">Enlaces Rápidos</h5>
+                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="index.php#contacto">Contáctenos</a>
+                            <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
+                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="#">Soporte</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
 
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark text-white-50 py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras S.R.L.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">HTML Codex</a><br>Distributed by <a href="https://themewagon.com">ThemeWagon</a></p>
-                </div>
+        <!-- Créditos -->
+        <div class="row mt-4 pt-4 border-top border-secondary copyright">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0">&copy; 2025 Laboratorios Bellandi y Barreras S.R.L. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <!-- Créditos obligatorios del template -->
+                <p class="mb-0">
+                    Designed by <a href="https://htmlcodex.com" class="text-white">HTML Codex</a><br>
+                    Distributed by <a href="https://themewagon.com" class="text-white">ThemeWagon</a>
+                </p>
             </div>
         </div>
     </div>
-    <!-- Copyright End -->
+</div>
+    <!-- Footer End -->
 
-
+    
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
