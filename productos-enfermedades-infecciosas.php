@@ -120,7 +120,7 @@ session_start();
             <h1 class="display-2 text-white mb-3 animated slideInDown">Enfermedades Infecciosas</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Inicio"></a></li>
                     <li class="breadcrumb-item"><a href="productos.php">Productos</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Enfermedades Infecciosas</li>
                 </ol>

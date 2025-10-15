@@ -111,16 +111,17 @@
                         <i class="bi bi-envelope"></i>
                     </a>
                 </div>
-                <!--Fin botonos de llamada y mail solo en pantallas chicas-->
+                <!--Fin botones de llamada y mail solo en pantallas chicas-->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link active">Inicio</a>
                         <a href="about.php" class="nav-item nav-link">Quienes somos</a>
                         <a href="productos.php" class="nav-item nav-link">Productos</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"id="navDropdownPaginas">Páginas</a>
                             <div class="dropdown-menu m-0">
                                 <a href="dorignaccorp.php" class="dropdown-item">Dorignac</a>
+                                <a href="index.php" class="dropdown-item">LBB Laboratorios</a>
                             </div>
                         </div>
                         <a href="index.php#contacto" class="nav-item nav-link">Contacto</a>
@@ -143,9 +144,17 @@
             <h1 class="display-2 text-white mb-3 animated slideInDown">Sobre Nosotros</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                    <li class="breadcrumb-item"><a href="#">Páginas</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Sobre Nosotros</li>
+                    <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                    <li class="breadcrumb-item dropdown">
+                        <a class="dropdown-toggle text-white" href="#" id="breadcrumbPaginasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Páginas
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="dorignaccorp.php">Dorignac</a></li>
+                            <li><a class="dropdown-item" href="index.php">LBB Laboratorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="#quienes-somos">Sobre Nosotros<a/></li>
                 </ol>
             </nav>
         </div>
@@ -154,7 +163,7 @@
 
     
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="quienes-somos">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -315,15 +324,16 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+
 </body>
 
 </html>
