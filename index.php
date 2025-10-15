@@ -7,15 +7,11 @@ session_start();
 
 <head>
     <meta charset="utf-8">
-    <title>Laboratorio Bellandi & Barreras</title>
+    <title>LBB Laboratorios</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
     <!-- Favicon -->
-    <!--<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">-->
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
@@ -110,6 +106,15 @@ session_start();
                     data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Botones de llamada y mail solo en pantallas chicas -->
+                <div class="d-lg-none d-flex align-items-center ms-2">
+                    <a href="tel:+542614222428" class="btn btn-sm-square btn-primary me-2" title="Llamar">
+                        <i class="bi bi-telephone"></i>
+                    </a>
+                    <a href="mailto:contacto@lbybsrl.com" class="btn btn-sm-square btn-primary" title="Enviar mail">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                         <a href="index.php" class="nav-item nav-link active">Inicio</a>
@@ -210,20 +215,20 @@ session_start();
                     <h1 class="display-6 mb-4">¿Quienes Somos?</h1>
                     <p class="mb-4">Fundada en el año 1994, somos una organización dedicada a la comercialización de equipamientos e insumos de la más alta calidad para laboratorios clínicos y veterinarios, además integramos todos los insumos necesarios para el área de salud.</p>
                     <div class="row g-4 g-sm-5 justify-content-center">
-                        <div class="col-sm-6">
-                            <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
+                        <div class="col-sm-6 d-flex justify-content-center mb-3 mb-sm-0">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-primary">
                                 <p class="text-white mb-0">Premios Ganados</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">10</h1>
                             </div>
                         </div>
-                        <div class="col-sm-6 text-start">
-                            <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
+                        <div class="col-sm-6 d-flex justify-content-center mb-3 mb-sm-0">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-secondary">
                                 <p class="text-white mb-0">Equipos Instalados</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">200</h1>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
+                        <div class="col-sm-6 d-flex justify-content-center">
+                            <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark">
                                 <p class="text-white mb-0">Clientes Satisfechos</p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">250</h1>
                             </div>
@@ -452,10 +457,6 @@ session_start();
                         <div class="icon-box-primary">
                             <i class="bi bi-geo-alt text-dark fs-1"></i>
                         </div>
-                        <!--<div class="ms-3">
-                            <h5>Dirección</h5>
-                            <span>Carola Lorenzini 48, Mendoza, Argentina</span>
-                        </div>-->
                       <div class="ms-3"> 
                         <a href="https://www.google.com/maps?q=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" class="ms-3">
                             <h5>Dirección</h5>
@@ -545,7 +546,7 @@ session_start();
     </div>
     <!-- Contact End -->
 
-    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+    <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
     
     <!-- Footer Start -->
    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -554,13 +555,25 @@ session_start();
             <!-- Columna izquierda: logo + contacto -->
             <div class="col-lg-5">
                 <a href="index.php" class="navbar-brand mb-3 d-block">
-                    <img src="img/logo.jpg" alt="Laboratorio Bellandi & Barreras" class="img-fluid" style="max-width: 200px;">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="img-fluid d-none d-md-block" style="max-width: 200px;">
                 </a>
                 <ul class="list-unstyled mb-4">
-                    <li class="mb-2"><i class="fa fa-map-marker-alt me-2 text-white"></i>Carola Lorenzini 48, Mendoza, Argentina</li>
-                    <li class="mb-2"><i class="fa fa-phone-alt me-2 text-white"></i>+54 261 422-2428</li>
-                    <li><i class="fa fa-envelope me-2 text-white"></i><a href="mailto:contacto@lbybsrl.com" class="text-white-50">contacto@lbybsrl.com</a></li>
+                    <li class="mb-2">
+                        <i class="fa fa-map-marker-alt me-2 text-white"></i>
+                        <a href="https://www.google.com/maps?q=Carola+Lorenzini+48,+Mendoza,+Argentina" style="color: inherit; text-decoration: none;">
+                            Carola Lorenzini 48, Mendoza, Argentina
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="fa fa-phone-alt me-2 text-white"></i>
+                        <a href="tel:+542614222428" style="color: inherit; text-decoration: none;">+54 261 422-2428</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope me-2 text-white"></i>
+                        <a href="mailto:contacto@lbybsrl.com" class="text-white-50">contacto@lbybsrl.com</a>
+                    </li>
                 </ul>
+
                 <div class="d-flex mt-3">
                     <a class="btn btn-outline-light btn-social rounded-circle me-2" href="https://www.facebook.com/share/1CAcZvQ9ky/"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-light btn-social rounded-circle me-2" href="https://www.linkedin.com/company/laboratorio-bellandi-barrera/"><i class="fab fa-linkedin-in"></i></a>
@@ -569,15 +582,18 @@ session_start();
             </div>
 
             <!-- Columna derecha: enlaces -->
+             
             <div class="col-lg-7">
                 <div class="row">
                     <div class="col-md-6 mb-4">
-                        <h5 class="text-light mb-3">Enlaces Rápidos</h5>
-                        <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
-                        <a class="btn btn-link" href="index.php#contacto">Contáctenos</a>
-                        <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
-                        <a class="btn btn-link" href="#">Términos y Condiciones</a>
-                        <a class="btn btn-link" href="#">Soporte</a>
+                        <div class="d-flex flex-column align-items-start">
+                            <h5 class="text-light mb-3">Enlaces Rápidos</h5>
+                            <a class="btn btn-link" href="about.php">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="index.php#contacto">Contáctenos</a>
+                            <a class="btn btn-link" href="productos.php">Nuestros Productos</a>
+                            <a class="btn btn-link" href="#">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="#">Soporte</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -603,7 +619,6 @@ session_start();
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

@@ -322,7 +322,9 @@ form .btn-primary:hover, form .btn-primary:focus {
 
 @media (min-width: 576px) {
     .about-fact.mt-n130 {
-        margin-top: -130px;
+        margin-top: -200px;
+        
+
     }
 }
 
@@ -764,10 +766,10 @@ form .btn-primary:hover, form .btn-primary:focus {
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(3, 27, 78, 0.85), rgba(3, 27, 78, 0.85)), url(../img/footer.png) center center no-repeat;
+    background: linear-gradient(rgba(3, 27, 78, 0.363), rgba(3, 27, 78, 0.452)), url(../img/footer.png) center center no-repeat;
     background-size: cover;
     position: relative;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .footer .btn-social {
