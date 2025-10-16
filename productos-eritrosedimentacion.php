@@ -153,8 +153,8 @@ session_start();
                             <li>Fabricante: YHLO</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                            <a href="fichasTecnicas/" class="btn btn-primary" download>Ficha tecnica</a>
-                            <a href="mailto:contacto@lbybsrl.com?subject=Compra%20VISION%20Pro%20-%20Eritrosedimentacion&body=Hola,%20quiero%20comprar%20el%20producto%20VISION%20Pro." class="btn btn-primary">Comprar</a>
+                            <a href="fichasTecnicas/vision_esr.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                            <a href="mailto:contacto@lbybsrl.com?subject=Compra%20VISION%20Pro%20-%20Eritrosedimentacion&body=Hola,%20quiero%20comprar%20el%20producto%20VISION%20Pro." target="_blank" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>

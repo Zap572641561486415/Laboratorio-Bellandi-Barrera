@@ -149,9 +149,10 @@ session_start();
                             <li>Impresora integrada</li>
                             <li>400 tests por hora</li>
                             <li>Dimensiones: 300 x 287 x 148 mm, 3,2 kg</li>
+                            <li>Fabricante: AP Biotech</li>
                         </ul>
                             <div class="d-flex gap-2 mt-auto">
-                                <a href="fichasTecnicas/.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="fichasTecnicas/laura.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
                                 <a href="mailto:contacto@lbybsrl.com?subject=Compra%20LAURA%20-%20Orinas&body=Hola,%20quiero%20comprar%20el%20producto%20LAURA." class="btn btn-primary">Comprar</a>
                             </div>
                     </div>

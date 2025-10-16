@@ -151,7 +151,7 @@ session_start();
                             <li>Resultados confiables y reproducibles</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                            <a href="fichasTecnicas/.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                            <a href="fichasTecnicas/dimensionEXL.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
                             <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Dimension%20EXL%20LM%20-%20Inmunoensayos&body=Hola,%20quiero%20comprar%20el%20producto%20Dimension%20EXL%20LM." class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ session_start();
                             <li>Pruebas de sangre, orina, función renal y hepática</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                            <a href="fichasTecnicas/.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                            <a href="fichasTecnicas/atellica.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
                             <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Atellica%20Solution%20-%20Inmunoensayos&body=Hola,%20quiero%20comprar%20el%20producto%20Atellica%20Solution." class="btn btn-primary">Comprar</a>
                         </div>
                     </div>

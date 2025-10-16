@@ -149,13 +149,13 @@ session_start();
             <li>Procesa de 1 a 32 muestras simultáneamente.</li>
             <li>Configuración abierta para distintos protocolos.</li>
             <li>Solución óptima para laboratorios pequeños y medianos.</li>
-            <li>Fabricado:</li>
+            <li>Fabricado: AP Biotech</li>
           </ul> 
           
         </p>
         <div class="d-flex gap-2 mt-auto">
-        <a href="fichasTecnicas/" class="btn btn-primary" download>Ficha tecnica</a>
-        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20GenePure%20Pro%20-%20Biología%20Molecular&body=Hola,%20quiero%20comprar%20el%20producto%20GenePure%20Pro." class="btn btn-primary mt-auto align-self-start">Comprar</a>
+        <a href="fichasTecnicas/Genepurepro.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20GenePure%20Pro%20-%20Biología%20Molecular&body=Hola,%20quiero%20comprar%20el%20producto%20GenePure%20Pro." target="_blank" class="btn btn-primary mt-auto align-self-start">Comprar</a>
         </div>
     </div>
     </div>
@@ -174,11 +174,11 @@ session_start();
           <li>Bloque para 96 tubos de 0,2 ml o placas PCR.</li>
           <li>Pantalla táctil intuitiva.</li>
           <li>Ideal para laboratorios pequeños y medianos.</li>
-          <li>Fabricante:
+          <li>Fabricante:AP Biotech</li>
           </ul>
         </p>
         <div class="d-flex gap-2 mt-auto">
-        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20QuantGene%209600%20-%20Biología%20Molecular" class="btn btn-primary mt-auto align-self-start">+ Información</a>
+        <a href="fichasTecnicas/quantgene9600.pdf" class="btn btn-primary" download>Ficha tecnica</a>
         <a href="mailto:contacto@lbybsrl.com?subject=Compra%20QuantGene%209600%20-%20Biología%20Molecular&body=Hola,%20quiero%20comprar%20el%20producto%20QuantGene%209600." class="btn btn-primary mt-auto align-self-start">Comprar</a>
         </div>
       </div>

@@ -153,8 +153,8 @@ session_start();
                             <li>Fabricado: AP Biotech</li>
                         </ul>
                             <div class="d-flex gap-2 mt-auto">
-                                <a href="fichasTecnicas/Ec90.pdf" class="btn btn-primary" download>Ficha tecnica</a>
-                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20EC%2090%20-%20Electrolitos&body=Hola,%20quiero%20comprar%20el%20producto%20EC%2090." class="btn btn-primary">Comprar</a>
+                                <a href="fichasTecnicas/Ec90.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20EC%2090%20-%20Electrolitos&body=Hola,%20quiero%20comprar%20el%20producto%20EC%2090." target="_blank" class="btn btn-primary">Comprar</a>
                             </div>
                     </div>
                 </div>

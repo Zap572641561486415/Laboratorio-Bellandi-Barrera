@@ -153,8 +153,8 @@ session_start();
                             <li>Fabricante: Siemens</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                        <a href="fichasTecnicas/advia-360.pdf" class="btn btn-primary" download>Ficha tecnica</a>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ADVIA%20360%20-%20Hematologia-3%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20ADVIA%360." class="btn btn-primary">Comprar</a>
+                        <a href="fichasTecnicas/advia-360.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ADVIA%20360%20-%20Hematologia-3%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20ADVIA%360." target="_blank" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -176,8 +176,8 @@ session_start();
                             <li>Fabricante: AP Biotech</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                        <a href="fichasTecnicas/H360.pdf" class="btn btn-primary" download>Ficha tecnica</a>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20H360%20-%20Hematologia-3%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20H360." class="btn btn-primary">Comprar</a>
+                        <a href="fichasTecnicas/H360.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20H360%20-%20Hematologia-3%20Diferencial&body=Hola,%20quiero%20comprar%20el%20producto%20H360." target="_blank" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
