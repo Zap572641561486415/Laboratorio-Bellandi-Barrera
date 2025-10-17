@@ -904,6 +904,28 @@ form .btn-primary:hover, form .btn-primary:focus {
     height: auto !important;
     background: transparent !important;
   }
+
+  /* Ajustes para el bloque "Años de Experiencia" en móviles */
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    height: auto !important;
+    min-height: 120px !important;
+    padding: 1rem !important;
+    border-radius: 12px !important;
+  }
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 .icon-box-light i {
+    font-size: 36px !important;
+    line-height: 1 !important;
+  }
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 .display-1 {
+    font-size: 2.5rem !important;
+    line-height: 1 !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 small {
+    font-size: 0.9rem !important;
+  }
 }
 
 .footer .logo-img {

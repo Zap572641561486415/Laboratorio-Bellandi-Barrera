@@ -1,10 +1,9 @@
-<?php
-// Iniciar la sesión si es necesario
-session_start();
+<?
+php
+ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>LBB Laboratorios</title>
@@ -79,7 +78,7 @@ session_start();
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
@@ -100,7 +99,7 @@ session_start();
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
