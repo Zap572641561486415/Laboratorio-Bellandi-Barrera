@@ -54,7 +54,7 @@ session_start();
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
@@ -75,7 +75,7 @@ session_start();
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -120,7 +120,7 @@ session_start();
             <h1 class="display-2 text-white mb-3 animated slideInDown">Enfermedades Infecciosas</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Inicio"></a></li>
                     <li class="breadcrumb-item"><a href="productos.php">Productos</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Enfermedades Infecciosas</li>
                 </ol>
@@ -149,12 +149,12 @@ session_start();
           <li>Fácil de usar: Solo requiere una pequeña muestra de sangre.</li>
           <li>Conveniente: Cartuchos desechables, sin transferencias de muestra.</li>
           <li>Versátil: Uso en punto de atención o laboratorio.</li>
-          <li>Fabricado:</li>
+          <li>Fabricado:Abbott</li>
           </ul>
         </p>
         <div class="d-flex gap-2 mt-auto">
-        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Pima%20CD4%209600%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
-        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Pima%20CD4%20-%20Enfermedades%20Infecciosas&body=Hola,%20quiero%20comprar%20el%20producto%20Pima%20CD4." class="btn btn-primary mt-auto align-self-start">Comprar</a>
+        <a href="fichasTecnicas/PIMA-CD4.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Pima%20CD4%20-%20Enfermedades%20Infecciosas&body=Hola,%20quiero%20comprar%20el%20producto%20Pima%20CD4." target="_blank" class="btn btn-primary mt-auto align-self-start">Comprar</a>
         </div>
       </div>
     </div>
@@ -173,10 +173,10 @@ session_start();
           <li>Ideal para diagnóstico temprano y carga viral de VIH.</li>
           <li>Resultados de carga viral en menos de 70 minutos.</li>
           <li>Portátil y útil en entornos descentralizados.</li>
-          <li>Fabricado:</li>
+          <li>Fabricado:Abbott</li>
         </p>
         <div class="d-flex gap-2 mt-auto">
-        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20m-PIMA%20Analyser%20%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
+        <a href="fichasTecnicas/m-PIMA.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
         <a href="mailto:contacto@lbybsrl.com?subject=Compra%20m-PIMA%20Analyser%20-%20Enfermedades%20Infecciosas&body=Hola,%20quiero%20comprar%20el%20producto%20m-PIMA%20Analyser." class="btn btn-primary mt-auto align-self-start">Comprar</a>
         </div>
       </div>
@@ -196,12 +196,12 @@ session_start();
           <li>Detecta COVID-19, gripe A/B, VSR y estreptococo A.</li>
           <li>Fácil de usar, pantalla táctil.</li>
           <li>Portátil: Uso en cualquier entorno clínico.</li>
-          <li>Fabricado:</li>
+          <li>Fabricado:Abbott</li>
           </ul>
         </p>
         <div class="d-flex gap-2 mt-auto">
-        <a href="mailto:contacto@lbybsrl.com?subject=Consulta%20por%20Pima%20CD4%209600%20-%20Enfermedades%20Infecciosas" class="btn btn-primary mt-auto align-self-start">+ Información</a>
-        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ID NOW%20-%20Enfermedades%20Infecciosas&body=Hola,%20quiero%20comprar%20el%20producto%20ID%20NOW." class="btn btn-primary mt-auto align-self-start">Comprar</a>
+        <a href="fichasTecnicas/idnow.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ID NOW%20-%20Enfermedades%20Infecciosas&body=Hola,%20quiero%20comprar%20el%20producto%20ID%20NOW." target="_blank" class="btn btn-primary mt-auto align-self-start">Comprar</a>
         </div>
       </div>
     </div>

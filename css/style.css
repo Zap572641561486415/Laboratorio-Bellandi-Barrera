@@ -274,6 +274,15 @@ form .btn-primary:hover, form .btn-primary:focus {
     color: var(--bs-white);
 }
 
+/* Ejemplo: dropdown dentro de breadcrumb más pequeño y discreto */
+.breadcrumb .dropdown-menu {
+  background-color: #014478;
+  border: #fff;
+  font-size: 0.9rem;
+  min-width: auto;
+}
+
+
 
 /*** Features ***/
 .feature {
@@ -895,6 +904,28 @@ form .btn-primary:hover, form .btn-primary:focus {
     height: auto !important;
     background: transparent !important;
   }
+
+  /* Ajustes para el bloque "Años de Experiencia" en móviles */
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    height: auto !important;
+    min-height: 120px !important;
+    padding: 1rem !important;
+    border-radius: 12px !important;
+  }
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 .icon-box-light i {
+    font-size: 36px !important;
+    line-height: 1 !important;
+  }
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 .display-1 {
+    font-size: 2.5rem !important;
+    line-height: 1 !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .bg-primary.w-100.h-100.mt-n5.ms-n5 small {
+    font-size: 0.9rem !important;
+  }
 }
 
 .footer .logo-img {
@@ -982,16 +1013,6 @@ form .btn-primary:hover, form .btn-primary:focus {
 
 }
 
-/* Estilo para pantallas chicas (menos de 992px) */
-/*@media (max-width: 991.98px) {
-  .navbar.bg-white {
-    background-color: #ffffff !important;
-    background-image: none !important;
-    box-shadow: none; /* Opcional: para quitar la sombra si molesta en fondo blanco */
-   /* border-radius: 0;  /* Opcional: si no querés bordes redondeados en móvil */
-   /* margin-top: 0 !important;
-  }
-}*/
 @media (max-width: 991.98px) {
   .navbar.bg-white {
     background-color: #ffffff !important;
@@ -999,16 +1020,9 @@ form .btn-primary:hover, form .btn-primary:focus {
     box-shadow: none;
     border-radius: 0;
     margin-top: 0 !important;
-    padding-top: 0.25rem !important;   /* Reducido */
-    padding-bottom: 0.25rem !important;/* Reducido */
+    padding-top: 0.25rem !important;   
+    padding-bottom: 0.25rem !important;
     min-height: 48px;                 /* Más bajo que los 64px de desktop */
   }
-
-  /* Opcional: reducir tamaño de los enlaces */
-  /*.navbar .nav-link {
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    font-size: 0.95rem;
-  }*/
 }
 

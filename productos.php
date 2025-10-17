@@ -77,7 +77,7 @@
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
@@ -98,7 +98,7 @@
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -145,9 +145,9 @@
             <h1 class="display-2 text-white mb-3 animated slideInDown">Productos</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                    <li class="breadcrumb-item"><a href="#">Páginas</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Productos</li>
+                    <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="dorignaccorp.php">Dorignac</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="#productos">Productos</a></li>
                 </ol>
             </nav>
         </div>
@@ -162,7 +162,7 @@
                 <h1 class="display-6 mb-3">Producto de Laboratorio Confiable y de Alta Calidad</h1>
                 <p class="mb-5">En Laboratorio Bellandi & Barreras ofrecemos una amplia gama de productos de laboratorio clínico y veterinario, garantizando calidad, innovación y el respaldo de marcas líderes para satisfacer las necesidades de cada profesional de la salud.</p>
             </div>
-            <div class="row g-4">
+            <div class="row g-4" id="productos">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex flex-column h-100">
                         <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">

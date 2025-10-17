@@ -54,7 +54,7 @@ session_start();
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
@@ -75,7 +75,7 @@ session_start();
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -153,8 +153,8 @@ session_start();
                             <li>Fabricante: AP biotech
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                        <a href="fichasTecnicas/ECL760.pdf" class="btn btn-primary" download>Ficha tecnica</a>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ECL%20760%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20ECL%20760." class="btn btn-primary">Comprar</a>
+                        <a href="fichasTecnicas/ECL760.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20ECL%20760%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20ECL%20760." target="_blank" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -176,8 +176,8 @@ session_start();
                             <li>Fabricante: Siemens
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                        <a href="fichasTecnicas/.pdf" class="btn btn-primary" download>Ficha tecnica</a>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Sysmex%20CA-660%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20Sysmex%20CA-760." class="btn btn-primary">Comprar</a>
+                        <a href="fichasTecnicas/CA-660.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Sysmex%20CA-660%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20Sysmex%20CA-760." target="_blank" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -200,8 +200,8 @@ session_start();
                             <li>Fabricante: Siemens</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                        <a href="fichasTecnicas/SysmexCs-2500.pdf" class="btn btn-primary" download>Ficha tecnica</a>
-                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Sysmex%20CS-2500%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20Sysmex%20CS-2500." class="btn btn-primary">Comprar</a>
+                        <a href="fichasTecnicas/SysmexCs-2500.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                        <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Sysmex%20CS-2500%20-%20Hemostasia-automatico&body=Hola,%20quiero%20comprar%20el%20producto%20Sysmex%20CS-2500." target="_blank" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>

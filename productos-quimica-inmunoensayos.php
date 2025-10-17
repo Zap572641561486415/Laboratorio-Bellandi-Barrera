@@ -54,7 +54,7 @@ session_start();
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
@@ -75,7 +75,7 @@ session_start();
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -151,7 +151,7 @@ session_start();
                             <li>Resultados confiables y reproducibles</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                            <a href="fichasTecnicas/.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                            <a href="fichasTecnicas/dimensionEXL.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
                             <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Dimension%20EXL%20LM%20-%20Inmunoensayos&body=Hola,%20quiero%20comprar%20el%20producto%20Dimension%20EXL%20LM." class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ session_start();
                             <li>Pruebas de sangre, orina, función renal y hepática</li>
                         </ul>
                         <div class="d-flex gap-2 mt-auto">
-                            <a href="fichasTecnicas/.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                            <a href="fichasTecnicas/atellica.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
                             <a href="mailto:contacto@lbybsrl.com?subject=Compra%20Atellica%20Solution%20-%20Inmunoensayos&body=Hola,%20quiero%20comprar%20el%20producto%20Atellica%20Solution." class="btn btn-primary">Comprar</a>
                         </div>
                     </div>

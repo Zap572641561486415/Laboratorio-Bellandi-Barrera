@@ -54,7 +54,7 @@ session_start();
                 </div>
                 <a href="index.php" class="h1 text-white mb-0">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block img-fluid" style="max-width: 300px; margin: 10px 0;">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <div class="d-flex brand-contact">
                     <i class="bi bi-envelope fs-2 text-dark"></i>
@@ -75,7 +75,7 @@ session_start();
             <div class="container">
                 <a href="index.php" class="navbar-brand d-lg-none">
                     <img src="img/logoConLab.jpg" alt="Laboratorio Bellandi & Barreras" class="logo-img d-none d-lg-block">
-                    <img src="img/logoLaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
+                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="logo-img d-block d-lg-none img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -153,8 +153,8 @@ session_start();
                             <li>Fabricado: AP Biotech</li>
                         </ul>
                             <div class="d-flex gap-2 mt-auto">
-                                <a href="fichasTecnicas/Ec90.pdf" class="btn btn-primary" download>Ficha tecnica</a>
-                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20EC%2090%20-%20Electrolitos&body=Hola,%20quiero%20comprar%20el%20producto%20EC%2090." class="btn btn-primary">Comprar</a>
+                                <a href="fichasTecnicas/Ec90.pdf" target="_blank" class="btn btn-primary" download>Ficha tecnica</a>
+                                <a href="mailto:contacto@lbybsrl.com?subject=Compra%20EC%2090%20-%20Electrolitos&body=Hola,%20quiero%20comprar%20el%20producto%20EC%2090." target="_blank" class="btn btn-primary">Comprar</a>
                             </div>
                     </div>
                 </div>
