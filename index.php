@@ -1,7 +1,4 @@
-<?
-php
- session_start();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,29 +39,6 @@ php
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
-
-
-    <!-- Topbar Start -->
-    <!--<div class="container-fluid py-2 d-none d-lg-flex">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <div>-->
-                    <!--<small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Carola Lorenzini 48, Mendoza, Argentina</small>-->
-                    <!--<small class="me-3">
-                        <i class="fa fa-map-marker-alt me-2"></i>
-                            <a href="https://www.google.com/maps/search/?api=1&query=Carola+Lorenzini+48,+Mendoza,+Argentina" target="_blank" style="text-decoration: none; color: inherit;">
-                            Carola Lorenzini 48, Mendoza, Argentina</a></small>
-                            <small class="me-3"><i class="fa fa-clock me-2"></i>Lun-Viernes 09am-5pm</small>
-                </div>
-                <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Carrera</a>
-                    <a class="breadcrumb-item small text-body" href="#">Soporte</a>
-                    <a class="breadcrumb-item small text-body" href="#">Términos</a>
-                </nav>
-            </div>
-        </div>
-    </div>-->
-    <!-- Topbar End -->
     <!-- Brand Start -->
     <div class="container-fluid text-white pt-4 pb-2 d-none d-lg-flex" style="background: linear-gradient(to bottom, #ffffff 0%, var(--primary) 20%, var(--primary) 100%); background-color: var(--primary);">
         <div class="container pb-2">
@@ -314,136 +288,7 @@ php
         </div>
     </div>
     <!-- Features End -->
-    <!-- Productos Destacados Start (Reemplazo de Servicios) -->
-   <!-- <div class="container-fluid container-service py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-6 mb-3">Producto de Laboratorio Confiable y de Alta Calidad</h1>
-                <p class="mb-5">Ofrecemos productos de laboratorio confiables y de alta calidad, pensados para cubrir todas las necesidades de nuestros clientes.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-droplet-half text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Hemostasia</h5>
-                        <div class="d-flex gap-2 mt-auto justify-content-center flex-wrap">
-                            <a href="productos-hemostasia-semiautomatico.php" class="btn btn-primary mt-auto">Semiautomático</a>
-                            <a href="productos-hemostasia-automatico.php" class="btn btn-primary mt-auto">Automático</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="fa-solid fa-vial text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Hematología</h5>
-                        <div class="d-flex flex-column gap-2 mt-auto">
-                            <a href="productos-hematologia-3diferencial.php" class="btn btn-primary">3 Diferencial</a>
-                            <a href="productos-hematologia-5diferencial.php" class="btn btn-primary">5 Diferencial</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="fa-solid fa-atom text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Química</h5>
-                        <div class="d-flex flex-column gap-2 mt-auto">
-                            <a href="productos-quimica.php" class="btn btn-primary mt-auto">Ver productos</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="fa-solid fa-shield-virus text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Inmunoensayos</h5>
-                        <a href="productos-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-shield-check text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Química e Inmunoensayos</h5>
-                        <a href="productos-quimica-inmunoensayos.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-wind text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Gases en Sangre</h5>
-                        <a href="productos-gases-sangre.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-lightning-charge text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Electrolitos</h5>
-                        <a href="productos-electrolitos.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-droplet-fill text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Eritrosedimentación</h5>
-                        <a href="productos-eritrosedimentacion.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-cup text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Orinas</h5>
-                        <a href="productos-orinas.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="fa-solid fa-dna text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Biología Molecular</h5>
-                        <a href="productos-biologia-molecular.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-virus text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Enfermedades Infecciosas</h5>
-                        <a href="productos-enfermedades-infecciosas.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
-                    <div class="service-item d-flex flex-column h-100">
-                        <div class="icon-box-primary mb-4 d-flex justify-content-center align-items-center" style="min-height:60px;">
-                            <i class="bi bi-box-seam text-dark"></i>
-                        </div>
-                        <h5 class="mb-3 text-center flex-shrink-0">Insumos Plásticos</h5>
-                        <a href="productos-insumos-plasticos.php" class="btn btn-primary mt-auto">Ver productos</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- Productos Destacados End -->
-
-
+    
     <!-- Contact Start -->
     <div id="contacto"class="container-fluid py-5">
         <div class="container">
@@ -554,7 +399,7 @@ php
             <!-- Columna izquierda: logo + contacto -->
             <div class="col-lg-5">
                 <a href="index.php" class="navbar-brand mb-3 d-block">
-                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="img-fluid d-none d-md-block" style="max-width: 200px;">
+                    <img src="img/LogoFooterSinFondo.png" alt="Laboratorio Bellandi & Barreras" class="img-fluid d-none d-md-block" style="max-width: 200px;">
                 </a>
                 <ul class="list-unstyled mb-4">
                     <li class="mb-2">
