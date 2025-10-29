@@ -199,7 +199,7 @@ session_start();
             <!-- Columna izquierda: logo + contacto -->
             <div class="col-lg-5">
                 <a href="index.php" class="navbar-brand mb-3 d-block">
-                    <img src="img/logolaboratorio.png" alt="Laboratorio Bellandi & Barreras" class="img-fluid d-none d-md-block" style="max-width: 200px;">
+                    <img src="img/LogoFooterSinFondo.png" alt="Laboratorio Bellandi & Barreras" class="img-fluid d-none d-md-block" style="max-width: 200px;">
                 </a>
               <ul class="list-unstyled mb-4">
                     <li class="mb-2">
